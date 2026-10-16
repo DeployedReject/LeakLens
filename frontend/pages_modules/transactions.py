@@ -27,12 +27,8 @@ def render_transactions_page():
     tx_summary = api_client.fetch_transactions_summary()
     categories_data = api_client.fetch_categories()
 
-    status_dist = tx_summary.get("status_distribution", {
-        "Completed": {"count": 13962, "pct": 77.57, "value": 7768631.19},
-        "Cancelled": {"count": 1689, "pct": 9.38, "value": 861849.61},
-        "Returned": {"count": 1431, "pct": 7.95, "value": 760322.30},
-        "Pending": {"count": 918, "pct": 5.10, "value": 472622.00}
-    })
+    status_dist = tx_summary["status_distribution"]
+    total_transactions = tx_summary.get("total_transactions", sum(v["count"] for v in status_dist.values()))
 
     # KPI Strip: Completed, Cancelled, Returned, Pending
     c1, c2, c3, c4 = st.columns(4)
@@ -85,7 +81,7 @@ def render_transactions_page():
             hoverinfo='label+value+percent'
         )])
         fig_status.update_layout(
-            title="Transaction Status Distribution (18,000 Volume)",
+            title=f"Transaction Status Distribution ({total_transactions:,} Volume)",
             title_font=dict(size=14, color="#F5F5F5"),
             paper_bgcolor=PAPER_BG_COLOR,
             plot_bgcolor=PLOT_BG_COLOR,
@@ -146,13 +142,7 @@ def render_transactions_page():
 
     with col_v4:
         # Margin Risk by Discount Tier
-        discount_bands = tx_summary.get("discount_margin_bands") or [
-            {"band": "0-10%", "orders": 5840, "negative_margin_rate": 8.2, "avg_discount": 4.5},
-            {"band": "11-20%", "orders": 4620, "negative_margin_rate": 21.4, "avg_discount": 15.2},
-            {"band": "21-30%", "orders": 3410, "negative_margin_rate": 38.6, "avg_discount": 25.8},
-            {"band": "31-40%", "orders": 2480, "negative_margin_rate": 56.1, "avg_discount": 35.4},
-            {"band": "41%+", "orders": 1650, "negative_margin_rate": 78.9, "avg_discount": 48.5}
-        ]
+        discount_bands = tx_summary["discount_margin_bands"]
 
         df_bands = pd.DataFrame(discount_bands)
         fig_disc = go.Figure()

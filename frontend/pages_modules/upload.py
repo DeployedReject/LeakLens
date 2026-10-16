@@ -5,8 +5,6 @@ triggers POST /analyze on the FastAPI backend, retrains Isolation Forest,
 and refreshes dashboard components.
 """
 
-import io
-from pathlib import Path
 import streamlit as st
 import pandas as pd
 from utils.formatting import format_inr, format_pct
@@ -39,43 +37,20 @@ def render_upload_page():
     with col2:
         f_inv = st.file_uploader("4. inventory.csv", type=["csv"], key="up_inv")
         f_camp = st.file_uploader("5. campaigns.csv", type=["csv"], key="up_camp")
-        
-        st.markdown("<br>", unsafe_allow_html=True)
-        use_sample = st.checkbox("Generate & Use Calibrated Datathon Sample Files", value=False, help="Automatically synthesize standard Datathon 2026 CSV files for quick demo testing.")
 
     st.markdown("<hr style='border-color:#262626; margin:20px 0;'>", unsafe_allow_html=True)
 
-    all_uploaded = all([f_cust, f_prod, f_txns, f_inv, f_camp]) or use_sample
+    all_uploaded = all([f_cust, f_prod, f_txns, f_inv, f_camp])
 
     btn_label = "󱓞 Run End-to-End Pipeline & Retrain Isolation Forest"
     if st.button(btn_label, type="primary", disabled=not all_uploaded, use_container_width=True):
         with st.spinner("Uploading datasets to FastAPI backend, auditing telemetry, joining tables, and retraining Isolation Forest..."):
             try:
-                # If using synthetic sample generator for demo
-                if use_sample and not all([f_cust, f_prod, f_txns, f_inv, f_camp]):
-                    sample_dir = Path(__file__).resolve().parent.parent.parent / "backend" / "data"
-                    if not (sample_dir / "customers.csv").exists():
-                        st.error("Sample CSV files not found in backend/data. Please upload the 5 files.")
-                        return
-                    
-                    with open(sample_dir / "customers.csv", "rb") as fc:
-                        b_c = io.BytesIO(fc.read())
-                    with open(sample_dir / "products.csv", "rb") as fp:
-                        b_p = io.BytesIO(fp.read())
-                    with open(sample_dir / "transactions.csv", "rb") as ft:
-                        b_t = io.BytesIO(ft.read())
-                    with open(sample_dir / "inventory.csv", "rb") as fi:
-                        b_i = io.BytesIO(fi.read())
-                    with open(sample_dir / "campaigns.csv", "rb") as fcm:
-                        b_cm = io.BytesIO(fcm.read())
-
-                    res = api_client.post_analyze_datasets(b_c, b_p, b_t, b_i, b_cm)
-                else:
-                    res = api_client.post_analyze_datasets(f_cust, f_prod, f_txns, f_inv, f_camp)
+                res = api_client.post_analyze_datasets(f_cust, f_prod, f_txns, f_inv, f_camp)
 
                 # Exactly required confirmation message:
                 st.success(
-                    "󰗠 **Analysis refreshed. ML risk rankings have been recalculated using the latest dataset.**"
+                    "**Analysis refreshed. ML anomaly scores and business-priority rankings were recalculated using the latest dataset.**"
                 )
 
                 # Show updated pipeline metrics
@@ -90,6 +65,19 @@ def render_upload_page():
                     st.metric("Negative Margin Rate", format_pct(ov.get("negative_margin_rate", 0)))
                 with res_col4:
                     st.metric("SKUs Scored (Isolation Forest)", f"{res.get('product_count', 250)} SKUs")
+
+                validation = res.get("validation", {})
+                diagnostics = res.get("diagnostics", {})
+                if validation.get("warnings"):
+                    with st.expander(f"Data-quality warnings ({len(validation['warnings'])})", expanded=False):
+                        for warning in validation["warnings"]:
+                            st.warning(warning)
+
+                st.caption(
+                    f"Isolation Forest anomalies: {diagnostics.get('flagged_anomalies', 0)} | "
+                    f"High-priority products: {diagnostics.get('high_priority_products', 0)} | "
+                    f"Seed top-10 stability: {diagnostics.get('seed_top10_overlap_mean', 0) * 100:.0f}%"
+                )
 
                 st.markdown("<br>", unsafe_allow_html=True)
                 col_btn1, col_btn2 = st.columns(2)

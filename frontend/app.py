@@ -88,10 +88,12 @@ with st.sidebar:
     health = api_client.check_backend_health()
     is_online = health.get("status") == "ok"
 
-    status_color = "#10B981" if is_online else "#F59E0B"
-    status_label = "FastAPI Backend Online" if is_online else "Backend Connecting / Fallback"
-    model_name = health.get("model", "IsolationForest")
-    p_count = health.get("product_count", 250)
+    status_color = "#10B981" if is_online else "#EF4444"
+    status_label = "FastAPI Backend Online" if is_online else "FastAPI Backend Offline"
+    model_name = health.get("model", "IsolationForest") if is_online else "Unavailable"
+    p_count = health.get("product_count", 0) if is_online else 0
+    dataset_hash = health.get("dataset_hash", "-") if is_online else "-"
+    trained_at = health.get("trained_at_utc", "-") if is_online else "-"
 
     render_html(f"""
     <div style="background:#141414; border:1px solid #262626; border-radius:6px; padding:12px; margin-bottom:16px;">
@@ -102,14 +104,16 @@ with st.sidebar:
         <div style="font-size:0.75rem; color:#A3A3A3; margin-top:6px;">
             Service: <code>http://localhost:8000</code><br>
             ML Model: <strong>{model_name}</strong><br>
-            Catalog Scored: <strong>{p_count} SKUs</strong>
+            Catalog Scored: <strong>{p_count} SKUs</strong><br>
+            Dataset: <code>{dataset_hash}</code><br>
+            Trained: <strong>{trained_at[:19] if trained_at and trained_at != '-' else '-'}</strong> UTC
         </div>
     </div>
     """)
 
     render_html("""
     <div style="margin-top:24px; padding-top:12px; border-top:1px solid #141414; font-size:0.72rem; color:#6E6E6E;">
-        LeakLens Architecture v2.0<br>
+        LeakLens Architecture v2.1<br>
         FastAPI Backend + Streamlit Frontend
     </div>
     """)
@@ -118,6 +122,14 @@ with st.sidebar:
 # PAGE ROUTING
 # ==========================================
 active_page = st.session_state["current_page"]
+
+if not is_online:
+    st.error(
+        "LeakLens backend is offline. Dashboard values are intentionally not replaced "
+        "with mock or hardcoded data. Start FastAPI on port 8000, then refresh this page."
+    )
+    st.code("python -m uvicorn app:app --host 0.0.0.0 --port 8000", language="bash")
+    st.stop()
 
 if active_page == "Executive Overview":
     render_overview_page()

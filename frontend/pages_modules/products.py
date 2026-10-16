@@ -41,19 +41,20 @@ def render_products_page():
         products = [p for p in products if search_kw.lower() in p.get("product_id", "").lower()]
 
     # Metric Cards
-    high_count = sum(1 for p in products if p.get("risk_level") == "High")
-    med_count = sum(1 for p in products if p.get("risk_level") == "Medium")
-    low_count = sum(1 for p in products if p.get("risk_level") == "Low")
+    high_count = sum(1 for p in products if p.get("priority_level", p.get("risk_level")) == "High")
+    med_count = sum(1 for p in products if p.get("priority_level", p.get("risk_level")) == "Medium")
+    low_count = sum(1 for p in products if p.get("priority_level", p.get("risk_level")) == "Low")
+    anomaly_count = sum(1 for p in products if p.get("is_anomaly") is True)
 
     m1, m2, m3, m4 = st.columns(4)
     with m1:
         render_kpi_card("Filtered Products", str(len(products)), "Matching Active Criteria", "neutral")
     with m2:
-        render_kpi_card("High Risk Level", str(high_count), "Urgent Priority Triage", "high")
+        render_kpi_card("High Business Priority", str(high_count), f"{anomaly_count} ML anomalies in filtered set", "high")
     with m3:
-        render_kpi_card("Medium Risk Level", str(med_count), "Watchlist Monitoring", "warning")
+        render_kpi_card("Medium Priority", str(med_count), "Watchlist Monitoring", "warning")
     with m4:
-        render_kpi_card("Low Risk Level", str(low_count), "Stable Operational Norms", "good")
+        render_kpi_card("Low Priority", str(low_count), "Lower investigation priority", "good")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -67,7 +68,7 @@ def render_products_page():
 
     # Reorder columns for optimal readability
     col_order = [
-        "product_id", "category", "risk_score", "risk_level",
+        "product_id", "category", "priority_score", "priority_level", "anomaly_score", "is_anomaly",
         "failure_rate", "cancel_rate", "return_rate", "negative_margin_rate",
         "avg_discount", "avg_margin", "stockout_rate", "avg_supplier_delay",
         "why_flagged", "recommended_action"
@@ -76,7 +77,8 @@ def render_products_page():
 
     st.dataframe(
         df_display[avail_cols].style.format({
-            "risk_score": "{:.1f}",
+            "priority_score": "{:.1f}",
+            "anomaly_score": "{:.1f}",
             "failure_rate": "{:.2%}",
             "cancel_rate": "{:.2%}",
             "return_rate": "{:.2%}",
@@ -99,7 +101,7 @@ def render_products_page():
         unsafe_allow_html=True
     )
 
-    id_options = [p["product_id"] + " (" + p["category"] + " — Risk: " + str(p["risk_score"]) + ")" for p in products]
+    id_options = [p["product_id"] + " (" + p["category"] + " — Priority: " + f"{p.get('priority_score', p.get('risk_score', 0)):.1f}" + ")" for p in products]
     selected_option = st.selectbox("Choose Product for Deep Dive", id_options, index=0)
     selected_pid = selected_option.split(" ")[0]
 
@@ -117,7 +119,7 @@ def render_products_page():
         <div style="background:#141414; border:1px solid #262626; border-radius:12px; padding:22px;">
             <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
                 <span style="font-size:0.85rem; color:#A3A3A3; text-transform:uppercase; font-weight:600;">{detail.get('category')} SKU</span>
-                {get_risk_badge(detail.get('risk_level', 'Medium'))}
+                {get_risk_badge(detail.get('priority_level', detail.get('risk_level', 'Medium')))}
             </div>
             <h2 style="margin:0; color:#F5F5F5; font-size:1.6rem;">{detail.get('product_id')}</h2>
             <div style="font-size:0.82rem; color:#A3A3A3; margin-top:2px; margin-bottom:16px;">
@@ -126,18 +128,22 @@ def render_products_page():
 
             <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:18px;">
                 <div style="background:#0A0A0A; padding:12px; border-radius:8px; border:1px solid #262626;">
-                    <div style="font-size:0.75rem; color:#A3A3A3; text-transform:uppercase; font-weight:600;">ML Anomaly Score</div>
-                    <div style="font-size:1.6rem; font-weight:700; color:#EF4444; margin-top:4px;">{detail.get('risk_score', 0):.1f} / 100</div>
-                    <div style="font-size:0.72rem; color:#6E6E6E;">Unsupervised Isolation Forest</div>
+                    <div style="font-size:0.75rem; color:#A3A3A3; text-transform:uppercase; font-weight:600;">Business Priority</div>
+                    <div style="font-size:1.6rem; font-weight:700; color:#EF4444; margin-top:4px;">{detail.get('priority_score', 0):.1f} / 100</div>
+                    <div style="font-size:0.72rem; color:#6E6E6E;">Impact + anomaly ranking</div>
                 </div>
                 <div style="background:#0A0A0A; padding:12px; border-radius:8px; border:1px solid #262626;">
                     <div style="font-size:0.75rem; color:#A3A3A3; text-transform:uppercase; font-weight:600;">Average Margin</div>
                     <div style="font-size:1.6rem; font-weight:700; color:{'#10B981' if detail.get('avg_margin', 0) > 0 else '#EF4444'}; margin-top:4px;">₹{detail.get('avg_margin', 0):.2f}</div>
-                    <div style="font-size:0.72rem; color:#6E6E6E;">Per Unit Realized Margin</div>
+                    <div style="font-size:0.72rem; color:#6E6E6E;">Per transaction estimated margin</div>
                 </div>
             </div>
 
-            <div style="font-weight:700; color:#F5F5F5; margin-bottom:8px; font-size:0.92rem;">Deterministic Operational Indicators:</div>
+            <div style="font-weight:700; color:#F5F5F5; margin-bottom:8px; font-size:0.92rem;">ML + Business Indicators:</div>
+            <div style="font-size:0.86rem; color:#D4D4D4; margin-bottom:8px;">
+                Isolation Forest anomaly: <strong>{'YES' if detail.get('is_anomaly') else 'No'}</strong> |
+                Anomaly score: <strong>{detail.get('anomaly_score', 0):.1f}/100</strong>
+            </div>
             <ul style="color:#D4D4D4; font-size:0.88rem; line-height:1.65; margin-bottom:0; padding-left:20px;">
                 <li>Cancellation Rate: <strong>{detail.get('cancel_rate', 0):.2%}</strong></li>
                 <li>Return Rate: <strong>{detail.get('return_rate', 0):.2%}</strong></li>
@@ -157,9 +163,9 @@ def render_products_page():
                 󰉁 Why This Needs Attention
             </div>
             <div class="issue-evidence-box" style="margin-top:8px; margin-bottom:16px;">
-                <strong>Trigger Signals:</strong> {detail.get('why_flagged', 'Identified as behavioral outlier by multi-feature density model.')}
+                <strong>Business indicators:</strong> {detail.get('why_flagged', 'Unusual catalog-relative business metrics.')}
                 <div style="font-size:0.82rem; color:#A3A3A3; margin-top:6px;">
-                    This product's operational metrics deviate significantly from the baseline behavior observed in peer catalog items.
+                    These indicators provide interpretable context around the ML flag; they are not causal feature attribution.
                 </div>
             </div>
 
@@ -187,72 +193,38 @@ def render_products_page():
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Deviation Radar Visualizer for Selected Product
-    st.markdown("#### Multivariate Metric vs Catalog Benchmark Normal Envelope")
-    norms = detail.get("benchmark_norms", {
-        "catalog_avg_failure_rate": 0.1685,
-        "catalog_avg_cancel_rate": 0.0938,
-        "catalog_avg_return_rate": 0.0795,
-        "catalog_avg_discount": 0.1450,
-        "catalog_avg_negative_margin_rate": 0.3794,
-        "catalog_avg_stockout_rate": 0.0820,
-        "catalog_avg_supplier_delay": 3.20
-    })
+    # Catalog-relative deviation visualizer using live backend evidence.
+    st.markdown("#### Strongest Catalog-Relative Deviations")
+    deviations = detail.get("top_deviations", [])
+    if deviations:
+        df_dev = pd.DataFrame(deviations)
+        fig_dev = go.Figure(go.Bar(
+            x=df_dev["iqr_deviation"],
+            y=df_dev["label"],
+            orientation="h",
+            text=[f"{v:.2f} IQR" for v in df_dev["iqr_deviation"]],
+            textposition="auto",
+        ))
+        fig_dev.update_layout(
+            title="Largest Deviations from Catalog Median",
+            xaxis=dict(title="Absolute deviation in IQR units", gridcolor="#262626"),
+            yaxis=dict(title="", autorange="reversed", gridcolor="#262626"),
+            paper_bgcolor=PAPER_BG_COLOR,
+            plot_bgcolor=PLOT_BG_COLOR,
+            font=dict(color="#D4D4D4", family="Inter"),
+            margin=dict(l=20, r=20, t=45, b=30),
+            height=330,
+            showlegend=False,
+        )
+        st.plotly_chart(fig_dev, use_container_width=True)
+        st.caption("These are catalog-relative business deviations used for explanation context, not exact Isolation Forest feature attribution.")
+    else:
+        st.info("No deviation evidence returned for this product.")
 
-    categories_radar = [
-        "Failure Rate",
-        "Return Rate",
-        "Apparent Neg Margin",
-        "Avg Discount",
-        "Stockout Rate",
-        "Supplier Delay (Scaled)"
-    ]
-
-    prod_radar = [
-        detail.get("failure_rate", 0) * 100,
-        detail.get("return_rate", 0) * 100,
-        detail.get("negative_margin_rate", 0) * 100,
-        detail.get("avg_discount", 0) * 100,
-        detail.get("stockout_rate", 0) * 100,
-        detail.get("avg_supplier_delay", 0) * 5 # scaled for display
-    ]
-
-    benchmark_radar = [
-        norms.get("catalog_avg_failure_rate", 0.1685) * 100,
-        norms.get("catalog_avg_return_rate", 0.0795) * 100,
-        norms.get("catalog_avg_negative_margin_rate", 0.3794) * 100,
-        norms.get("catalog_avg_discount", 0.1450) * 100,
-        norms.get("catalog_avg_stockout_rate", 0.0820) * 100,
-        norms.get("catalog_avg_supplier_delay", 3.20) * 5
-    ]
-
-    fig_rad = go.Figure()
-    fig_rad.add_trace(go.Scatterpolar(
-        r=benchmark_radar,
-        theta=categories_radar,
-        fill='toself',
-        name='Catalog Benchmark Envelope',
-        line=dict(color=COLOR_INFO, dash='dash'),
-        fillcolor='rgba(56, 189, 248, 0.12)'
-    ))
-    fig_rad.add_trace(go.Scatterpolar(
-        r=prod_radar,
-        theta=categories_radar,
-        fill='toself',
-        name=f"SKU: {detail.get('product_id')}",
-        line=dict(color=COLOR_HIGH_RISK if detail.get('risk_level') == 'High' else COLOR_MED_RISK, width=2.5),
-        fillcolor='rgba(239, 68, 68, 0.22)'
-    ))
-    fig_rad.update_layout(
-        polar=dict(
-            radialaxis=dict(visible=True, range=[0, max(max(prod_radar) + 15, 80)], gridcolor="#262626"),
-            angularaxis=dict(gridcolor="#262626")
-        ),
-        paper_bgcolor=PAPER_BG_COLOR,
-        plot_bgcolor=PLOT_BG_COLOR,
-        font=dict(color="#D4D4D4", family="Inter"),
-        legend=dict(orientation="h", yanchor="bottom", y=-0.25, xanchor="center", x=0.5),
-        margin=dict(l=40, r=40, t=40, b=40),
-        height=360
-    )
-    st.plotly_chart(fig_rad, use_container_width=True)
+    with st.expander("Model stability diagnostics", expanded=False):
+        diag = api_client.fetch_model_diagnostics()
+        c1, c2, c3 = st.columns(3)
+        c1.metric("ML Anomalies", diag.get("flagged_anomalies", 0))
+        c2.metric("Top-10 Seed Stability", f"{diag.get('seed_top10_overlap_mean', 0) * 100:.0f}%")
+        c3.metric("Anomaly-Set Stability", f"{diag.get('seed_anomaly_set_jaccard_mean', 0) * 100:.0f}%")
+        st.caption(diag.get("interpretation", "Stability diagnostics are not accuracy metrics."))

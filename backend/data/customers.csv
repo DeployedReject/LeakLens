@@ -1,1501 +1,3001 @@
 customer_id,region,customer_segment,signup_date,preferred_channel
-C00001,West,Consumer,2025-11-08,Mobile App
-C00002,Central,Small Business,2025-10-19,Social Store
-C00003,East,Small Business,2025-08-21,Partner API
-C00004,East,Corporate,2025-05-02,Partner API
-C00005,West,Corporate,2025-06-02,Partner API
-C00006,West,Consumer,2025-01-12,Website
-C00007,Central,Consumer,2025-01-27,Social Store
-C00008,South,Small Business,2025-03-12,Social Store
-C00009,West,Consumer,2025-03-05,Social Store
-C00010,Central,Consumer,2025-07-18,Partner API
-C00011,North,Corporate,2025-02-26,Mobile App
-C00012,South,Consumer,2025-02-20,Partner API
-C00013,West,Small Business,2025-12-08,Social Store
-C00014,East,Corporate,2025-01-04,Website
-C00015,West,Corporate,2025-06-22,Website
-C00016,West,Corporate,2025-02-26,Partner API
-C00017,South,Corporate,2025-04-14,Social Store
-C00018,West,Consumer,2025-08-21,Partner API
-C00019,Central,Corporate,2025-05-24,Website
-C00020,North,Consumer,2025-09-15,Mobile App
-C00021,North,Consumer,2025-07-09,Partner API
-C00022,North,Small Business,2025-11-19,Mobile App
-C00023,East,Small Business,2025-01-27,Mobile App
-C00024,South,Small Business,2025-10-09,Partner API
-C00025,North,Corporate,2025-01-16,Social Store
-C00026,Central,Small Business,2025-12-08,Website
-C00027,East,Small Business,2025-01-03,Mobile App
-C00028,East,Consumer,2025-05-26,Social Store
-C00029,East,Consumer,2025-10-10,Partner API
-C00030,Central,Small Business,2025-07-17,Partner API
-C00031,Central,Corporate,2025-05-23,Social Store
-C00032,Central,Small Business,2025-11-04,Mobile App
-C00033,East,Small Business,2025-06-28,Website
-C00034,South,Consumer,2025-09-21,Website
-C00035,West,Corporate,2025-11-26,Social Store
-C00036,West,Consumer,2025-07-01,Mobile App
-C00037,North,Small Business,2025-09-20,Mobile App
-C00038,North,Small Business,2025-07-06,Partner API
-C00039,East,Consumer,2025-05-01,Social Store
-C00040,South,Small Business,2025-11-22,Partner API
-C00041,North,Consumer,2025-01-26,Partner API
-C00042,West,Corporate,2025-07-02,Social Store
-C00043,North,Consumer,2025-01-24,Mobile App
-C00044,East,Consumer,2025-02-02,Partner API
-C00045,Central,Consumer,2025-01-19,Website
-C00046,South,Consumer,2025-12-26,Partner API
-C00047,West,Small Business,2025-11-24,Social Store
-C00048,North,Small Business,2025-06-24,Mobile App
-C00049,West,Corporate,2025-06-22,Social Store
-C00050,North,Consumer,2025-12-27,Website
-C00051,Central,Small Business,2025-04-28,Social Store
-C00052,West,Small Business,2025-10-03,Social Store
-C00053,East,Small Business,2025-04-09,Mobile App
-C00054,South,Consumer,2025-11-28,Mobile App
-C00055,North,Corporate,2025-07-10,Social Store
-C00056,West,Corporate,2025-09-20,Partner API
-C00057,North,Corporate,2025-01-16,Website
-C00058,West,Consumer,2025-05-27,Social Store
-C00059,North,Consumer,2025-03-19,Partner API
-C00060,East,Corporate,2025-08-01,Partner API
-C00061,West,Small Business,2025-01-08,Partner API
-C00062,West,Corporate,2025-03-16,Website
-C00063,North,Small Business,2025-09-18,Partner API
-C00064,South,Corporate,2025-06-03,Partner API
-C00065,Central,Consumer,2025-04-01,Partner API
-C00066,North,Corporate,2025-05-16,Partner API
-C00067,East,Consumer,2025-01-16,Partner API
-C00068,East,Small Business,2025-06-23,Website
-C00069,Central,Small Business,2025-06-08,Social Store
-C00070,East,Corporate,2025-05-01,Partner API
-C00071,North,Consumer,2025-12-16,Social Store
-C00072,West,Small Business,2025-01-17,Partner API
-C00073,West,Corporate,2025-05-06,Social Store
-C00074,West,Consumer,2025-05-24,Mobile App
-C00075,North,Corporate,2025-05-03,Partner API
-C00076,North,Small Business,2025-05-23,Mobile App
-C00077,East,Corporate,2025-09-10,Social Store
-C00078,South,Small Business,2025-08-14,Partner API
-C00079,South,Small Business,2025-06-23,Website
-C00080,East,Corporate,2025-02-26,Mobile App
-C00081,North,Consumer,2025-11-22,Partner API
-C00082,Central,Corporate,2025-07-26,Social Store
-C00083,South,Consumer,2025-08-13,Partner API
-C00084,South,Small Business,2025-09-04,Mobile App
-C00085,West,Consumer,2025-08-14,Partner API
-C00086,West,Small Business,2025-07-15,Partner API
-C00087,South,Corporate,2025-07-22,Social Store
-C00088,North,Corporate,2025-06-26,Website
-C00089,North,Corporate,2025-06-15,Website
-C00090,East,Consumer,2025-01-08,Mobile App
-C00091,West,Consumer,2025-07-04,Website
-C00092,Central,Corporate,2025-03-23,Partner API
-C00093,West,Consumer,2025-02-28,Website
-C00094,East,Consumer,2025-08-19,Partner API
-C00095,South,Small Business,2025-10-05,Website
-C00096,Central,Corporate,2025-07-09,Partner API
-C00097,Central,Consumer,2025-10-26,Mobile App
-C00098,South,Corporate,2025-06-16,Mobile App
-C00099,Central,Consumer,2025-01-16,Mobile App
-C00100,Central,Corporate,2025-07-03,Partner API
-C00101,South,Small Business,2025-05-22,Mobile App
-C00102,Central,Corporate,2025-12-05,Social Store
-C00103,North,Corporate,2025-04-05,Partner API
-C00104,South,Corporate,2025-05-07,Partner API
-C00105,North,Corporate,2025-05-23,Website
-C00106,South,Corporate,2025-05-04,Website
-C00107,West,Small Business,2025-10-26,Social Store
-C00108,South,Consumer,2025-08-05,Mobile App
-C00109,West,Small Business,2025-02-17,Partner API
-C00110,East,Corporate,2025-03-28,Mobile App
-C00111,North,Consumer,2025-03-11,Mobile App
-C00112,West,Small Business,2025-01-01,Partner API
-C00113,South,Small Business,2025-12-13,Partner API
-C00114,South,Consumer,2025-03-18,Social Store
-C00115,North,Corporate,2025-08-26,Website
-C00116,South,Corporate,2025-02-19,Mobile App
-C00117,West,Corporate,2025-05-18,Mobile App
-C00118,East,Consumer,2025-08-04,Mobile App
-C00119,Central,Consumer,2025-09-04,Website
-C00120,Central,Consumer,2025-08-03,Mobile App
-C00121,East,Corporate,2025-01-07,Partner API
-C00122,Central,Consumer,2025-07-13,Social Store
-C00123,North,Small Business,2025-09-17,Mobile App
-C00124,West,Consumer,2025-06-13,Social Store
-C00125,East,Consumer,2025-04-12,Mobile App
-C00126,North,Small Business,2025-12-09,Social Store
-C00127,West,Corporate,2025-04-19,Website
-C00128,Central,Consumer,2025-03-12,Mobile App
-C00129,West,Small Business,2025-05-04,Mobile App
-C00130,North,Small Business,2025-05-10,Website
-C00131,South,Consumer,2025-03-23,Mobile App
-C00132,East,Small Business,2025-02-15,Partner API
-C00133,North,Corporate,2025-10-12,Mobile App
-C00134,Central,Corporate,2025-07-14,Mobile App
-C00135,South,Consumer,2025-02-27,Website
-C00136,South,Consumer,2025-05-06,Social Store
-C00137,Central,Consumer,2025-06-20,Mobile App
-C00138,North,Consumer,2025-04-04,Website
-C00139,West,Small Business,2025-03-12,Website
-C00140,East,Corporate,2025-10-19,Social Store
-C00141,East,Consumer,2025-02-28,Website
-C00142,South,Consumer,2025-09-07,Mobile App
-C00143,East,Consumer,2025-12-25,Social Store
-C00144,West,Consumer,2025-09-24,Mobile App
-C00145,Central,Corporate,2025-10-12,Mobile App
-C00146,Central,Consumer,2025-05-16,Website
-C00147,Central,Small Business,2025-12-05,Partner API
-C00148,East,Small Business,2025-04-25,Website
-C00149,North,Consumer,2025-01-21,Website
-C00150,East,Small Business,2025-09-11,Partner API
-C00151,South,Corporate,2025-12-24,Partner API
-C00152,Central,Corporate,2025-12-04,Website
-C00153,South,Corporate,2025-12-28,Mobile App
-C00154,North,Small Business,2025-06-17,Mobile App
-C00155,North,Consumer,2025-04-13,Partner API
-C00156,Central,Consumer,2025-03-06,Website
-C00157,East,Consumer,2025-09-02,Website
-C00158,South,Small Business,2025-05-23,Partner API
-C00159,North,Corporate,2025-01-18,Partner API
-C00160,North,Small Business,2025-05-26,Social Store
-C00161,North,Corporate,2025-11-27,Mobile App
-C00162,Central,Consumer,2025-02-09,Social Store
-C00163,North,Consumer,2025-07-06,Partner API
-C00164,North,Consumer,2025-05-06,Social Store
-C00165,Central,Small Business,2025-05-21,Mobile App
-C00166,South,Corporate,2025-03-17,Mobile App
-C00167,North,Corporate,2025-01-19,Mobile App
-C00168,Central,Corporate,2025-01-17,Partner API
-C00169,South,Small Business,2025-08-07,Website
-C00170,South,Corporate,2025-06-22,Social Store
-C00171,East,Corporate,2025-12-01,Website
-C00172,West,Consumer,2025-11-25,Mobile App
-C00173,Central,Consumer,2025-02-11,Social Store
-C00174,West,Corporate,2025-06-18,Website
-C00175,South,Corporate,2025-11-19,Social Store
-C00176,South,Consumer,2025-06-01,Partner API
-C00177,West,Corporate,2025-07-10,Social Store
-C00178,North,Consumer,2025-04-10,Partner API
-C00179,North,Corporate,2025-01-28,Partner API
-C00180,Central,Corporate,2025-06-21,Website
-C00181,Central,Corporate,2025-11-11,Partner API
-C00182,East,Small Business,2025-09-23,Social Store
-C00183,East,Corporate,2025-08-04,Partner API
-C00184,West,Consumer,2025-03-03,Social Store
-C00185,Central,Corporate,2025-10-19,Social Store
-C00186,Central,Consumer,2025-02-28,Website
-C00187,Central,Corporate,2025-05-06,Mobile App
-C00188,Central,Consumer,2025-12-26,Website
-C00189,South,Consumer,2025-10-13,Social Store
-C00190,North,Corporate,2025-09-15,Mobile App
-C00191,East,Small Business,2025-01-26,Partner API
-C00192,North,Consumer,2025-03-20,Social Store
-C00193,South,Small Business,2025-08-02,Mobile App
-C00194,South,Corporate,2025-11-24,Social Store
-C00195,East,Small Business,2025-07-14,Social Store
-C00196,West,Consumer,2025-02-26,Website
-C00197,East,Small Business,2025-09-23,Mobile App
-C00198,West,Corporate,2025-07-25,Mobile App
-C00199,South,Corporate,2025-12-25,Mobile App
-C00200,Central,Consumer,2025-04-10,Social Store
-C00201,North,Consumer,2025-02-15,Partner API
-C00202,South,Small Business,2025-08-08,Mobile App
-C00203,West,Small Business,2025-10-09,Mobile App
-C00204,West,Corporate,2025-02-27,Partner API
-C00205,East,Consumer,2025-06-05,Mobile App
-C00206,North,Consumer,2025-06-21,Website
-C00207,West,Corporate,2025-11-24,Social Store
-C00208,North,Small Business,2025-03-19,Social Store
-C00209,Central,Small Business,2025-06-02,Partner API
-C00210,West,Small Business,2025-04-15,Website
-C00211,North,Corporate,2025-08-06,Social Store
-C00212,North,Corporate,2025-11-08,Website
-C00213,East,Consumer,2025-12-05,Website
-C00214,South,Corporate,2025-04-19,Partner API
-C00215,North,Consumer,2025-12-15,Mobile App
-C00216,South,Corporate,2025-06-05,Website
-C00217,East,Small Business,2025-04-13,Social Store
-C00218,East,Consumer,2025-06-18,Partner API
-C00219,South,Consumer,2025-07-10,Partner API
-C00220,South,Consumer,2025-08-02,Partner API
-C00221,North,Small Business,2025-05-09,Mobile App
-C00222,North,Small Business,2025-08-06,Social Store
-C00223,East,Corporate,2025-01-05,Website
-C00224,West,Corporate,2025-05-24,Social Store
-C00225,North,Corporate,2025-12-03,Social Store
-C00226,North,Corporate,2025-12-08,Social Store
-C00227,North,Consumer,2025-12-03,Mobile App
-C00228,Central,Consumer,2025-03-27,Website
-C00229,South,Corporate,2025-04-25,Mobile App
-C00230,South,Consumer,2025-02-08,Partner API
-C00231,East,Consumer,2025-06-01,Social Store
-C00232,North,Consumer,2025-01-01,Social Store
-C00233,South,Corporate,2025-05-08,Partner API
-C00234,East,Small Business,2025-03-06,Website
-C00235,East,Small Business,2025-03-08,Website
-C00236,West,Small Business,2025-01-20,Website
-C00237,East,Consumer,2025-06-25,Mobile App
-C00238,Central,Consumer,2025-11-23,Mobile App
-C00239,West,Corporate,2025-02-10,Mobile App
-C00240,East,Corporate,2025-01-22,Website
-C00241,Central,Small Business,2025-04-13,Partner API
-C00242,West,Small Business,2025-08-05,Mobile App
-C00243,West,Consumer,2025-02-27,Social Store
-C00244,East,Small Business,2025-04-04,Website
-C00245,East,Small Business,2025-05-20,Social Store
-C00246,South,Corporate,2025-06-08,Social Store
-C00247,South,Corporate,2025-11-12,Website
-C00248,Central,Corporate,2025-02-25,Mobile App
-C00249,West,Small Business,2025-12-12,Partner API
-C00250,West,Consumer,2025-08-05,Partner API
-C00251,South,Consumer,2025-12-26,Mobile App
-C00252,East,Consumer,2025-08-09,Website
-C00253,East,Small Business,2025-01-14,Mobile App
-C00254,Central,Corporate,2025-04-22,Social Store
-C00255,North,Consumer,2025-06-23,Social Store
-C00256,Central,Small Business,2025-09-21,Mobile App
-C00257,South,Consumer,2025-05-26,Mobile App
-C00258,East,Small Business,2025-04-25,Website
-C00259,East,Corporate,2025-02-07,Website
-C00260,East,Corporate,2025-11-17,Partner API
-C00261,East,Small Business,2025-12-27,Social Store
-C00262,North,Small Business,2025-04-06,Mobile App
-C00263,North,Consumer,2025-11-22,Website
-C00264,West,Corporate,2025-05-17,Social Store
-C00265,North,Consumer,2025-01-20,Website
-C00266,West,Small Business,2025-08-17,Social Store
-C00267,North,Consumer,2025-07-19,Social Store
-C00268,East,Corporate,2025-01-13,Mobile App
-C00269,East,Corporate,2025-01-14,Social Store
-C00270,South,Corporate,2025-06-28,Mobile App
-C00271,South,Corporate,2025-06-19,Social Store
-C00272,West,Consumer,2025-08-23,Social Store
-C00273,East,Corporate,2025-10-19,Website
-C00274,South,Consumer,2025-07-23,Partner API
-C00275,South,Small Business,2025-08-01,Mobile App
-C00276,East,Small Business,2025-11-08,Website
-C00277,North,Small Business,2025-05-03,Social Store
-C00278,North,Small Business,2025-08-02,Social Store
-C00279,East,Consumer,2025-06-21,Website
-C00280,South,Small Business,2025-10-07,Mobile App
-C00281,Central,Small Business,2025-03-04,Mobile App
-C00282,West,Corporate,2025-02-01,Social Store
-C00283,Central,Small Business,2025-10-02,Social Store
-C00284,West,Consumer,2025-05-06,Partner API
-C00285,North,Corporate,2025-05-12,Social Store
-C00286,West,Corporate,2025-06-12,Partner API
-C00287,North,Corporate,2025-08-27,Website
-C00288,North,Corporate,2025-03-17,Website
-C00289,North,Corporate,2025-09-07,Mobile App
-C00290,East,Corporate,2025-04-26,Website
-C00291,Central,Consumer,2025-02-23,Mobile App
-C00292,East,Corporate,2025-02-21,Website
-C00293,West,Consumer,2025-06-02,Mobile App
-C00294,Central,Consumer,2025-06-26,Partner API
-C00295,Central,Corporate,2025-06-21,Social Store
-C00296,North,Small Business,2025-06-27,Partner API
-C00297,South,Consumer,2025-09-21,Social Store
-C00298,South,Consumer,2025-01-26,Mobile App
-C00299,West,Corporate,2025-10-14,Partner API
-C00300,South,Corporate,2025-11-01,Social Store
-C00301,Central,Small Business,2025-10-21,Social Store
-C00302,East,Consumer,2025-11-07,Partner API
-C00303,East,Corporate,2025-02-23,Social Store
-C00304,Central,Consumer,2025-10-04,Social Store
-C00305,West,Small Business,2025-03-20,Social Store
-C00306,North,Corporate,2025-11-13,Social Store
-C00307,South,Consumer,2025-10-02,Mobile App
-C00308,North,Consumer,2025-08-17,Mobile App
-C00309,North,Consumer,2025-11-08,Website
-C00310,North,Small Business,2025-03-03,Website
-C00311,Central,Small Business,2025-06-02,Partner API
-C00312,East,Consumer,2025-12-27,Social Store
-C00313,North,Consumer,2025-01-10,Mobile App
-C00314,North,Small Business,2025-12-16,Partner API
-C00315,East,Small Business,2025-05-17,Social Store
-C00316,Central,Corporate,2025-06-08,Mobile App
-C00317,South,Consumer,2025-12-15,Social Store
-C00318,South,Consumer,2025-10-15,Partner API
-C00319,South,Small Business,2025-01-23,Website
-C00320,Central,Corporate,2025-10-07,Website
-C00321,Central,Small Business,2025-09-19,Partner API
-C00322,South,Small Business,2025-07-18,Social Store
-C00323,West,Small Business,2025-03-18,Social Store
-C00324,South,Small Business,2025-01-14,Social Store
-C00325,East,Consumer,2025-02-03,Mobile App
-C00326,East,Corporate,2025-07-23,Partner API
-C00327,North,Consumer,2025-06-25,Mobile App
-C00328,South,Consumer,2025-10-12,Website
-C00329,South,Small Business,2025-03-10,Website
-C00330,East,Small Business,2025-02-03,Social Store
-C00331,West,Consumer,2025-01-21,Partner API
-C00332,North,Small Business,2025-09-10,Website
-C00333,North,Small Business,2025-07-20,Mobile App
-C00334,North,Corporate,2025-01-03,Mobile App
-C00335,South,Corporate,2025-05-25,Partner API
-C00336,North,Consumer,2025-09-15,Mobile App
-C00337,North,Small Business,2025-10-05,Mobile App
-C00338,Central,Small Business,2025-12-06,Social Store
-C00339,East,Corporate,2025-02-25,Social Store
-C00340,West,Small Business,2025-08-20,Mobile App
-C00341,Central,Small Business,2025-10-11,Website
-C00342,North,Corporate,2025-09-17,Website
-C00343,East,Corporate,2025-05-05,Website
-C00344,North,Consumer,2025-03-20,Website
-C00345,North,Consumer,2025-11-10,Social Store
-C00346,South,Corporate,2025-01-24,Social Store
-C00347,East,Corporate,2025-08-15,Mobile App
-C00348,North,Corporate,2025-05-02,Social Store
-C00349,North,Small Business,2025-11-28,Mobile App
-C00350,North,Small Business,2025-09-02,Partner API
-C00351,South,Consumer,2025-08-25,Mobile App
-C00352,East,Small Business,2025-02-24,Partner API
-C00353,East,Consumer,2025-10-18,Website
-C00354,Central,Consumer,2025-12-05,Mobile App
-C00355,North,Corporate,2025-08-13,Partner API
-C00356,Central,Small Business,2025-10-03,Partner API
-C00357,South,Small Business,2025-01-06,Partner API
-C00358,East,Consumer,2025-11-27,Partner API
-C00359,North,Consumer,2025-11-13,Mobile App
-C00360,Central,Corporate,2025-04-27,Website
-C00361,West,Small Business,2025-05-11,Mobile App
-C00362,South,Consumer,2025-03-23,Website
-C00363,South,Small Business,2025-05-07,Social Store
-C00364,South,Corporate,2025-12-07,Website
-C00365,Central,Corporate,2025-11-17,Mobile App
-C00366,North,Small Business,2025-02-28,Partner API
-C00367,Central,Small Business,2025-06-19,Website
-C00368,South,Consumer,2025-02-28,Partner API
-C00369,Central,Consumer,2025-06-04,Partner API
-C00370,West,Corporate,2025-04-27,Partner API
-C00371,North,Corporate,2025-01-10,Website
-C00372,North,Corporate,2025-10-24,Social Store
-C00373,South,Corporate,2025-12-04,Social Store
-C00374,East,Consumer,2025-12-07,Mobile App
-C00375,East,Consumer,2025-06-15,Social Store
-C00376,East,Small Business,2025-10-23,Website
-C00377,South,Corporate,2025-02-04,Mobile App
-C00378,East,Consumer,2025-09-07,Social Store
-C00379,Central,Consumer,2025-11-20,Partner API
-C00380,South,Small Business,2025-04-22,Social Store
-C00381,East,Small Business,2025-01-12,Partner API
-C00382,West,Consumer,2025-05-15,Partner API
-C00383,Central,Small Business,2025-04-06,Social Store
-C00384,North,Consumer,2025-03-27,Mobile App
-C00385,South,Corporate,2025-02-03,Partner API
-C00386,North,Consumer,2025-08-12,Website
-C00387,West,Small Business,2025-08-28,Website
-C00388,North,Consumer,2025-05-08,Social Store
-C00389,East,Corporate,2025-02-20,Social Store
-C00390,East,Consumer,2025-12-21,Partner API
-C00391,West,Corporate,2025-03-20,Website
-C00392,North,Corporate,2025-07-17,Website
-C00393,West,Consumer,2025-06-16,Mobile App
-C00394,West,Small Business,2025-06-22,Mobile App
-C00395,Central,Corporate,2025-08-08,Social Store
-C00396,Central,Consumer,2025-08-21,Website
-C00397,South,Corporate,2025-06-11,Mobile App
-C00398,North,Consumer,2025-12-06,Mobile App
-C00399,East,Corporate,2025-03-24,Mobile App
-C00400,North,Consumer,2025-06-22,Partner API
-C00401,West,Consumer,2025-10-08,Partner API
-C00402,South,Consumer,2025-02-01,Mobile App
-C00403,North,Consumer,2025-01-13,Partner API
-C00404,South,Corporate,2025-07-02,Website
-C00405,South,Corporate,2025-10-18,Social Store
-C00406,South,Corporate,2025-07-12,Mobile App
-C00407,East,Consumer,2025-03-27,Website
-C00408,North,Corporate,2025-09-07,Social Store
-C00409,North,Corporate,2025-12-08,Partner API
-C00410,South,Corporate,2025-04-15,Social Store
-C00411,East,Corporate,2025-10-22,Website
-C00412,East,Small Business,2025-09-28,Website
-C00413,East,Corporate,2025-06-12,Social Store
-C00414,West,Consumer,2025-09-13,Social Store
-C00415,South,Small Business,2025-07-14,Partner API
-C00416,Central,Consumer,2025-07-21,Social Store
-C00417,East,Corporate,2025-06-18,Social Store
-C00418,Central,Consumer,2025-11-03,Partner API
-C00419,South,Small Business,2025-03-22,Social Store
-C00420,North,Small Business,2025-12-17,Website
-C00421,Central,Small Business,2025-10-24,Partner API
-C00422,Central,Corporate,2025-04-28,Partner API
-C00423,South,Consumer,2025-03-09,Partner API
-C00424,South,Consumer,2025-02-04,Website
-C00425,South,Corporate,2025-07-10,Social Store
-C00426,East,Corporate,2025-06-12,Social Store
-C00427,Central,Corporate,2025-08-21,Social Store
-C00428,North,Small Business,2025-10-08,Partner API
-C00429,South,Corporate,2025-02-23,Mobile App
-C00430,Central,Corporate,2025-09-22,Partner API
-C00431,Central,Small Business,2025-08-07,Mobile App
-C00432,West,Corporate,2025-07-06,Mobile App
-C00433,East,Consumer,2025-09-28,Website
-C00434,East,Consumer,2025-05-01,Partner API
-C00435,West,Consumer,2025-07-15,Social Store
-C00436,East,Corporate,2025-03-22,Website
-C00437,South,Consumer,2025-10-12,Website
-C00438,North,Consumer,2025-05-20,Partner API
-C00439,East,Consumer,2025-09-22,Partner API
-C00440,West,Consumer,2025-11-05,Social Store
-C00441,Central,Consumer,2025-01-17,Partner API
-C00442,West,Small Business,2025-06-12,Social Store
-C00443,Central,Corporate,2025-02-09,Social Store
-C00444,Central,Corporate,2025-01-23,Social Store
-C00445,Central,Consumer,2025-11-05,Mobile App
-C00446,North,Small Business,2025-12-10,Partner API
-C00447,Central,Corporate,2025-08-27,Social Store
-C00448,South,Consumer,2025-02-25,Social Store
-C00449,East,Corporate,2025-07-12,Website
-C00450,West,Small Business,2025-04-16,Website
-C00451,South,Small Business,2025-08-18,Mobile App
-C00452,North,Small Business,2025-08-06,Mobile App
-C00453,South,Consumer,2025-07-23,Website
-C00454,East,Corporate,2025-02-18,Mobile App
-C00455,South,Small Business,2025-08-17,Partner API
-C00456,East,Consumer,2025-04-01,Mobile App
-C00457,East,Small Business,2025-05-16,Mobile App
-C00458,North,Corporate,2025-12-02,Website
-C00459,North,Consumer,2025-09-25,Partner API
-C00460,Central,Consumer,2025-05-13,Social Store
-C00461,North,Small Business,2025-04-02,Mobile App
-C00462,West,Corporate,2025-03-06,Website
-C00463,South,Consumer,2025-09-23,Social Store
-C00464,Central,Small Business,2025-01-24,Website
-C00465,North,Consumer,2025-01-12,Website
-C00466,Central,Small Business,2025-12-25,Mobile App
-C00467,North,Consumer,2025-03-12,Website
-C00468,South,Small Business,2025-03-08,Website
-C00469,South,Corporate,2025-09-03,Mobile App
-C00470,South,Corporate,2025-06-28,Mobile App
-C00471,Central,Corporate,2025-09-12,Mobile App
-C00472,South,Consumer,2025-12-04,Social Store
-C00473,East,Small Business,2025-06-14,Website
-C00474,West,Small Business,2025-11-13,Mobile App
-C00475,East,Small Business,2025-05-28,Social Store
-C00476,North,Small Business,2025-03-15,Partner API
-C00477,Central,Consumer,2025-06-19,Website
-C00478,Central,Consumer,2025-04-14,Social Store
-C00479,Central,Small Business,2025-12-03,Partner API
-C00480,South,Corporate,2025-02-02,Mobile App
-C00481,Central,Corporate,2025-09-11,Social Store
-C00482,West,Corporate,2025-07-13,Social Store
-C00483,North,Corporate,2025-10-24,Partner API
-C00484,West,Corporate,2025-07-22,Mobile App
-C00485,West,Consumer,2025-10-15,Social Store
-C00486,Central,Small Business,2025-06-22,Mobile App
-C00487,West,Consumer,2025-10-09,Social Store
-C00488,South,Corporate,2025-09-10,Partner API
-C00489,North,Corporate,2025-11-05,Partner API
-C00490,South,Small Business,2025-04-28,Social Store
-C00491,South,Consumer,2025-02-19,Partner API
-C00492,South,Consumer,2025-07-18,Mobile App
-C00493,North,Small Business,2025-12-02,Mobile App
-C00494,Central,Consumer,2025-06-16,Mobile App
-C00495,East,Small Business,2025-11-10,Mobile App
-C00496,Central,Consumer,2025-09-25,Website
-C00497,East,Small Business,2025-05-18,Social Store
-C00498,South,Corporate,2025-07-09,Mobile App
-C00499,East,Small Business,2025-08-28,Website
-C00500,East,Corporate,2025-06-10,Partner API
-C00501,Central,Corporate,2025-04-08,Mobile App
-C00502,North,Small Business,2025-09-08,Mobile App
-C00503,East,Corporate,2025-09-07,Partner API
-C00504,Central,Consumer,2025-12-02,Partner API
-C00505,Central,Small Business,2025-05-08,Website
-C00506,South,Small Business,2025-06-12,Mobile App
-C00507,South,Small Business,2025-06-06,Website
-C00508,West,Corporate,2025-06-17,Social Store
-C00509,South,Small Business,2025-04-08,Website
-C00510,West,Corporate,2025-04-05,Mobile App
-C00511,Central,Small Business,2025-09-23,Partner API
-C00512,South,Corporate,2025-09-23,Partner API
-C00513,West,Consumer,2025-12-08,Partner API
-C00514,East,Corporate,2025-07-28,Social Store
-C00515,Central,Consumer,2025-09-21,Partner API
-C00516,South,Small Business,2025-01-21,Partner API
-C00517,West,Corporate,2025-04-02,Mobile App
-C00518,West,Consumer,2025-07-18,Mobile App
-C00519,South,Consumer,2025-05-02,Social Store
-C00520,North,Consumer,2025-01-11,Social Store
-C00521,West,Corporate,2025-07-26,Partner API
-C00522,South,Small Business,2025-06-03,Website
-C00523,East,Small Business,2025-06-28,Mobile App
-C00524,West,Corporate,2025-12-15,Mobile App
-C00525,South,Corporate,2025-02-13,Social Store
-C00526,South,Corporate,2025-06-03,Partner API
-C00527,West,Corporate,2025-09-15,Mobile App
-C00528,East,Corporate,2025-11-02,Social Store
-C00529,South,Corporate,2025-04-18,Partner API
-C00530,South,Consumer,2025-02-25,Mobile App
-C00531,North,Small Business,2025-01-14,Partner API
-C00532,Central,Small Business,2025-03-09,Website
-C00533,North,Consumer,2025-05-02,Partner API
-C00534,Central,Corporate,2025-04-25,Social Store
-C00535,West,Consumer,2025-12-12,Partner API
-C00536,West,Consumer,2025-04-18,Mobile App
-C00537,West,Small Business,2025-06-11,Website
-C00538,South,Small Business,2025-03-19,Mobile App
-C00539,East,Corporate,2025-10-25,Website
-C00540,East,Corporate,2025-08-15,Mobile App
-C00541,East,Consumer,2025-03-21,Mobile App
-C00542,West,Corporate,2025-03-07,Partner API
-C00543,West,Consumer,2025-04-04,Social Store
-C00544,North,Consumer,2025-07-28,Partner API
-C00545,Central,Corporate,2025-07-18,Social Store
-C00546,Central,Small Business,2025-03-07,Social Store
-C00547,West,Corporate,2025-07-05,Mobile App
-C00548,Central,Corporate,2025-07-02,Website
-C00549,East,Consumer,2025-06-06,Social Store
-C00550,Central,Corporate,2025-07-26,Partner API
-C00551,Central,Consumer,2025-05-26,Website
-C00552,Central,Consumer,2025-05-18,Mobile App
-C00553,Central,Consumer,2025-03-17,Partner API
-C00554,East,Small Business,2025-05-20,Partner API
-C00555,Central,Corporate,2025-04-02,Partner API
-C00556,West,Corporate,2025-08-03,Mobile App
-C00557,Central,Consumer,2025-06-10,Mobile App
-C00558,South,Consumer,2025-01-09,Partner API
-C00559,North,Consumer,2025-09-01,Website
-C00560,West,Consumer,2025-01-10,Website
-C00561,South,Consumer,2025-12-11,Social Store
-C00562,South,Small Business,2025-06-08,Mobile App
-C00563,North,Small Business,2025-08-13,Social Store
-C00564,Central,Consumer,2025-07-05,Partner API
-C00565,Central,Consumer,2025-07-11,Mobile App
-C00566,Central,Small Business,2025-08-03,Partner API
-C00567,North,Consumer,2025-04-21,Partner API
-C00568,South,Small Business,2025-04-11,Partner API
-C00569,East,Small Business,2025-03-28,Social Store
-C00570,East,Corporate,2025-05-05,Website
-C00571,South,Corporate,2025-12-17,Social Store
-C00572,North,Consumer,2025-02-15,Website
-C00573,East,Consumer,2025-04-04,Website
-C00574,North,Consumer,2025-09-26,Social Store
-C00575,South,Corporate,2025-05-04,Partner API
-C00576,East,Corporate,2025-06-13,Mobile App
-C00577,West,Corporate,2025-11-10,Social Store
-C00578,North,Corporate,2025-07-09,Mobile App
-C00579,East,Corporate,2025-12-26,Mobile App
-C00580,South,Corporate,2025-04-20,Mobile App
-C00581,West,Small Business,2025-01-24,Mobile App
-C00582,East,Corporate,2025-07-07,Mobile App
-C00583,West,Consumer,2025-02-21,Mobile App
-C00584,Central,Corporate,2025-08-14,Partner API
-C00585,West,Small Business,2025-06-22,Social Store
-C00586,North,Corporate,2025-12-13,Website
-C00587,South,Consumer,2025-05-15,Partner API
-C00588,East,Corporate,2025-03-23,Partner API
-C00589,West,Consumer,2025-06-11,Mobile App
-C00590,Central,Consumer,2025-08-03,Social Store
-C00591,East,Small Business,2025-07-12,Social Store
-C00592,North,Consumer,2025-08-10,Website
-C00593,North,Consumer,2025-03-01,Partner API
-C00594,East,Corporate,2025-02-11,Mobile App
-C00595,South,Consumer,2025-07-27,Social Store
-C00596,South,Consumer,2025-09-20,Partner API
-C00597,South,Corporate,2025-10-22,Partner API
-C00598,North,Corporate,2025-09-02,Mobile App
-C00599,North,Small Business,2025-03-23,Website
-C00600,East,Consumer,2025-10-04,Social Store
-C00601,Central,Corporate,2025-08-22,Social Store
-C00602,South,Consumer,2025-06-21,Website
-C00603,Central,Corporate,2025-06-14,Partner API
-C00604,West,Consumer,2025-04-17,Social Store
-C00605,West,Consumer,2025-03-24,Mobile App
-C00606,South,Small Business,2025-04-04,Partner API
-C00607,South,Corporate,2025-02-19,Social Store
-C00608,West,Small Business,2025-01-14,Social Store
-C00609,Central,Corporate,2025-10-06,Mobile App
-C00610,West,Small Business,2025-04-23,Mobile App
-C00611,North,Corporate,2025-04-17,Social Store
-C00612,West,Small Business,2025-11-25,Partner API
-C00613,Central,Consumer,2025-01-06,Partner API
-C00614,West,Small Business,2025-11-15,Website
-C00615,West,Small Business,2025-07-09,Website
-C00616,Central,Consumer,2025-04-10,Website
-C00617,East,Consumer,2025-11-17,Website
-C00618,Central,Corporate,2025-01-27,Mobile App
-C00619,East,Consumer,2025-03-10,Social Store
-C00620,South,Small Business,2025-05-05,Partner API
-C00621,North,Consumer,2025-10-05,Partner API
-C00622,South,Corporate,2025-07-07,Website
-C00623,East,Consumer,2025-08-25,Partner API
-C00624,North,Corporate,2025-12-12,Partner API
-C00625,North,Small Business,2025-04-24,Mobile App
-C00626,West,Consumer,2025-08-12,Website
-C00627,West,Small Business,2025-03-23,Partner API
-C00628,South,Corporate,2025-10-25,Mobile App
-C00629,West,Consumer,2025-04-24,Social Store
-C00630,West,Corporate,2025-10-11,Mobile App
-C00631,Central,Corporate,2025-01-27,Social Store
-C00632,South,Small Business,2025-04-24,Social Store
-C00633,Central,Corporate,2025-10-12,Partner API
-C00634,North,Consumer,2025-10-21,Website
-C00635,Central,Small Business,2025-07-26,Mobile App
-C00636,North,Small Business,2025-03-25,Mobile App
-C00637,West,Consumer,2025-09-01,Website
-C00638,Central,Small Business,2025-10-25,Social Store
-C00639,North,Consumer,2025-08-02,Partner API
-C00640,South,Small Business,2025-09-07,Website
-C00641,North,Consumer,2025-02-06,Website
-C00642,South,Consumer,2025-10-21,Mobile App
-C00643,South,Corporate,2025-09-02,Website
-C00644,South,Small Business,2025-07-22,Partner API
-C00645,West,Small Business,2025-10-03,Partner API
-C00646,East,Small Business,2025-01-07,Mobile App
-C00647,West,Corporate,2025-04-14,Partner API
-C00648,Central,Small Business,2025-06-20,Partner API
-C00649,East,Consumer,2025-09-08,Website
-C00650,West,Corporate,2025-01-02,Mobile App
-C00651,East,Consumer,2025-10-20,Social Store
-C00652,West,Small Business,2025-09-27,Website
-C00653,East,Small Business,2025-05-19,Social Store
-C00654,West,Corporate,2025-08-24,Partner API
-C00655,West,Consumer,2025-04-05,Mobile App
-C00656,North,Small Business,2025-08-18,Website
-C00657,West,Corporate,2025-12-02,Social Store
-C00658,East,Consumer,2025-03-27,Website
-C00659,East,Corporate,2025-01-28,Mobile App
-C00660,Central,Small Business,2025-05-04,Website
-C00661,East,Consumer,2025-12-11,Website
-C00662,North,Small Business,2025-07-21,Mobile App
-C00663,Central,Corporate,2025-04-28,Website
-C00664,South,Small Business,2025-11-23,Partner API
-C00665,East,Consumer,2025-09-03,Mobile App
-C00666,West,Consumer,2025-04-02,Website
-C00667,Central,Small Business,2025-12-09,Partner API
-C00668,South,Corporate,2025-03-28,Partner API
-C00669,North,Small Business,2025-02-15,Partner API
-C00670,West,Consumer,2025-05-24,Website
-C00671,East,Corporate,2025-10-16,Mobile App
-C00672,West,Corporate,2025-01-21,Social Store
-C00673,West,Corporate,2025-09-19,Social Store
-C00674,South,Corporate,2025-11-25,Social Store
-C00675,North,Consumer,2025-12-11,Website
-C00676,East,Small Business,2025-01-20,Mobile App
-C00677,South,Corporate,2025-03-08,Partner API
-C00678,West,Small Business,2025-07-06,Mobile App
-C00679,West,Consumer,2025-08-23,Social Store
-C00680,East,Corporate,2025-09-15,Website
-C00681,Central,Small Business,2025-09-21,Mobile App
-C00682,West,Corporate,2025-04-12,Mobile App
-C00683,North,Small Business,2025-12-13,Social Store
-C00684,South,Small Business,2025-01-06,Social Store
-C00685,East,Small Business,2025-11-27,Website
-C00686,West,Consumer,2025-08-03,Social Store
-C00687,East,Consumer,2025-09-08,Partner API
-C00688,South,Corporate,2025-07-22,Partner API
-C00689,North,Small Business,2025-03-03,Website
-C00690,East,Consumer,2025-12-20,Mobile App
-C00691,North,Small Business,2025-12-23,Mobile App
-C00692,West,Small Business,2025-04-14,Partner API
-C00693,Central,Consumer,2025-04-08,Mobile App
-C00694,North,Consumer,2025-08-20,Mobile App
-C00695,East,Consumer,2025-03-09,Social Store
-C00696,North,Small Business,2025-04-28,Partner API
-C00697,South,Consumer,2025-06-09,Partner API
-C00698,Central,Corporate,2025-01-16,Website
-C00699,West,Small Business,2025-11-14,Website
-C00700,Central,Small Business,2025-05-05,Partner API
-C00701,West,Consumer,2025-03-12,Mobile App
-C00702,Central,Consumer,2025-09-09,Partner API
-C00703,East,Consumer,2025-02-24,Partner API
-C00704,North,Consumer,2025-07-15,Partner API
-C00705,West,Corporate,2025-12-14,Social Store
-C00706,North,Small Business,2025-10-20,Mobile App
-C00707,Central,Small Business,2025-06-20,Mobile App
-C00708,Central,Small Business,2025-04-23,Social Store
-C00709,West,Corporate,2025-12-13,Social Store
-C00710,West,Corporate,2025-08-02,Social Store
-C00711,North,Consumer,2025-08-23,Website
-C00712,North,Corporate,2025-01-12,Website
-C00713,South,Small Business,2025-08-19,Partner API
-C00714,South,Consumer,2025-09-13,Mobile App
-C00715,East,Corporate,2025-03-16,Mobile App
-C00716,West,Consumer,2025-06-17,Website
-C00717,North,Corporate,2025-08-11,Partner API
-C00718,West,Consumer,2025-10-07,Mobile App
-C00719,Central,Consumer,2025-10-11,Website
-C00720,North,Consumer,2025-08-05,Mobile App
-C00721,North,Consumer,2025-08-21,Social Store
-C00722,East,Small Business,2025-07-09,Social Store
-C00723,Central,Small Business,2025-03-11,Mobile App
-C00724,Central,Consumer,2025-08-12,Social Store
-C00725,West,Consumer,2025-05-13,Partner API
-C00726,Central,Consumer,2025-10-07,Partner API
-C00727,South,Consumer,2025-08-25,Social Store
-C00728,Central,Small Business,2025-07-17,Social Store
-C00729,West,Corporate,2025-02-02,Partner API
-C00730,North,Small Business,2025-04-18,Mobile App
-C00731,East,Small Business,2025-12-08,Partner API
-C00732,North,Consumer,2025-12-26,Social Store
-C00733,North,Small Business,2025-02-09,Website
-C00734,South,Small Business,2025-11-13,Website
-C00735,South,Small Business,2025-06-09,Mobile App
-C00736,West,Small Business,2025-04-06,Social Store
-C00737,Central,Corporate,2025-06-03,Partner API
-C00738,South,Consumer,2025-09-12,Social Store
-C00739,East,Consumer,2025-07-13,Social Store
-C00740,South,Consumer,2025-05-17,Social Store
-C00741,North,Small Business,2025-08-25,Website
-C00742,West,Consumer,2025-06-11,Website
-C00743,West,Small Business,2025-07-09,Mobile App
-C00744,South,Corporate,2025-12-12,Website
-C00745,East,Small Business,2025-12-12,Social Store
-C00746,North,Small Business,2025-07-08,Social Store
-C00747,South,Small Business,2025-09-22,Partner API
-C00748,West,Consumer,2025-08-07,Website
-C00749,West,Consumer,2025-07-04,Mobile App
-C00750,North,Consumer,2025-04-19,Mobile App
-C00751,South,Corporate,2025-12-03,Social Store
-C00752,East,Corporate,2025-11-17,Mobile App
-C00753,Central,Corporate,2025-04-24,Partner API
-C00754,North,Small Business,2025-04-17,Mobile App
-C00755,South,Consumer,2025-08-24,Social Store
-C00756,East,Small Business,2025-04-26,Social Store
-C00757,East,Small Business,2025-10-19,Website
-C00758,East,Consumer,2025-05-10,Mobile App
-C00759,South,Consumer,2025-05-10,Partner API
-C00760,Central,Small Business,2025-07-06,Partner API
-C00761,South,Consumer,2025-01-13,Social Store
-C00762,West,Consumer,2025-06-04,Mobile App
-C00763,Central,Consumer,2025-01-13,Website
-C00764,Central,Corporate,2025-05-27,Social Store
-C00765,East,Small Business,2025-10-02,Partner API
-C00766,Central,Small Business,2025-10-17,Mobile App
-C00767,West,Consumer,2025-12-11,Social Store
-C00768,West,Small Business,2025-01-28,Social Store
-C00769,Central,Small Business,2025-02-11,Partner API
-C00770,East,Consumer,2025-01-03,Partner API
-C00771,South,Corporate,2025-09-24,Website
-C00772,East,Consumer,2025-07-21,Partner API
-C00773,West,Consumer,2025-01-05,Partner API
-C00774,East,Small Business,2025-11-21,Website
-C00775,East,Corporate,2025-12-22,Mobile App
-C00776,East,Small Business,2025-12-05,Mobile App
-C00777,West,Consumer,2025-10-12,Website
-C00778,North,Small Business,2025-03-26,Partner API
-C00779,West,Corporate,2025-07-26,Partner API
-C00780,East,Consumer,2025-08-23,Social Store
-C00781,East,Small Business,2025-09-19,Website
-C00782,North,Small Business,2025-05-14,Social Store
-C00783,South,Small Business,2025-04-07,Mobile App
-C00784,East,Small Business,2025-09-08,Partner API
-C00785,Central,Consumer,2025-01-17,Mobile App
-C00786,East,Small Business,2025-06-03,Social Store
-C00787,Central,Consumer,2025-07-16,Website
-C00788,Central,Corporate,2025-11-03,Website
-C00789,South,Corporate,2025-05-16,Partner API
-C00790,South,Consumer,2025-08-03,Partner API
-C00791,North,Corporate,2025-03-19,Website
-C00792,South,Consumer,2025-08-07,Website
-C00793,East,Consumer,2025-04-25,Mobile App
-C00794,North,Small Business,2025-05-13,Partner API
-C00795,Central,Consumer,2025-01-04,Social Store
-C00796,South,Small Business,2025-08-23,Mobile App
-C00797,South,Corporate,2025-04-06,Social Store
-C00798,East,Small Business,2025-12-13,Mobile App
-C00799,South,Consumer,2025-03-27,Website
-C00800,South,Consumer,2025-07-02,Website
-C00801,West,Corporate,2025-12-02,Website
-C00802,South,Consumer,2025-08-15,Social Store
-C00803,West,Corporate,2025-07-03,Partner API
-C00804,East,Corporate,2025-07-21,Social Store
-C00805,North,Consumer,2025-09-21,Mobile App
-C00806,Central,Small Business,2025-05-19,Mobile App
-C00807,North,Corporate,2025-01-23,Social Store
-C00808,South,Corporate,2025-04-08,Website
-C00809,West,Corporate,2025-02-28,Website
-C00810,West,Consumer,2025-08-15,Website
-C00811,West,Consumer,2025-11-23,Partner API
-C00812,South,Small Business,2025-02-18,Partner API
-C00813,South,Small Business,2025-11-09,Partner API
-C00814,North,Small Business,2025-09-17,Website
-C00815,Central,Corporate,2025-02-22,Website
-C00816,North,Small Business,2025-08-18,Partner API
-C00817,North,Corporate,2025-05-12,Mobile App
-C00818,Central,Small Business,2025-09-01,Social Store
-C00819,East,Consumer,2025-11-02,Partner API
-C00820,West,Corporate,2025-03-13,Social Store
-C00821,North,Corporate,2025-08-12,Social Store
-C00822,Central,Consumer,2025-10-23,Website
-C00823,Central,Consumer,2025-12-27,Mobile App
-C00824,South,Small Business,2025-07-21,Mobile App
-C00825,East,Consumer,2025-05-01,Partner API
-C00826,West,Small Business,2025-01-04,Social Store
-C00827,North,Corporate,2025-09-21,Partner API
-C00828,East,Small Business,2025-12-05,Website
-C00829,North,Consumer,2025-06-16,Social Store
-C00830,West,Consumer,2025-03-15,Partner API
-C00831,South,Corporate,2025-03-12,Mobile App
-C00832,West,Small Business,2025-09-13,Website
-C00833,Central,Consumer,2025-04-02,Partner API
-C00834,North,Consumer,2025-06-11,Website
-C00835,North,Consumer,2025-07-13,Mobile App
-C00836,South,Consumer,2025-08-08,Social Store
-C00837,West,Corporate,2025-03-28,Website
-C00838,West,Consumer,2025-12-08,Website
-C00839,North,Consumer,2025-12-11,Social Store
-C00840,Central,Consumer,2025-01-22,Website
-C00841,South,Consumer,2025-12-15,Mobile App
-C00842,South,Corporate,2025-05-06,Partner API
-C00843,South,Corporate,2025-01-04,Website
-C00844,South,Small Business,2025-09-03,Social Store
-C00845,North,Corporate,2025-04-24,Mobile App
-C00846,East,Consumer,2025-04-26,Partner API
-C00847,South,Corporate,2025-01-20,Social Store
-C00848,West,Small Business,2025-01-08,Partner API
-C00849,South,Small Business,2025-06-21,Website
-C00850,East,Small Business,2025-09-02,Mobile App
-C00851,Central,Consumer,2025-01-23,Website
-C00852,West,Consumer,2025-12-16,Partner API
-C00853,East,Consumer,2025-04-13,Social Store
-C00854,West,Small Business,2025-03-09,Partner API
-C00855,East,Consumer,2025-07-25,Partner API
-C00856,Central,Corporate,2025-11-04,Partner API
-C00857,East,Consumer,2025-09-02,Website
-C00858,West,Consumer,2025-12-23,Partner API
-C00859,South,Corporate,2025-08-09,Social Store
-C00860,Central,Corporate,2025-11-15,Partner API
-C00861,West,Corporate,2025-09-17,Social Store
-C00862,South,Small Business,2025-10-25,Website
-C00863,North,Corporate,2025-11-13,Social Store
-C00864,East,Consumer,2025-05-08,Partner API
-C00865,West,Small Business,2025-12-11,Social Store
-C00866,North,Consumer,2025-04-06,Partner API
-C00867,West,Consumer,2025-09-14,Website
-C00868,South,Consumer,2025-02-05,Partner API
-C00869,West,Consumer,2025-11-24,Website
-C00870,North,Corporate,2025-06-27,Website
-C00871,Central,Corporate,2025-05-14,Mobile App
-C00872,South,Corporate,2025-10-14,Mobile App
-C00873,East,Corporate,2025-06-08,Partner API
-C00874,Central,Small Business,2025-12-01,Mobile App
-C00875,East,Consumer,2025-02-11,Social Store
-C00876,West,Corporate,2025-09-16,Partner API
-C00877,East,Small Business,2025-10-25,Partner API
-C00878,East,Consumer,2025-09-18,Social Store
-C00879,South,Corporate,2025-06-04,Partner API
-C00880,East,Consumer,2025-11-02,Mobile App
-C00881,East,Small Business,2025-05-16,Website
-C00882,South,Small Business,2025-08-13,Website
-C00883,West,Small Business,2025-01-11,Social Store
-C00884,North,Small Business,2025-04-24,Website
-C00885,Central,Corporate,2025-12-09,Mobile App
-C00886,South,Consumer,2025-12-28,Website
-C00887,East,Consumer,2025-08-10,Partner API
-C00888,South,Small Business,2025-08-16,Social Store
-C00889,Central,Small Business,2025-09-03,Partner API
-C00890,Central,Consumer,2025-10-04,Mobile App
-C00891,East,Corporate,2025-03-01,Partner API
-C00892,North,Consumer,2025-07-17,Social Store
-C00893,West,Consumer,2025-03-03,Mobile App
-C00894,East,Corporate,2025-01-18,Mobile App
-C00895,West,Consumer,2025-04-21,Social Store
-C00896,South,Consumer,2025-02-01,Website
-C00897,South,Consumer,2025-04-20,Social Store
-C00898,South,Small Business,2025-11-09,Mobile App
-C00899,Central,Corporate,2025-01-17,Website
-C00900,South,Consumer,2025-09-04,Mobile App
-C00901,East,Small Business,2025-05-03,Partner API
-C00902,South,Small Business,2025-03-13,Partner API
-C00903,South,Consumer,2025-05-14,Partner API
-C00904,South,Small Business,2025-02-20,Mobile App
-C00905,Central,Consumer,2025-03-16,Social Store
-C00906,West,Corporate,2025-09-27,Partner API
-C00907,South,Small Business,2025-03-05,Mobile App
-C00908,East,Small Business,2025-08-27,Partner API
-C00909,Central,Corporate,2025-08-24,Website
-C00910,West,Small Business,2025-02-25,Mobile App
-C00911,Central,Small Business,2025-05-21,Website
-C00912,North,Consumer,2025-09-28,Website
-C00913,Central,Consumer,2025-10-08,Social Store
-C00914,Central,Consumer,2025-04-03,Partner API
-C00915,East,Corporate,2025-04-28,Partner API
-C00916,East,Small Business,2025-04-15,Mobile App
-C00917,Central,Consumer,2025-07-26,Website
-C00918,Central,Consumer,2025-11-19,Website
-C00919,North,Corporate,2025-11-15,Website
-C00920,West,Small Business,2025-08-22,Mobile App
-C00921,Central,Consumer,2025-11-23,Social Store
-C00922,South,Corporate,2025-11-02,Social Store
-C00923,North,Consumer,2025-11-10,Website
-C00924,North,Consumer,2025-04-16,Partner API
-C00925,North,Small Business,2025-05-05,Website
-C00926,North,Consumer,2025-09-19,Partner API
-C00927,North,Consumer,2025-08-02,Partner API
-C00928,East,Corporate,2025-01-15,Social Store
-C00929,South,Small Business,2025-09-17,Website
-C00930,East,Consumer,2025-09-13,Website
-C00931,West,Consumer,2025-03-17,Social Store
-C00932,North,Small Business,2025-07-01,Mobile App
-C00933,East,Corporate,2025-04-04,Website
-C00934,North,Small Business,2025-11-20,Social Store
-C00935,South,Consumer,2025-02-23,Partner API
-C00936,East,Consumer,2025-03-06,Mobile App
-C00937,North,Consumer,2025-08-19,Mobile App
-C00938,North,Consumer,2025-11-16,Website
-C00939,Central,Corporate,2025-03-19,Partner API
-C00940,East,Small Business,2025-10-25,Partner API
-C00941,West,Small Business,2025-02-24,Website
-C00942,East,Consumer,2025-05-08,Social Store
-C00943,East,Corporate,2025-07-19,Social Store
-C00944,South,Consumer,2025-01-12,Website
-C00945,Central,Small Business,2025-05-27,Partner API
-C00946,North,Corporate,2025-01-05,Mobile App
-C00947,West,Corporate,2025-05-22,Partner API
-C00948,East,Consumer,2025-02-16,Mobile App
-C00949,East,Corporate,2025-05-27,Website
-C00950,West,Consumer,2025-04-22,Social Store
-C00951,East,Corporate,2025-08-20,Mobile App
-C00952,South,Small Business,2025-10-09,Mobile App
-C00953,South,Corporate,2025-10-17,Website
-C00954,South,Consumer,2025-12-09,Mobile App
-C00955,South,Corporate,2025-04-09,Mobile App
-C00956,East,Consumer,2025-12-07,Social Store
-C00957,East,Corporate,2025-02-25,Social Store
-C00958,South,Corporate,2025-06-22,Website
-C00959,East,Small Business,2025-07-27,Mobile App
-C00960,West,Small Business,2025-09-22,Partner API
-C00961,West,Small Business,2025-04-03,Social Store
-C00962,South,Corporate,2025-05-02,Website
-C00963,East,Corporate,2025-11-10,Mobile App
-C00964,North,Corporate,2025-09-27,Partner API
-C00965,East,Corporate,2025-04-01,Social Store
-C00966,South,Consumer,2025-10-21,Social Store
-C00967,East,Corporate,2025-03-16,Mobile App
-C00968,East,Corporate,2025-04-02,Website
-C00969,North,Consumer,2025-12-01,Mobile App
-C00970,Central,Small Business,2025-01-09,Partner API
-C00971,East,Consumer,2025-10-04,Mobile App
-C00972,Central,Corporate,2025-10-06,Partner API
-C00973,North,Corporate,2025-02-27,Website
-C00974,South,Small Business,2025-04-27,Mobile App
-C00975,North,Small Business,2025-04-27,Mobile App
-C00976,East,Corporate,2025-03-24,Partner API
-C00977,North,Small Business,2025-09-09,Website
-C00978,South,Consumer,2025-08-07,Mobile App
-C00979,Central,Small Business,2025-04-15,Partner API
-C00980,North,Consumer,2025-05-11,Partner API
-C00981,South,Small Business,2025-02-03,Website
-C00982,South,Consumer,2025-11-16,Website
-C00983,South,Corporate,2025-06-19,Partner API
-C00984,East,Small Business,2025-08-14,Social Store
-C00985,South,Corporate,2025-01-23,Partner API
-C00986,East,Corporate,2025-08-19,Website
-C00987,South,Consumer,2025-09-06,Social Store
-C00988,North,Small Business,2025-01-28,Partner API
-C00989,North,Corporate,2025-05-09,Website
-C00990,East,Consumer,2025-02-26,Social Store
-C00991,East,Corporate,2025-10-08,Partner API
-C00992,South,Small Business,2025-05-15,Partner API
-C00993,South,Corporate,2025-06-11,Website
-C00994,North,Consumer,2025-04-22,Partner API
-C00995,Central,Small Business,2025-06-24,Partner API
-C00996,West,Small Business,2025-01-23,Social Store
-C00997,South,Consumer,2025-01-06,Website
-C00998,Central,Consumer,2025-05-17,Website
-C00999,West,Consumer,2025-02-07,Social Store
-C01000,Central,Small Business,2025-04-19,Social Store
-C01001,West,Consumer,2025-01-04,Partner API
-C01002,West,Small Business,2025-08-10,Social Store
-C01003,North,Consumer,2025-10-20,Partner API
-C01004,North,Consumer,2025-07-14,Partner API
-C01005,Central,Corporate,2025-10-17,Website
-C01006,South,Small Business,2025-01-17,Mobile App
-C01007,Central,Consumer,2025-06-19,Mobile App
-C01008,East,Small Business,2025-06-09,Website
-C01009,Central,Corporate,2025-07-17,Partner API
-C01010,East,Corporate,2025-09-22,Mobile App
-C01011,Central,Small Business,2025-05-23,Mobile App
-C01012,West,Small Business,2025-07-13,Mobile App
-C01013,Central,Corporate,2025-05-06,Partner API
-C01014,South,Corporate,2025-06-22,Mobile App
-C01015,North,Corporate,2025-11-10,Social Store
-C01016,South,Corporate,2025-12-19,Partner API
-C01017,South,Consumer,2025-10-28,Social Store
-C01018,East,Corporate,2025-12-24,Partner API
-C01019,East,Consumer,2025-09-15,Mobile App
-C01020,North,Small Business,2025-03-10,Partner API
-C01021,South,Consumer,2025-02-02,Social Store
-C01022,Central,Corporate,2025-01-02,Mobile App
-C01023,Central,Consumer,2025-05-07,Partner API
-C01024,South,Consumer,2025-07-13,Mobile App
-C01025,South,Consumer,2025-03-07,Website
-C01026,North,Small Business,2025-05-01,Mobile App
-C01027,North,Small Business,2025-09-27,Mobile App
-C01028,East,Small Business,2025-05-11,Partner API
-C01029,South,Consumer,2025-06-28,Mobile App
-C01030,North,Consumer,2025-09-22,Partner API
-C01031,North,Small Business,2025-12-19,Website
-C01032,North,Small Business,2025-03-19,Website
-C01033,North,Consumer,2025-03-11,Mobile App
-C01034,North,Corporate,2025-03-16,Website
-C01035,West,Small Business,2025-09-08,Partner API
-C01036,West,Consumer,2025-01-13,Website
-C01037,South,Consumer,2025-06-15,Partner API
-C01038,Central,Small Business,2025-10-03,Social Store
-C01039,East,Corporate,2025-08-27,Social Store
-C01040,West,Small Business,2025-12-20,Social Store
-C01041,South,Small Business,2025-11-27,Website
-C01042,East,Corporate,2025-01-09,Partner API
-C01043,West,Corporate,2025-08-15,Partner API
-C01044,North,Consumer,2025-10-26,Mobile App
-C01045,Central,Corporate,2025-07-26,Partner API
-C01046,North,Small Business,2025-05-19,Partner API
-C01047,West,Consumer,2025-11-07,Partner API
-C01048,North,Small Business,2025-12-06,Mobile App
-C01049,South,Consumer,2025-07-03,Mobile App
-C01050,South,Corporate,2025-05-21,Website
-C01051,South,Corporate,2025-11-22,Partner API
-C01052,East,Consumer,2025-08-13,Social Store
-C01053,South,Corporate,2025-12-10,Partner API
-C01054,East,Small Business,2025-01-26,Website
-C01055,South,Small Business,2025-10-23,Website
-C01056,North,Corporate,2025-06-25,Social Store
-C01057,East,Corporate,2025-03-01,Website
-C01058,Central,Consumer,2025-10-14,Mobile App
-C01059,East,Small Business,2025-06-10,Social Store
-C01060,Central,Small Business,2025-04-23,Social Store
-C01061,West,Corporate,2025-05-20,Partner API
-C01062,North,Consumer,2025-05-22,Website
-C01063,Central,Consumer,2025-03-15,Mobile App
-C01064,West,Corporate,2025-02-16,Website
-C01065,North,Corporate,2025-11-24,Partner API
-C01066,Central,Small Business,2025-08-13,Website
-C01067,South,Corporate,2025-08-11,Mobile App
-C01068,Central,Corporate,2025-11-20,Partner API
-C01069,East,Consumer,2025-11-10,Social Store
-C01070,Central,Small Business,2025-03-15,Partner API
-C01071,Central,Consumer,2025-01-03,Partner API
-C01072,East,Small Business,2025-05-19,Website
-C01073,East,Corporate,2025-12-16,Mobile App
-C01074,East,Corporate,2025-06-14,Partner API
-C01075,South,Consumer,2025-04-23,Social Store
-C01076,East,Corporate,2025-03-03,Partner API
-C01077,Central,Consumer,2025-10-19,Mobile App
-C01078,West,Consumer,2025-03-11,Website
-C01079,South,Consumer,2025-11-25,Partner API
-C01080,East,Small Business,2025-08-11,Website
-C01081,South,Small Business,2025-12-05,Social Store
-C01082,East,Consumer,2025-03-21,Partner API
-C01083,South,Corporate,2025-01-10,Partner API
-C01084,North,Corporate,2025-11-11,Mobile App
-C01085,South,Small Business,2025-07-22,Website
-C01086,East,Consumer,2025-12-05,Social Store
-C01087,North,Small Business,2025-09-09,Website
-C01088,South,Corporate,2025-03-01,Partner API
-C01089,West,Consumer,2025-08-12,Website
-C01090,South,Small Business,2025-01-14,Website
-C01091,South,Corporate,2025-01-23,Social Store
-C01092,East,Small Business,2025-12-08,Website
-C01093,West,Corporate,2025-06-03,Partner API
-C01094,South,Corporate,2025-02-05,Mobile App
-C01095,South,Corporate,2025-10-11,Partner API
-C01096,West,Small Business,2025-06-20,Partner API
-C01097,Central,Corporate,2025-01-20,Partner API
-C01098,East,Small Business,2025-11-15,Partner API
-C01099,East,Consumer,2025-07-24,Partner API
-C01100,North,Small Business,2025-03-20,Mobile App
-C01101,South,Consumer,2025-07-25,Partner API
-C01102,Central,Corporate,2025-04-28,Social Store
-C01103,Central,Small Business,2025-12-17,Mobile App
-C01104,South,Corporate,2025-03-14,Social Store
-C01105,South,Corporate,2025-07-12,Website
-C01106,South,Small Business,2025-04-18,Website
-C01107,South,Small Business,2025-05-20,Social Store
-C01108,Central,Corporate,2025-09-08,Partner API
-C01109,West,Small Business,2025-08-11,Website
-C01110,Central,Corporate,2025-08-28,Website
-C01111,West,Consumer,2025-04-13,Partner API
-C01112,West,Consumer,2025-10-22,Partner API
-C01113,South,Corporate,2025-08-24,Social Store
-C01114,South,Small Business,2025-07-11,Partner API
-C01115,Central,Corporate,2025-10-08,Partner API
-C01116,East,Corporate,2025-07-17,Mobile App
-C01117,South,Consumer,2025-07-10,Mobile App
-C01118,South,Consumer,2025-06-13,Mobile App
-C01119,South,Small Business,2025-12-08,Mobile App
-C01120,South,Small Business,2025-07-07,Mobile App
-C01121,North,Consumer,2025-08-20,Website
-C01122,East,Consumer,2025-02-13,Partner API
-C01123,North,Small Business,2025-12-12,Website
-C01124,East,Small Business,2025-09-03,Partner API
-C01125,South,Small Business,2025-07-04,Social Store
-C01126,North,Corporate,2025-08-13,Mobile App
-C01127,North,Consumer,2025-05-06,Social Store
-C01128,Central,Consumer,2025-12-26,Website
-C01129,West,Small Business,2025-08-25,Mobile App
-C01130,East,Corporate,2025-06-24,Partner API
-C01131,Central,Corporate,2025-03-28,Social Store
-C01132,Central,Corporate,2025-02-16,Website
-C01133,Central,Corporate,2025-08-23,Partner API
-C01134,North,Corporate,2025-03-10,Social Store
-C01135,East,Consumer,2025-11-05,Website
-C01136,West,Consumer,2025-09-21,Website
-C01137,West,Small Business,2025-06-04,Mobile App
-C01138,Central,Small Business,2025-10-18,Mobile App
-C01139,West,Consumer,2025-01-22,Partner API
-C01140,North,Consumer,2025-01-24,Website
-C01141,South,Small Business,2025-07-14,Partner API
-C01142,East,Corporate,2025-11-13,Social Store
-C01143,Central,Consumer,2025-12-25,Mobile App
-C01144,South,Corporate,2025-02-17,Website
-C01145,Central,Corporate,2025-02-13,Social Store
-C01146,Central,Corporate,2025-05-16,Social Store
-C01147,North,Small Business,2025-04-15,Mobile App
-C01148,West,Corporate,2025-12-21,Social Store
-C01149,West,Corporate,2025-01-25,Partner API
-C01150,North,Corporate,2025-01-12,Social Store
-C01151,East,Corporate,2025-09-15,Partner API
-C01152,North,Consumer,2025-09-25,Partner API
-C01153,East,Corporate,2025-12-01,Social Store
-C01154,South,Corporate,2025-03-11,Social Store
-C01155,East,Small Business,2025-01-01,Partner API
-C01156,South,Consumer,2025-05-21,Partner API
-C01157,South,Corporate,2025-05-13,Partner API
-C01158,East,Corporate,2025-08-09,Mobile App
-C01159,East,Small Business,2025-11-24,Mobile App
-C01160,Central,Small Business,2025-02-08,Social Store
-C01161,West,Small Business,2025-01-06,Social Store
-C01162,West,Corporate,2025-06-23,Mobile App
-C01163,East,Corporate,2025-10-17,Social Store
-C01164,West,Corporate,2025-04-26,Partner API
-C01165,North,Consumer,2025-04-23,Partner API
-C01166,East,Corporate,2025-12-03,Website
-C01167,East,Consumer,2025-10-18,Partner API
-C01168,North,Small Business,2025-12-08,Partner API
-C01169,South,Corporate,2025-12-27,Mobile App
-C01170,West,Small Business,2025-08-23,Website
-C01171,Central,Consumer,2025-02-03,Website
-C01172,South,Consumer,2025-10-20,Partner API
-C01173,South,Small Business,2025-03-24,Mobile App
-C01174,East,Corporate,2025-11-16,Mobile App
-C01175,East,Consumer,2025-05-12,Website
-C01176,South,Small Business,2025-02-20,Partner API
-C01177,West,Small Business,2025-07-16,Mobile App
-C01178,North,Corporate,2025-03-26,Mobile App
-C01179,North,Consumer,2025-04-22,Mobile App
-C01180,Central,Consumer,2025-04-06,Mobile App
-C01181,South,Corporate,2025-04-15,Website
-C01182,North,Consumer,2025-08-25,Website
-C01183,Central,Corporate,2025-01-11,Partner API
-C01184,West,Small Business,2025-07-04,Social Store
-C01185,South,Consumer,2025-12-03,Website
-C01186,East,Corporate,2025-10-25,Partner API
-C01187,North,Small Business,2025-11-05,Website
-C01188,Central,Consumer,2025-07-05,Partner API
-C01189,East,Consumer,2025-06-05,Mobile App
-C01190,East,Corporate,2025-01-08,Partner API
-C01191,East,Corporate,2025-11-28,Partner API
-C01192,West,Small Business,2025-10-13,Social Store
-C01193,Central,Consumer,2025-06-28,Website
-C01194,North,Small Business,2025-10-21,Partner API
-C01195,South,Small Business,2025-04-25,Partner API
-C01196,North,Small Business,2025-06-08,Mobile App
-C01197,North,Consumer,2025-09-10,Website
-C01198,South,Consumer,2025-01-22,Website
-C01199,East,Consumer,2025-08-15,Mobile App
-C01200,North,Corporate,2025-10-13,Mobile App
-C01201,North,Corporate,2025-06-03,Website
-C01202,Central,Small Business,2025-06-27,Mobile App
-C01203,North,Small Business,2025-05-24,Social Store
-C01204,West,Corporate,2025-05-22,Website
-C01205,North,Small Business,2025-09-02,Website
-C01206,Central,Corporate,2025-04-06,Website
-C01207,East,Corporate,2025-02-04,Mobile App
-C01208,North,Corporate,2025-07-12,Social Store
-C01209,East,Small Business,2025-11-15,Partner API
-C01210,East,Consumer,2025-03-19,Partner API
-C01211,West,Small Business,2025-10-16,Partner API
-C01212,Central,Consumer,2025-01-07,Social Store
-C01213,South,Consumer,2025-03-04,Mobile App
-C01214,South,Corporate,2025-05-16,Social Store
-C01215,West,Small Business,2025-12-16,Website
-C01216,West,Consumer,2025-10-28,Partner API
-C01217,Central,Corporate,2025-03-22,Partner API
-C01218,East,Small Business,2025-09-07,Mobile App
-C01219,South,Small Business,2025-08-12,Social Store
-C01220,South,Consumer,2025-09-16,Social Store
-C01221,South,Corporate,2025-02-18,Mobile App
-C01222,Central,Consumer,2025-07-28,Website
-C01223,East,Corporate,2025-07-05,Website
-C01224,South,Consumer,2025-12-04,Mobile App
-C01225,South,Corporate,2025-08-26,Partner API
-C01226,North,Consumer,2025-10-20,Website
-C01227,East,Small Business,2025-03-10,Social Store
-C01228,East,Consumer,2025-04-04,Mobile App
-C01229,North,Small Business,2025-05-22,Partner API
-C01230,East,Corporate,2025-01-20,Website
-C01231,East,Consumer,2025-11-10,Social Store
-C01232,North,Small Business,2025-01-18,Mobile App
-C01233,East,Consumer,2025-09-23,Website
-C01234,East,Consumer,2025-05-15,Partner API
-C01235,North,Corporate,2025-08-16,Social Store
-C01236,North,Corporate,2025-10-25,Website
-C01237,South,Corporate,2025-07-09,Mobile App
-C01238,East,Corporate,2025-10-03,Social Store
-C01239,East,Consumer,2025-05-22,Mobile App
-C01240,North,Corporate,2025-02-12,Mobile App
-C01241,South,Corporate,2025-06-27,Social Store
-C01242,North,Small Business,2025-02-03,Mobile App
-C01243,East,Corporate,2025-06-25,Partner API
-C01244,East,Small Business,2025-10-12,Partner API
-C01245,Central,Small Business,2025-06-02,Website
-C01246,East,Small Business,2025-11-15,Social Store
-C01247,West,Consumer,2025-11-17,Social Store
-C01248,Central,Consumer,2025-08-04,Mobile App
-C01249,Central,Corporate,2025-04-28,Website
-C01250,Central,Small Business,2025-12-05,Website
-C01251,South,Small Business,2025-04-28,Mobile App
-C01252,Central,Consumer,2025-03-15,Partner API
-C01253,West,Small Business,2025-10-21,Partner API
-C01254,Central,Small Business,2025-07-20,Mobile App
-C01255,West,Consumer,2025-06-04,Website
-C01256,South,Consumer,2025-06-04,Website
-C01257,Central,Small Business,2025-07-02,Mobile App
-C01258,East,Corporate,2025-06-04,Website
-C01259,West,Small Business,2025-04-09,Social Store
-C01260,East,Small Business,2025-06-06,Partner API
-C01261,North,Consumer,2025-04-18,Website
-C01262,Central,Small Business,2025-11-05,Website
-C01263,South,Consumer,2025-12-02,Mobile App
-C01264,South,Consumer,2025-10-07,Partner API
-C01265,East,Corporate,2025-03-25,Mobile App
-C01266,Central,Small Business,2025-03-21,Partner API
-C01267,South,Small Business,2025-04-10,Website
-C01268,South,Consumer,2025-07-21,Social Store
-C01269,East,Consumer,2025-11-23,Mobile App
-C01270,West,Small Business,2025-10-15,Website
-C01271,West,Small Business,2025-01-01,Social Store
-C01272,West,Consumer,2025-12-21,Website
-C01273,South,Corporate,2025-08-04,Partner API
-C01274,East,Corporate,2025-11-08,Website
-C01275,East,Small Business,2025-03-12,Social Store
-C01276,South,Small Business,2025-01-22,Website
-C01277,North,Corporate,2025-12-22,Website
-C01278,West,Corporate,2025-12-25,Partner API
-C01279,Central,Corporate,2025-12-10,Partner API
-C01280,North,Consumer,2025-08-09,Website
-C01281,South,Small Business,2025-05-22,Partner API
-C01282,Central,Corporate,2025-09-20,Website
-C01283,East,Small Business,2025-09-16,Website
-C01284,South,Consumer,2025-02-12,Partner API
-C01285,North,Corporate,2025-09-10,Partner API
-C01286,North,Corporate,2025-04-07,Partner API
-C01287,South,Consumer,2025-03-28,Partner API
-C01288,East,Corporate,2025-09-14,Website
-C01289,Central,Small Business,2025-12-05,Partner API
-C01290,West,Consumer,2025-07-24,Mobile App
-C01291,South,Corporate,2025-05-18,Partner API
-C01292,South,Corporate,2025-12-22,Partner API
-C01293,West,Consumer,2025-04-22,Website
-C01294,Central,Consumer,2025-01-13,Partner API
-C01295,West,Corporate,2025-06-03,Social Store
-C01296,Central,Small Business,2025-11-05,Partner API
-C01297,Central,Small Business,2025-07-14,Website
-C01298,West,Consumer,2025-07-14,Mobile App
-C01299,West,Consumer,2025-09-22,Social Store
-C01300,West,Corporate,2025-05-13,Social Store
-C01301,West,Small Business,2025-08-27,Website
-C01302,East,Consumer,2025-05-03,Mobile App
-C01303,West,Small Business,2025-06-23,Partner API
-C01304,Central,Small Business,2025-04-03,Mobile App
-C01305,North,Consumer,2025-06-25,Social Store
-C01306,South,Consumer,2025-05-28,Social Store
-C01307,North,Small Business,2025-01-20,Partner API
-C01308,East,Small Business,2025-06-24,Social Store
-C01309,Central,Corporate,2025-10-16,Social Store
-C01310,West,Corporate,2025-03-01,Social Store
-C01311,South,Consumer,2025-01-17,Website
-C01312,Central,Corporate,2025-08-16,Social Store
-C01313,North,Small Business,2025-12-03,Mobile App
-C01314,East,Consumer,2025-04-09,Social Store
-C01315,West,Small Business,2025-06-19,Website
-C01316,East,Consumer,2025-11-13,Mobile App
-C01317,West,Consumer,2025-06-28,Partner API
-C01318,Central,Consumer,2025-06-11,Social Store
-C01319,West,Corporate,2025-10-16,Social Store
-C01320,South,Small Business,2025-11-13,Partner API
-C01321,North,Small Business,2025-07-19,Partner API
-C01322,East,Corporate,2025-10-27,Social Store
-C01323,South,Small Business,2025-03-06,Website
-C01324,West,Corporate,2025-01-10,Partner API
-C01325,North,Small Business,2025-08-08,Social Store
-C01326,West,Corporate,2025-08-07,Social Store
-C01327,Central,Consumer,2025-12-26,Website
-C01328,West,Small Business,2025-03-21,Mobile App
-C01329,Central,Consumer,2025-09-22,Website
-C01330,North,Corporate,2025-04-11,Partner API
-C01331,North,Small Business,2025-10-11,Partner API
-C01332,North,Small Business,2025-07-18,Partner API
-C01333,East,Small Business,2025-09-26,Mobile App
-C01334,Central,Small Business,2025-01-04,Website
-C01335,East,Corporate,2025-12-17,Social Store
-C01336,West,Consumer,2025-08-25,Social Store
-C01337,South,Small Business,2025-05-22,Partner API
-C01338,South,Corporate,2025-07-25,Website
-C01339,North,Corporate,2025-01-09,Website
-C01340,South,Consumer,2025-07-16,Mobile App
-C01341,South,Corporate,2025-11-20,Mobile App
-C01342,North,Consumer,2025-12-02,Partner API
-C01343,North,Small Business,2025-06-26,Partner API
-C01344,North,Small Business,2025-02-09,Mobile App
-C01345,East,Consumer,2025-08-19,Partner API
-C01346,South,Small Business,2025-11-27,Partner API
-C01347,North,Corporate,2025-12-28,Mobile App
-C01348,East,Small Business,2025-11-27,Social Store
-C01349,West,Consumer,2025-01-07,Partner API
-C01350,South,Small Business,2025-09-04,Website
-C01351,East,Corporate,2025-12-12,Website
-C01352,West,Corporate,2025-10-21,Social Store
-C01353,Central,Consumer,2025-10-26,Social Store
-C01354,South,Consumer,2025-06-06,Partner API
-C01355,East,Consumer,2025-02-05,Website
-C01356,North,Corporate,2025-01-10,Mobile App
-C01357,West,Corporate,2025-11-07,Mobile App
-C01358,Central,Small Business,2025-01-11,Website
-C01359,Central,Small Business,2025-02-20,Social Store
-C01360,Central,Corporate,2025-02-03,Social Store
-C01361,East,Corporate,2025-12-06,Mobile App
-C01362,South,Consumer,2025-12-27,Social Store
-C01363,South,Small Business,2025-04-27,Website
-C01364,West,Consumer,2025-02-24,Website
-C01365,South,Small Business,2025-06-10,Mobile App
-C01366,North,Consumer,2025-07-27,Partner API
-C01367,West,Small Business,2025-07-17,Mobile App
-C01368,South,Consumer,2025-06-05,Social Store
-C01369,Central,Corporate,2025-05-27,Website
-C01370,East,Small Business,2025-10-15,Social Store
-C01371,Central,Small Business,2025-03-19,Website
-C01372,West,Consumer,2025-03-06,Partner API
-C01373,Central,Consumer,2025-03-03,Partner API
-C01374,South,Small Business,2025-04-19,Mobile App
-C01375,East,Consumer,2025-08-23,Partner API
-C01376,Central,Small Business,2025-09-28,Website
-C01377,Central,Consumer,2025-09-07,Social Store
-C01378,South,Consumer,2025-06-24,Mobile App
-C01379,Central,Consumer,2025-10-11,Partner API
-C01380,North,Consumer,2025-02-12,Mobile App
-C01381,North,Corporate,2025-09-04,Mobile App
-C01382,East,Corporate,2025-05-11,Mobile App
-C01383,South,Corporate,2025-11-14,Partner API
-C01384,South,Small Business,2025-12-25,Partner API
-C01385,East,Small Business,2025-09-08,Partner API
-C01386,West,Consumer,2025-04-14,Mobile App
-C01387,South,Small Business,2025-10-08,Website
-C01388,Central,Consumer,2025-05-25,Partner API
-C01389,South,Small Business,2025-02-02,Website
-C01390,Central,Corporate,2025-12-15,Mobile App
-C01391,South,Small Business,2025-09-23,Social Store
-C01392,East,Small Business,2025-07-21,Website
-C01393,Central,Consumer,2025-01-19,Social Store
-C01394,East,Corporate,2025-12-23,Partner API
-C01395,West,Small Business,2025-01-19,Partner API
-C01396,East,Consumer,2025-01-05,Website
-C01397,East,Corporate,2025-03-08,Partner API
-C01398,Central,Corporate,2025-07-28,Website
-C01399,West,Small Business,2025-12-13,Website
-C01400,West,Small Business,2025-07-22,Mobile App
-C01401,South,Consumer,2025-09-09,Mobile App
-C01402,East,Small Business,2025-11-11,Social Store
-C01403,Central,Small Business,2025-02-23,Social Store
-C01404,North,Consumer,2025-09-07,Social Store
-C01405,East,Consumer,2025-12-18,Partner API
-C01406,East,Small Business,2025-08-19,Website
-C01407,South,Small Business,2025-06-27,Mobile App
-C01408,Central,Consumer,2025-09-21,Website
-C01409,Central,Consumer,2025-01-23,Partner API
-C01410,Central,Corporate,2025-05-28,Mobile App
-C01411,West,Consumer,2025-02-25,Website
-C01412,South,Consumer,2025-06-11,Mobile App
-C01413,Central,Corporate,2025-06-13,Social Store
-C01414,South,Small Business,2025-07-21,Social Store
-C01415,North,Small Business,2025-02-17,Partner API
-C01416,Central,Consumer,2025-03-01,Partner API
-C01417,North,Consumer,2025-01-28,Website
-C01418,East,Corporate,2025-09-16,Website
-C01419,Central,Small Business,2025-07-19,Mobile App
-C01420,East,Consumer,2025-01-10,Social Store
-C01421,North,Corporate,2025-12-08,Social Store
-C01422,South,Corporate,2025-09-13,Website
-C01423,Central,Corporate,2025-06-09,Partner API
-C01424,East,Small Business,2025-10-10,Website
-C01425,North,Corporate,2025-12-24,Partner API
-C01426,Central,Consumer,2025-04-08,Mobile App
-C01427,Central,Consumer,2025-10-04,Mobile App
-C01428,East,Consumer,2025-04-05,Social Store
-C01429,Central,Small Business,2025-02-15,Website
-C01430,Central,Consumer,2025-04-10,Mobile App
-C01431,South,Consumer,2025-09-08,Social Store
-C01432,North,Corporate,2025-05-11,Social Store
-C01433,Central,Consumer,2025-10-13,Partner API
-C01434,Central,Consumer,2025-10-28,Partner API
-C01435,North,Small Business,2025-02-22,Partner API
-C01436,West,Small Business,2025-07-08,Partner API
-C01437,Central,Small Business,2025-10-19,Mobile App
-C01438,North,Small Business,2025-02-20,Partner API
-C01439,North,Consumer,2025-02-25,Mobile App
-C01440,South,Small Business,2025-12-10,Social Store
-C01441,East,Corporate,2025-03-18,Social Store
-C01442,West,Consumer,2025-03-22,Social Store
-C01443,West,Small Business,2025-08-09,Partner API
-C01444,North,Small Business,2025-03-23,Website
-C01445,North,Small Business,2025-06-04,Social Store
-C01446,East,Consumer,2025-09-16,Social Store
-C01447,East,Corporate,2025-12-16,Partner API
-C01448,East,Corporate,2025-01-13,Mobile App
-C01449,East,Corporate,2025-02-04,Mobile App
-C01450,South,Small Business,2025-06-25,Social Store
-C01451,North,Corporate,2025-08-11,Website
-C01452,East,Corporate,2025-02-28,Social Store
-C01453,East,Corporate,2025-03-26,Partner API
-C01454,Central,Corporate,2025-08-07,Website
-C01455,East,Small Business,2025-04-16,Partner API
-C01456,East,Small Business,2025-09-13,Mobile App
-C01457,Central,Small Business,2025-08-24,Website
-C01458,West,Small Business,2025-11-03,Website
-C01459,Central,Small Business,2025-11-01,Social Store
-C01460,West,Small Business,2025-09-27,Social Store
-C01461,South,Consumer,2025-01-18,Social Store
-C01462,West,Consumer,2025-09-27,Social Store
-C01463,North,Small Business,2025-05-16,Partner API
-C01464,East,Small Business,2025-03-20,Website
-C01465,Central,Consumer,2025-01-28,Partner API
-C01466,West,Small Business,2025-02-18,Website
-C01467,South,Small Business,2025-06-27,Social Store
-C01468,South,Small Business,2025-08-15,Social Store
-C01469,Central,Consumer,2025-02-24,Partner API
-C01470,Central,Corporate,2025-04-17,Mobile App
-C01471,North,Corporate,2025-12-14,Mobile App
-C01472,Central,Corporate,2025-02-22,Social Store
-C01473,Central,Small Business,2025-09-06,Website
-C01474,East,Corporate,2025-02-17,Mobile App
-C01475,North,Corporate,2025-04-21,Mobile App
-C01476,Central,Corporate,2025-03-05,Partner API
-C01477,South,Corporate,2025-01-11,Mobile App
-C01478,South,Small Business,2025-02-04,Mobile App
-C01479,South,Corporate,2025-06-17,Social Store
-C01480,North,Consumer,2025-05-20,Partner API
-C01481,East,Consumer,2025-05-08,Mobile App
-C01482,Central,Corporate,2025-09-02,Mobile App
-C01483,East,Corporate,2025-06-22,Website
-C01484,Central,Corporate,2025-11-14,Mobile App
-C01485,South,Small Business,2025-01-01,Mobile App
-C01486,West,Consumer,2025-02-27,Social Store
-C01487,East,Consumer,2025-12-10,Mobile App
-C01488,West,Corporate,2025-02-23,Website
-C01489,South,Consumer,2025-08-18,Website
-C01490,Central,Consumer,2025-05-11,Social Store
-C01491,Central,Corporate,2025-01-15,Website
-C01492,East,Corporate,2025-10-02,Website
-C01493,West,Small Business,2025-07-24,Website
-C01494,South,Small Business,2025-08-06,Website
-C01495,South,Consumer,2025-04-14,Mobile App
-C01496,West,Corporate,2025-11-21,Website
-C01497,North,Small Business,2025-12-10,Social Store
-C01498,East,Corporate,2025-04-24,Social Store
-C01499,North,Corporate,2025-01-17,Partner API
-C01500,East,Corporate,2025-09-23,Partner API
+CU00001,West,Returning,2025-04-26,App
+CU00002,Central,Loyal,2023-06-28,App
+CU00003,East,Loyal,2023-10-18,App
+CU00004,East,Returning,2024-11-02,Store
+CU00005,West,New,2025-03-30,Web
+CU00006,North,At-risk,2024-01-24,Web
+CU00007,West,New,2023-04-26,Web
+CU00008,East,Returning,2024-11-16,App
+CU00009,West,Loyal,2023-08-29,Web
+CU00010,South,New,2024-04-05,Web
+CU00011,South,Loyal,2024-10-30,App
+CU00012,Central,At-risk,2023-12-17,Store
+CU00013,South,Returning,2024-04-26,Web
+CU00014,East,Returning,2023-03-14,App
+CU00015,East,Loyal,2024-11-13,Web
+CU00016,North,New,2024-02-21,Web
+CU00017,East,Returning,2024-07-18,Web
+CU00018,North,Loyal,2024-05-29,App
+CU00019,West,New,2025-02-24,App
+CU00020,Central,Loyal,2024-02-28,Store
+CU00021,East,Loyal,2024-03-12,App
+CU00022,South,At-risk,2023-04-30,Web
+CU00023,East,At-risk,2024-10-18,Store
+CU00024,South,New,2023-07-31,Web
+CU00025,Central,Returning,2023-08-26,Store
+CU00026,East,Returning,2024-12-30,Web
+CU00027,South,Returning,2024-06-01,Web
+CU00028,Central,New,2023-09-26,Web
+CU00029,West,Loyal,2024-05-01,Web
+CU00030,East,Returning,2025-01-11,Web
+CU00031,West,New,2024-09-02,Web
+CU00032,East,Returning,2023-05-05,App
+CU00033,East,Returning,2024-12-05,App
+CU00034,East,New,2024-01-12,App
+CU00035,West,New,2023-09-26,Web
+CU00036,Central,Loyal,2025-03-29,App
+CU00037,East,At-risk,2024-09-25,App
+CU00038,North,At-risk,2024-09-15,Web
+CU00039,Central,At-risk,2024-03-10,Web
+CU00040,East,New,2023-01-21,Web
+CU00041,Central,Returning,2023-02-05,App
+CU00042,North,Loyal,2023-08-03,App
+CU00043,Central,New,2024-01-11,Web
+CU00044,East,New,2024-04-16,App
+CU00045,North,Returning,2023-05-06,App
+CU00046,Central,At-risk,2024-10-07,Web
+CU00047,Central,Loyal,2024-06-06,App
+CU00048,South,New,2024-07-29,Web
+CU00049,East,New,2024-05-17,Web
+CU00050,West,New,2024-09-20,App
+CU00051,East,Returning,2023-05-31,Store
+CU00052,North,New,2023-11-10,App
+CU00053,East,New,2025-03-17,Web
+CU00054,South,New,2025-06-13,Web
+CU00055,North,Returning,2024-03-05,Web
+CU00056,South,Returning,2024-05-13,App
+CU00057,North,Returning,2023-12-03,Web
+CU00058,Central,Returning,2025-03-21,Store
+CU00059,West,Loyal,2025-01-15,App
+CU00060,West,Returning,2023-06-15,App
+CU00061,East,Returning,2024-09-02,Web
+CU00062,South,Returning,2025-05-15,Web
+CU00063,East,Loyal,2025-03-21,Web
+CU00064,East,Loyal,2023-06-29,Web
+CU00065,West,At-risk,2024-01-09,App
+CU00066,East,Loyal,2025-01-24,Web
+CU00067,West,At-risk,2024-03-26,Web
+CU00068,North,Returning,2023-12-28,Store
+CU00069,North,Loyal,2023-05-31,Web
+CU00070,North,New,2023-02-20,Web
+CU00071,Central,Loyal,2025-02-11,Store
+CU00072,South,Loyal,2023-07-20,Store
+CU00073,West,Returning,2023-07-30,App
+CU00074,North,Returning,2024-10-23,App
+CU00075,Central,Returning,2024-05-28,Web
+CU00076,Central,Loyal,2025-05-25,Web
+CU00077,Central,Returning,2023-09-21,Web
+CU00078,Central,New,2024-11-28,Web
+CU00079,West,Returning,2023-11-07,App
+CU00080,South,At-risk,2023-11-07,Web
+CU00081,East,Returning,2023-04-28,App
+CU00082,West,At-risk,2024-04-27,Web
+CU00083,South,Loyal,2025-04-14,Web
+CU00084,East,Loyal,2024-08-18,Web
+CU00085,East,Loyal,2023-04-24,App
+CU00086,Central,Returning,2024-02-01,App
+CU00087,North,Returning,2024-08-25,Store
+CU00088,North,New,2023-09-28,Web
+CU00089,East,New,2025-05-01,Store
+CU00090,South,Returning,2025-02-04,Store
+CU00091,West,New,2024-03-20,Store
+CU00092,North,Loyal,2023-04-29,Web
+CU00093,North,New,2024-05-03,Web
+CU00094,East,Loyal,2024-09-19,Store
+CU00095,North,At-risk,2025-05-30,App
+CU00096,North,Loyal,2023-05-13,Web
+CU00097,West,New,2025-04-02,Web
+CU00098,East,New,2024-12-04,App
+CU00099,North,Returning,2024-09-18,App
+CU00100,East,Loyal,2023-10-31,Store
+CU00101,Central,Loyal,2023-07-19,App
+CU00102,North,Returning,2023-01-06,Web
+CU00103,North,Loyal,2023-05-07,App
+CU00104,East,Returning,2024-08-15,Store
+CU00105,East,At-risk,2024-03-28,App
+CU00106,Central,Loyal,2024-06-02,App
+CU00107,South,At-risk,2024-04-30,Web
+CU00108,South,New,2024-01-11,Web
+CU00109,Central,Loyal,2023-10-26,App
+CU00110,North,Loyal,2023-12-08,App
+CU00111,West,At-risk,2023-07-17,Store
+CU00112,Central,Loyal,2024-04-09,App
+CU00113,West,New,2024-07-10,Store
+CU00114,East,New,2025-03-18,Store
+CU00115,South,Returning,2025-06-14,App
+CU00116,North,New,2024-04-23,App
+CU00117,North,Loyal,2023-09-20,Web
+CU00118,East,Returning,2024-05-02,Web
+CU00119,North,Loyal,2023-08-09,Web
+CU00120,Central,Loyal,2023-11-24,App
+CU00121,South,New,2024-08-14,Store
+CU00122,North,At-risk,2024-04-23,App
+CU00123,South,New,2025-04-26,App
+CU00124,Central,Returning,2024-07-04,Web
+CU00125,North,New,2025-02-24,App
+CU00126,Central,Loyal,2023-08-14,App
+CU00127,West,Returning,2023-02-21,Web
+CU00128,East,New,2023-12-08,Web
+CU00129,Central,New,2023-10-26,Store
+CU00130,East,Returning,2023-08-29,App
+CU00131,East,New,2023-01-18,Web
+CU00132,Central,Loyal,2023-04-20,App
+CU00133,Central,New,2024-07-26,App
+CU00134,West,Returning,2025-01-23,Store
+CU00135,South,New,2024-06-21,App
+CU00136,South,Returning,2024-05-24,Web
+CU00137,North,Loyal,2024-02-04,Web
+CU00138,East,Returning,2024-01-22,Web
+CU00139,West,New,2023-01-02,App
+CU00140,North,Returning,2024-01-31,Store
+CU00141,Central,New,2025-03-21,App
+CU00142,North,Returning,2024-09-10,Web
+CU00143,North,At-risk,2023-02-02,Web
+CU00144,South,Loyal,2024-04-17,App
+CU00145,North,Loyal,2025-03-27,Store
+CU00146,North,Loyal,2024-12-27,App
+CU00147,South,New,2024-06-30,App
+CU00148,Central,Returning,2023-02-19,App
+CU00149,Central,New,2024-12-31,App
+CU00150,East,Loyal,2023-04-27,Web
+CU00151,South,Returning,2025-06-08,Web
+CU00152,West,New,2024-12-05,Web
+CU00153,South,New,2024-11-02,App
+CU00154,North,Returning,2025-04-04,Web
+CU00155,Central,Returning,2023-01-23,Web
+CU00156,South,Returning,2024-02-24,App
+CU00157,North,New,2024-06-28,App
+CU00158,Central,New,2025-03-26,Store
+CU00159,North,Returning,2023-11-18,Store
+CU00160,East,Returning,2023-11-29,Web
+CU00161,East,Loyal,2023-10-22,Web
+CU00162,South,Returning,2023-02-18,Store
+CU00163,South,New,2024-02-11,Web
+CU00164,South,At-risk,2024-08-20,Web
+CU00165,West,Loyal,2024-03-19,App
+CU00166,North,Returning,2024-12-27,Store
+CU00167,Central,Loyal,2025-01-18,App
+CU00168,East,New,2024-06-04,Store
+CU00169,North,At-risk,2024-07-29,Store
+CU00170,South,Loyal,2023-02-22,Store
+CU00171,East,Loyal,2023-12-06,Store
+CU00172,South,Loyal,2024-12-21,Web
+CU00173,South,Loyal,2025-04-08,Web
+CU00174,West,At-risk,2023-06-02,App
+CU00175,North,Returning,2024-05-14,App
+CU00176,West,New,2025-02-04,App
+CU00177,South,Returning,2023-12-14,App
+CU00178,South,Returning,2023-12-04,Web
+CU00179,North,At-risk,2023-11-22,App
+CU00180,West,Returning,2024-07-18,Web
+CU00181,South,Returning,2024-05-11,App
+CU00182,Central,New,2023-10-30,Store
+CU00183,South,Returning,2024-10-12,Web
+CU00184,Central,New,2025-05-23,App
+CU00185,North,Returning,2024-03-02,App
+CU00186,Central,Returning,2025-01-29,App
+CU00187,Central,At-risk,2023-03-10,Web
+CU00188,Central,Loyal,2023-09-25,Web
+CU00189,East,Loyal,2024-12-03,Store
+CU00190,Central,Returning,2023-12-24,Web
+CU00191,East,New,2024-07-26,Web
+CU00192,Central,Returning,2023-06-23,Web
+CU00193,South,Returning,2023-05-08,App
+CU00194,South,New,2023-02-09,Web
+CU00195,West,At-risk,2024-06-09,App
+CU00196,North,Returning,2024-01-04,App
+CU00197,West,Loyal,2024-12-11,Web
+CU00198,West,Loyal,2023-02-14,App
+CU00199,West,Returning,2025-03-22,Web
+CU00200,South,At-risk,2024-06-06,App
+CU00201,West,Returning,2025-05-18,Web
+CU00202,Central,Returning,2025-04-26,Web
+CU00203,North,New,2025-01-17,Web
+CU00204,Central,Loyal,2023-11-16,Store
+CU00205,South,Loyal,2023-11-23,Web
+CU00206,East,Loyal,2024-07-15,Web
+CU00207,East,New,2023-09-06,App
+CU00208,Central,Returning,2024-12-20,Store
+CU00209,Central,New,2024-04-05,Web
+CU00210,Central,Returning,2024-08-24,Web
+CU00211,North,New,2024-01-19,App
+CU00212,East,New,2023-05-03,App
+CU00213,South,At-risk,2023-10-01,Web
+CU00214,North,Loyal,2025-04-12,Web
+CU00215,West,Loyal,2024-02-03,Web
+CU00216,West,Returning,2023-10-04,App
+CU00217,South,Loyal,2024-11-22,Web
+CU00218,South,New,2024-05-25,Web
+CU00219,West,At-risk,2023-03-15,Store
+CU00220,West,Returning,2023-03-19,Web
+CU00221,North,Loyal,2024-05-02,App
+CU00222,South,New,2023-09-25,App
+CU00223,South,At-risk,2025-02-18,Web
+CU00224,South,Loyal,2024-11-16,Web
+CU00225,Central,Returning,2025-04-06,Store
+CU00226,South,Loyal,2025-04-17,Web
+CU00227,Central,Loyal,2025-04-22,Web
+CU00228,South,Loyal,2023-03-03,App
+CU00229,Central,Returning,2025-01-18,Web
+CU00230,West,Loyal,2025-01-27,App
+CU00231,East,Loyal,2023-04-26,App
+CU00232,West,Returning,2024-12-05,App
+CU00233,West,Loyal,2023-11-30,Web
+CU00234,West,New,2023-05-10,Web
+CU00235,North,New,2023-01-18,App
+CU00236,North,Returning,2023-09-29,Store
+CU00237,Central,Loyal,2024-04-09,Web
+CU00238,South,At-risk,2023-03-04,App
+CU00239,Central,Returning,2024-07-10,Web
+CU00240,East,Returning,2025-06-14,Web
+CU00241,East,Returning,2023-08-20,App
+CU00242,West,Loyal,2025-01-06,Web
+CU00243,South,New,2023-09-06,Web
+CU00244,Central,New,2023-06-21,App
+CU00245,East,New,2024-06-03,Web
+CU00246,East,New,2024-01-31,Web
+CU00247,Central,At-risk,2024-04-01,App
+CU00248,East,Returning,2024-07-31,App
+CU00249,West,New,2023-04-11,Store
+CU00250,South,Returning,2024-03-19,Web
+CU00251,Central,Returning,2024-08-06,Web
+CU00252,Central,Returning,2023-04-22,Web
+CU00253,Central,Returning,2023-02-10,App
+CU00254,North,New,2023-12-04,App
+CU00255,South,Returning,2023-10-26,Web
+CU00256,North,Returning,2023-03-09,Store
+CU00257,North,Returning,2024-05-02,App
+CU00258,Central,New,2025-02-01,Store
+CU00259,West,Returning,2023-05-10,App
+CU00260,Central,Loyal,2024-07-18,App
+CU00261,North,New,2024-06-11,App
+CU00262,East,New,2024-06-30,Web
+CU00263,East,New,2024-11-26,Store
+CU00264,South,Returning,2025-01-19,Store
+CU00265,Central,At-risk,2023-04-27,Web
+CU00266,West,New,2024-04-26,Web
+CU00267,West,New,2024-07-09,Web
+CU00268,South,Returning,2023-07-14,App
+CU00269,West,Returning,2024-02-10,Web
+CU00270,North,Loyal,2025-04-08,App
+CU00271,South,Loyal,2024-11-12,Store
+CU00272,East,Loyal,2023-08-19,Store
+CU00273,South,Loyal,2024-07-17,Web
+CU00274,South,Returning,2025-06-08,App
+CU00275,Central,New,2023-03-02,Store
+CU00276,West,New,2025-05-03,App
+CU00277,North,At-risk,2025-05-13,App
+CU00278,East,Loyal,2023-10-27,Store
+CU00279,East,Returning,2024-04-29,App
+CU00280,West,Returning,2025-04-12,Web
+CU00281,South,At-risk,2023-04-26,Web
+CU00282,North,Returning,2023-06-29,Store
+CU00283,West,Returning,2025-03-11,Web
+CU00284,South,Returning,2023-03-07,Store
+CU00285,West,Returning,2024-09-11,Web
+CU00286,North,Loyal,2023-09-06,Web
+CU00287,South,At-risk,2023-07-27,Web
+CU00288,West,Returning,2023-06-17,App
+CU00289,Central,At-risk,2025-05-22,Web
+CU00290,North,Returning,2024-04-26,Web
+CU00291,East,New,2023-01-17,App
+CU00292,South,New,2024-02-29,Web
+CU00293,Central,Loyal,2025-02-08,Store
+CU00294,West,Returning,2024-07-28,Store
+CU00295,South,New,2025-05-16,App
+CU00296,East,Returning,2023-06-26,App
+CU00297,East,At-risk,2023-11-28,App
+CU00298,North,Loyal,2024-05-29,App
+CU00299,North,Returning,2024-05-17,App
+CU00300,North,At-risk,2024-08-25,Web
+CU00301,West,New,2025-06-16,Web
+CU00302,Central,At-risk,2023-07-27,Web
+CU00303,Central,At-risk,2024-08-24,Web
+CU00304,North,Returning,2024-01-08,App
+CU00305,Central,New,2023-01-04,Web
+CU00306,South,Returning,2023-02-24,App
+CU00307,Central,New,2023-03-27,Web
+CU00308,Central,Loyal,2024-12-17,Web
+CU00309,North,Returning,2025-02-06,App
+CU00310,West,New,2025-02-25,App
+CU00311,North,Returning,2024-12-24,App
+CU00312,West,Loyal,2024-09-11,App
+CU00313,North,Loyal,2024-10-27,App
+CU00314,West,New,2023-09-22,Web
+CU00315,South,Returning,2023-05-18,App
+CU00316,North,Loyal,2023-05-08,App
+CU00317,Central,New,2024-12-21,Store
+CU00318,Central,New,2024-07-28,App
+CU00319,East,At-risk,2023-07-08,Store
+CU00320,North,New,2025-02-08,Store
+CU00321,West,At-risk,2024-04-19,Store
+CU00322,West,Returning,2024-08-28,Web
+CU00323,North,At-risk,2024-09-03,Store
+CU00324,Central,Returning,2023-05-24,Web
+CU00325,East,Returning,2023-07-15,App
+CU00326,South,New,2023-11-13,Web
+CU00327,Central,Returning,2025-04-26,Web
+CU00328,South,Returning,2024-05-25,Web
+CU00329,West,Loyal,2025-06-14,Web
+CU00330,East,Returning,2024-02-11,Web
+CU00331,South,New,2024-09-16,App
+CU00332,West,New,2025-01-21,App
+CU00333,West,New,2023-08-07,Web
+CU00334,East,At-risk,2024-10-12,App
+CU00335,West,Loyal,2023-06-20,App
+CU00336,South,At-risk,2025-02-20,App
+CU00337,North,New,2023-11-01,Web
+CU00338,West,New,2023-03-07,App
+CU00339,North,Returning,2024-07-31,Web
+CU00340,West,New,2023-05-26,Web
+CU00341,West,New,2025-04-15,App
+CU00342,Central,Loyal,2023-10-21,Web
+CU00343,Central,Loyal,2024-03-26,Web
+CU00344,East,New,2023-01-08,Web
+CU00345,West,Returning,2023-08-03,App
+CU00346,Central,Returning,2023-06-27,Web
+CU00347,North,Returning,2023-09-25,App
+CU00348,North,Loyal,2024-07-10,Web
+CU00349,North,Returning,2023-12-18,Web
+CU00350,East,New,2023-06-24,Web
+CU00351,West,Returning,2023-08-22,App
+CU00352,West,Loyal,2025-04-20,Web
+CU00353,South,Loyal,2023-07-31,Web
+CU00354,South,Loyal,2024-02-07,Store
+CU00355,North,New,2023-01-03,App
+CU00356,South,Loyal,2023-03-11,App
+CU00357,South,Returning,2024-03-20,Web
+CU00358,East,New,2023-11-09,App
+CU00359,Central,Returning,2023-12-14,App
+CU00360,East,Returning,2023-04-23,Web
+CU00361,North,Returning,2024-02-14,Web
+CU00362,North,At-risk,2023-09-10,Store
+CU00363,North,New,2024-09-21,Web
+CU00364,Central,New,2024-01-20,App
+CU00365,East,Loyal,2024-05-22,Web
+CU00366,Central,New,2023-01-17,App
+CU00367,Central,At-risk,2023-03-09,App
+CU00368,South,Returning,2023-06-22,Web
+CU00369,East,New,2023-07-20,App
+CU00370,North,At-risk,2024-09-08,Store
+CU00371,East,Returning,2025-01-23,Web
+CU00372,South,Returning,2024-02-29,App
+CU00373,Central,New,2024-09-07,Web
+CU00374,North,Loyal,2023-01-16,App
+CU00375,West,New,2024-11-09,App
+CU00376,Central,At-risk,2023-05-28,Web
+CU00377,East,Loyal,2024-09-20,Store
+CU00378,East,At-risk,2023-05-28,App
+CU00379,South,New,2024-06-30,Web
+CU00380,South,Returning,2024-04-19,Web
+CU00381,Central,At-risk,2024-10-18,App
+CU00382,North,Returning,2024-06-15,Web
+CU00383,North,New,2023-06-18,Web
+CU00384,North,Returning,2024-03-11,App
+CU00385,West,Returning,2024-01-07,Web
+CU00386,North,New,2023-06-24,Web
+CU00387,North,New,2023-12-04,App
+CU00388,North,New,2024-01-14,Web
+CU00389,East,Returning,2023-11-10,App
+CU00390,East,Loyal,2024-04-26,Web
+CU00391,Central,At-risk,2025-03-09,App
+CU00392,North,Returning,2023-09-08,App
+CU00393,South,New,2025-05-01,App
+CU00394,South,Loyal,2023-10-27,Store
+CU00395,East,Loyal,2025-03-27,App
+CU00396,South,At-risk,2024-06-28,Web
+CU00397,South,Returning,2023-01-30,App
+CU00398,South,New,2024-02-09,Web
+CU00399,West,New,2023-03-07,App
+CU00400,South,At-risk,2025-02-21,Web
+CU00401,West,New,2024-01-28,Web
+CU00402,East,At-risk,2023-02-11,Web
+CU00403,East,At-risk,2025-06-10,Store
+CU00404,North,Loyal,2025-03-19,Web
+CU00405,West,Loyal,2025-02-03,App
+CU00406,East,Returning,2024-08-23,Web
+CU00407,East,Loyal,2024-08-25,Store
+CU00408,North,New,2024-10-29,App
+CU00409,North,At-risk,2024-02-05,Web
+CU00410,South,Returning,2024-06-08,Web
+CU00411,West,Returning,2024-05-28,Store
+CU00412,South,New,2023-04-19,App
+CU00413,Central,Returning,2023-06-03,Store
+CU00414,West,At-risk,2024-08-30,App
+CU00415,Central,At-risk,2023-07-04,App
+CU00416,North,New,2025-04-12,Store
+CU00417,Central,New,2023-09-09,App
+CU00418,North,New,2025-06-01,Web
+CU00419,South,At-risk,2024-06-29,App
+CU00420,North,Loyal,2025-02-21,App
+CU00421,North,Returning,2024-05-16,App
+CU00422,Central,Returning,2024-05-05,App
+CU00423,North,Loyal,2023-07-16,App
+CU00424,West,At-risk,2025-01-10,App
+CU00425,West,Returning,2023-05-02,Web
+CU00426,East,Returning,2024-01-25,App
+CU00427,North,Loyal,2023-10-04,Web
+CU00428,South,Returning,2024-04-05,App
+CU00429,North,New,2024-03-04,Web
+CU00430,West,At-risk,2023-04-15,Store
+CU00431,Central,New,2024-08-09,Web
+CU00432,South,At-risk,2024-07-08,Web
+CU00433,Central,Returning,2024-04-16,Web
+CU00434,South,Returning,2024-11-18,Store
+CU00435,West,At-risk,2023-03-14,Store
+CU00436,South,Returning,2024-07-22,Web
+CU00437,East,Returning,2024-11-26,App
+CU00438,West,At-risk,2024-07-03,App
+CU00439,South,New,2024-04-30,Web
+CU00440,West,Returning,2025-05-01,App
+CU00441,West,Returning,2025-01-08,Web
+CU00442,South,At-risk,2023-12-25,Web
+CU00443,North,At-risk,2025-02-16,App
+CU00444,West,Loyal,2023-08-28,Store
+CU00445,South,Returning,2025-01-03,Web
+CU00446,East,New,2025-01-10,Store
+CU00447,East,New,2025-01-15,App
+CU00448,East,Returning,2024-07-20,Web
+CU00449,East,Returning,2023-12-09,Web
+CU00450,North,At-risk,2025-05-07,Web
+CU00451,South,Loyal,2024-10-06,Web
+CU00452,West,Returning,2023-05-06,App
+CU00453,West,Loyal,2024-01-15,App
+CU00454,West,Loyal,2024-11-19,App
+CU00455,South,Loyal,2024-10-04,App
+CU00456,North,Returning,2023-03-28,Web
+CU00457,West,At-risk,2023-06-12,Web
+CU00458,West,Returning,2023-01-30,App
+CU00459,North,Returning,2025-04-12,App
+CU00460,North,Loyal,2024-04-19,Web
+CU00461,West,Loyal,2025-06-14,Store
+CU00462,South,At-risk,2024-10-30,Store
+CU00463,Central,Loyal,2023-07-30,Store
+CU00464,West,Loyal,2023-09-16,Web
+CU00465,North,New,2023-02-16,Web
+CU00466,Central,Returning,2023-11-02,App
+CU00467,South,At-risk,2023-09-27,App
+CU00468,East,Returning,2024-11-26,Store
+CU00469,West,At-risk,2024-08-17,Web
+CU00470,Central,Returning,2024-08-13,Web
+CU00471,North,New,2023-08-22,Web
+CU00472,East,Returning,2024-04-23,App
+CU00473,West,New,2024-07-16,Web
+CU00474,West,Returning,2023-03-22,Web
+CU00475,Central,Loyal,2024-02-14,App
+CU00476,Central,New,2025-03-04,App
+CU00477,West,At-risk,2024-07-24,App
+CU00478,Central,Returning,2023-09-03,Web
+CU00479,West,Returning,2023-06-10,Web
+CU00480,Central,New,2023-06-28,Web
+CU00481,East,New,2023-02-17,App
+CU00482,East,Returning,2024-11-21,Web
+CU00483,North,Returning,2024-07-26,App
+CU00484,Central,Returning,2024-03-11,App
+CU00485,North,Returning,2023-12-28,Web
+CU00486,North,Loyal,2023-01-22,Web
+CU00487,South,New,2023-04-06,Store
+CU00488,West,Returning,2024-12-11,App
+CU00489,North,Loyal,2025-05-15,App
+CU00490,West,Loyal,2025-06-15,App
+CU00491,West,Returning,2023-07-16,App
+CU00492,North,Returning,2023-08-21,Store
+CU00493,Central,Returning,2023-03-05,Web
+CU00494,East,At-risk,2023-07-20,Web
+CU00495,North,Returning,2025-06-17,Web
+CU00496,Central,Loyal,2023-12-24,App
+CU00497,Central,Loyal,2025-02-10,App
+CU00498,South,Loyal,2024-11-23,Web
+CU00499,East,Returning,2023-08-28,App
+CU00500,North,Loyal,2025-04-14,Web
+CU00501,South,Loyal,2024-10-11,App
+CU00502,East,Loyal,2024-12-22,Web
+CU00503,West,Loyal,2023-10-22,Web
+CU00504,East,Returning,2023-10-01,Web
+CU00505,East,Returning,2023-04-22,Web
+CU00506,West,Returning,2024-05-16,Web
+CU00507,South,New,2023-08-07,Web
+CU00508,South,Loyal,2024-04-02,Web
+CU00509,West,At-risk,2024-11-02,Web
+CU00510,Central,New,2023-07-08,App
+CU00511,North,Loyal,2024-12-07,App
+CU00512,Central,At-risk,2025-02-18,Web
+CU00513,West,New,2024-04-11,App
+CU00514,South,Returning,2023-03-27,Store
+CU00515,North,At-risk,2025-04-14,Web
+CU00516,West,Returning,2023-05-03,Web
+CU00517,Central,At-risk,2024-05-29,Store
+CU00518,East,Loyal,2024-10-09,Web
+CU00519,North,Returning,2023-08-28,App
+CU00520,Central,At-risk,2023-10-22,Web
+CU00521,South,Returning,2025-03-06,Web
+CU00522,South,Loyal,2024-06-27,Web
+CU00523,North,Returning,2023-01-01,Web
+CU00524,South,Returning,2023-08-06,Web
+CU00525,Central,Loyal,2024-07-02,Web
+CU00526,Central,Loyal,2023-03-22,App
+CU00527,East,New,2024-03-09,Store
+CU00528,North,Loyal,2025-03-26,Web
+CU00529,South,Loyal,2023-04-25,App
+CU00530,West,Returning,2025-02-16,App
+CU00531,Central,At-risk,2023-11-12,Store
+CU00532,West,Returning,2025-04-18,Web
+CU00533,West,At-risk,2025-03-21,Web
+CU00534,North,Returning,2023-10-26,App
+CU00535,West,New,2025-03-16,Store
+CU00536,West,Returning,2024-10-12,Web
+CU00537,North,Returning,2024-08-29,Web
+CU00538,West,At-risk,2025-03-25,Store
+CU00539,Central,Loyal,2025-05-07,Web
+CU00540,Central,Returning,2024-01-23,App
+CU00541,South,Returning,2025-05-24,App
+CU00542,West,At-risk,2025-03-27,App
+CU00543,West,New,2023-12-02,Store
+CU00544,Central,Loyal,2023-07-11,Web
+CU00545,Central,Returning,2025-06-08,App
+CU00546,Central,New,2025-02-24,App
+CU00547,West,Returning,2024-11-09,App
+CU00548,Central,Loyal,2023-11-15,Store
+CU00549,North,Returning,2025-02-14,Web
+CU00550,Central,Returning,2024-09-01,Web
+CU00551,East,New,2025-04-03,App
+CU00552,East,New,2024-11-21,App
+CU00553,Central,New,2024-10-02,App
+CU00554,South,Loyal,2023-08-18,App
+CU00555,Central,Returning,2024-01-08,App
+CU00556,North,New,2024-10-06,Web
+CU00557,South,New,2024-08-11,Web
+CU00558,North,New,2023-10-24,App
+CU00559,East,Returning,2025-04-20,Web
+CU00560,North,New,2024-02-05,Web
+CU00561,Central,Returning,2023-05-17,App
+CU00562,Central,At-risk,2024-07-25,Store
+CU00563,North,Returning,2023-07-15,App
+CU00564,North,Loyal,2025-06-14,App
+CU00565,North,At-risk,2023-07-17,Web
+CU00566,North,Returning,2024-02-10,App
+CU00567,West,At-risk,2025-01-24,App
+CU00568,West,Returning,2024-01-04,App
+CU00569,West,New,2023-03-29,App
+CU00570,East,Returning,2023-10-25,Web
+CU00571,South,Returning,2025-03-05,App
+CU00572,Central,Loyal,2024-12-05,Web
+CU00573,South,Loyal,2024-12-17,Web
+CU00574,West,Returning,2024-08-18,Store
+CU00575,West,Loyal,2023-01-10,App
+CU00576,Central,Returning,2024-05-27,Store
+CU00577,South,Returning,2023-01-15,Web
+CU00578,North,New,2025-05-02,Web
+CU00579,North,New,2024-07-09,Store
+CU00580,West,Returning,2024-06-11,App
+CU00581,East,Returning,2024-01-07,Web
+CU00582,East,Returning,2024-10-16,Web
+CU00583,Central,Loyal,2024-09-22,Web
+CU00584,North,Loyal,2025-03-13,App
+CU00585,North,Returning,2025-02-20,App
+CU00586,East,At-risk,2023-09-18,App
+CU00587,East,Returning,2024-02-16,App
+CU00588,North,New,2023-05-24,Web
+CU00589,West,Loyal,2024-03-27,Web
+CU00590,North,Returning,2025-01-23,Web
+CU00591,North,Loyal,2024-09-15,Web
+CU00592,East,New,2025-05-29,App
+CU00593,East,Returning,2025-05-11,Web
+CU00594,East,New,2023-08-02,App
+CU00595,North,Returning,2025-02-05,App
+CU00596,West,Loyal,2023-02-14,App
+CU00597,Central,New,2023-06-11,App
+CU00598,West,Returning,2023-04-26,Web
+CU00599,North,New,2023-05-24,Web
+CU00600,North,Loyal,2024-11-19,Web
+CU00601,North,At-risk,2025-04-16,Web
+CU00602,Central,Returning,2025-04-11,Web
+CU00603,East,Returning,2024-06-18,Web
+CU00604,North,Returning,2023-10-21,Store
+CU00605,West,New,2023-01-10,Web
+CU00606,West,Returning,2023-11-07,Web
+CU00607,North,New,2023-06-04,App
+CU00608,East,Returning,2025-06-09,Web
+CU00609,West,New,2024-12-30,App
+CU00610,West,Returning,2024-08-13,App
+CU00611,North,Loyal,2023-02-20,App
+CU00612,North,New,2023-09-11,Web
+CU00613,North,Returning,2025-01-19,Store
+CU00614,South,Returning,2023-11-02,Store
+CU00615,South,Loyal,2025-05-16,Web
+CU00616,East,Returning,2025-01-30,Web
+CU00617,West,Returning,2023-03-15,Web
+CU00618,North,New,2023-06-11,Web
+CU00619,North,At-risk,2024-03-26,Web
+CU00620,Central,At-risk,2024-09-26,App
+CU00621,West,New,2024-03-15,App
+CU00622,East,New,2024-09-02,App
+CU00623,East,Loyal,2023-07-25,App
+CU00624,North,New,2025-03-11,Web
+CU00625,South,New,2023-10-07,App
+CU00626,West,Loyal,2024-04-26,Web
+CU00627,North,Loyal,2025-02-06,Web
+CU00628,West,At-risk,2024-08-02,App
+CU00629,North,Loyal,2023-11-24,App
+CU00630,Central,At-risk,2023-01-02,App
+CU00631,North,Loyal,2025-01-18,Web
+CU00632,Central,Returning,2023-10-03,Web
+CU00633,West,Loyal,2024-11-02,Web
+CU00634,South,At-risk,2024-10-21,App
+CU00635,East,Returning,2024-06-29,App
+CU00636,West,Returning,2024-01-14,App
+CU00637,North,Returning,2023-04-16,Store
+CU00638,East,Loyal,2023-08-27,App
+CU00639,South,Returning,2024-01-29,App
+CU00640,Central,At-risk,2023-09-02,App
+CU00641,East,Returning,2024-11-27,Store
+CU00642,Central,Loyal,2024-11-20,App
+CU00643,South,Loyal,2023-05-11,Web
+CU00644,Central,New,2023-05-25,App
+CU00645,West,Loyal,2025-04-26,App
+CU00646,East,Loyal,2025-05-09,Store
+CU00647,East,Loyal,2023-02-19,Web
+CU00648,North,Loyal,2025-01-05,Web
+CU00649,West,Loyal,2023-07-31,Web
+CU00650,Central,New,2025-01-12,Web
+CU00651,East,Loyal,2023-08-24,Web
+CU00652,South,Returning,2023-03-20,Web
+CU00653,West,Returning,2025-02-14,App
+CU00654,North,At-risk,2025-04-11,App
+CU00655,West,At-risk,2023-08-06,App
+CU00656,South,Returning,2024-06-24,Web
+CU00657,South,At-risk,2025-04-04,Web
+CU00658,West,At-risk,2023-03-23,App
+CU00659,East,New,2024-07-24,Store
+CU00660,West,New,2023-08-06,Web
+CU00661,West,At-risk,2023-05-04,Web
+CU00662,East,Returning,2023-12-03,App
+CU00663,East,Returning,2023-05-11,App
+CU00664,North,New,2024-03-21,App
+CU00665,East,Loyal,2023-03-14,App
+CU00666,West,Returning,2024-08-31,Web
+CU00667,South,At-risk,2023-04-11,App
+CU00668,North,Loyal,2023-01-14,App
+CU00669,North,Loyal,2023-08-08,App
+CU00670,South,Loyal,2025-02-05,Web
+CU00671,Central,New,2024-12-20,Web
+CU00672,North,Loyal,2023-07-10,App
+CU00673,West,Returning,2023-12-06,Web
+CU00674,West,New,2024-04-22,Store
+CU00675,West,Returning,2023-04-10,Web
+CU00676,West,Returning,2024-12-24,Web
+CU00677,North,Loyal,2023-05-23,App
+CU00678,South,Returning,2023-02-07,Web
+CU00679,West,Returning,2023-11-17,Store
+CU00680,East,Returning,2023-02-06,App
+CU00681,West,At-risk,2024-06-24,Web
+CU00682,South,New,2023-10-31,App
+CU00683,North,Loyal,2024-04-11,Web
+CU00684,North,Loyal,2025-06-04,Store
+CU00685,East,Loyal,2023-03-26,App
+CU00686,Central,At-risk,2023-12-10,Web
+CU00687,Central,Loyal,2024-08-09,Web
+CU00688,East,Returning,2025-02-11,Web
+CU00689,North,Returning,2023-03-21,App
+CU00690,East,At-risk,2024-08-16,Web
+CU00691,North,Returning,2024-09-30,Web
+CU00692,East,Returning,2023-08-14,Store
+CU00693,Central,Returning,2023-03-29,Web
+CU00694,North,Returning,2025-04-15,Web
+CU00695,West,Returning,2024-04-23,Web
+CU00696,South,New,2025-02-14,Web
+CU00697,West,Loyal,2024-12-02,Store
+CU00698,West,Loyal,2024-01-17,Web
+CU00699,South,Returning,2024-09-10,App
+CU00700,East,Returning,2024-05-22,App
+CU00701,South,New,2024-06-11,Web
+CU00702,South,Loyal,2024-02-07,Web
+CU00703,East,Returning,2025-02-11,App
+CU00704,North,Returning,2023-11-25,App
+CU00705,South,At-risk,2024-08-27,App
+CU00706,Central,New,2024-07-13,App
+CU00707,Central,At-risk,2024-07-19,App
+CU00708,South,Returning,2023-05-15,App
+CU00709,North,At-risk,2025-05-06,Web
+CU00710,West,New,2023-07-01,Web
+CU00711,Central,New,2025-05-18,Web
+CU00712,Central,Returning,2023-04-11,App
+CU00713,Central,At-risk,2024-11-25,Web
+CU00714,Central,Loyal,2023-02-18,App
+CU00715,North,At-risk,2024-02-21,Web
+CU00716,West,New,2023-06-24,App
+CU00717,South,New,2023-06-19,Web
+CU00718,West,Loyal,2024-05-08,App
+CU00719,South,At-risk,2023-09-05,Store
+CU00720,West,Returning,2024-04-02,App
+CU00721,North,Returning,2023-02-17,Store
+CU00722,East,Returning,2023-08-11,App
+CU00723,East,At-risk,2024-03-01,Web
+CU00724,Central,At-risk,2025-06-15,App
+CU00725,Central,New,2023-04-18,Store
+CU00726,Central,Loyal,2023-02-16,App
+CU00727,South,New,2025-05-08,App
+CU00728,South,Returning,2024-09-10,App
+CU00729,Central,At-risk,2024-01-25,App
+CU00730,West,New,2024-01-23,Store
+CU00731,West,Returning,2024-07-11,Web
+CU00732,West,Returning,2024-10-02,App
+CU00733,East,Returning,2024-04-15,Store
+CU00734,West,New,2023-08-27,App
+CU00735,Central,At-risk,2023-07-31,App
+CU00736,North,Loyal,2023-03-31,Web
+CU00737,Central,Returning,2023-10-25,Web
+CU00738,East,Returning,2025-05-27,Web
+CU00739,North,Loyal,2023-05-14,Web
+CU00740,South,Returning,2023-12-04,App
+CU00741,Central,Loyal,2024-09-28,App
+CU00742,West,Returning,2024-01-23,App
+CU00743,Central,New,2023-04-21,Web
+CU00744,North,Returning,2024-07-01,App
+CU00745,South,New,2024-11-16,App
+CU00746,Central,Returning,2024-11-09,App
+CU00747,Central,Returning,2024-12-03,Web
+CU00748,North,Loyal,2025-04-06,App
+CU00749,South,At-risk,2024-06-18,Web
+CU00750,South,Returning,2024-12-08,Web
+CU00751,South,New,2023-11-19,Web
+CU00752,Central,New,2024-10-04,Web
+CU00753,West,Loyal,2024-01-26,Web
+CU00754,East,New,2024-11-21,App
+CU00755,Central,New,2024-01-27,Store
+CU00756,South,Returning,2023-01-05,Web
+CU00757,South,Returning,2023-12-27,App
+CU00758,South,New,2023-12-27,Web
+CU00759,West,Returning,2023-03-29,Store
+CU00760,South,Returning,2024-12-06,Store
+CU00761,Central,Returning,2024-03-08,App
+CU00762,North,At-risk,2023-07-19,Store
+CU00763,South,Returning,2024-02-21,App
+CU00764,North,Returning,2025-02-10,Web
+CU00765,Central,At-risk,2024-11-15,App
+CU00766,North,Returning,2023-01-08,Web
+CU00767,Central,New,2023-12-16,App
+CU00768,Central,Loyal,2024-06-07,Web
+CU00769,Central,Loyal,2024-12-12,Web
+CU00770,Central,Returning,2025-03-14,App
+CU00771,West,Returning,2024-06-19,App
+CU00772,East,Returning,2024-02-10,App
+CU00773,North,New,2023-05-07,App
+CU00774,Central,Returning,2023-08-05,App
+CU00775,North,Returning,2024-02-24,App
+CU00776,West,New,2023-12-25,App
+CU00777,South,At-risk,2023-02-14,App
+CU00778,South,Returning,2023-11-03,App
+CU00779,West,Returning,2024-03-15,Web
+CU00780,North,New,2024-03-10,Web
+CU00781,Central,Returning,2025-03-25,Store
+CU00782,South,Loyal,2024-08-02,Web
+CU00783,East,Returning,2023-11-14,Web
+CU00784,East,Returning,2023-09-26,Web
+CU00785,East,New,2023-12-15,App
+CU00786,South,Returning,2024-12-07,Store
+CU00787,Central,New,2025-05-11,App
+CU00788,East,New,2025-06-01,Web
+CU00789,South,Loyal,2025-02-08,Store
+CU00790,South,Loyal,2023-03-30,Web
+CU00791,North,At-risk,2024-03-10,Web
+CU00792,North,New,2024-06-11,App
+CU00793,South,At-risk,2024-09-24,App
+CU00794,North,Loyal,2023-07-11,App
+CU00795,South,Returning,2023-11-26,Store
+CU00796,East,Returning,2023-09-30,App
+CU00797,North,Returning,2023-02-27,Web
+CU00798,East,New,2025-03-11,Web
+CU00799,North,Returning,2023-03-14,Store
+CU00800,West,Loyal,2023-07-22,App
+CU00801,East,Loyal,2025-04-03,Web
+CU00802,South,Returning,2024-03-03,Store
+CU00803,North,Returning,2023-05-13,Web
+CU00804,North,Loyal,2023-05-26,Web
+CU00805,East,New,2023-06-04,App
+CU00806,East,Loyal,2024-03-30,Web
+CU00807,Central,At-risk,2024-06-09,App
+CU00808,Central,New,2024-02-10,App
+CU00809,East,New,2024-08-03,Web
+CU00810,North,Returning,2023-06-12,Store
+CU00811,Central,New,2023-12-27,Web
+CU00812,West,New,2025-04-19,App
+CU00813,Central,New,2023-09-16,Store
+CU00814,South,New,2023-02-17,App
+CU00815,West,New,2025-06-07,Web
+CU00816,East,New,2025-01-04,Web
+CU00817,West,Loyal,2023-07-17,Web
+CU00818,West,Loyal,2023-06-24,App
+CU00819,North,New,2023-04-22,Web
+CU00820,Central,Returning,2023-11-02,App
+CU00821,South,Returning,2023-03-05,App
+CU00822,West,New,2023-05-20,App
+CU00823,North,Returning,2025-03-06,Web
+CU00824,West,Loyal,2023-05-22,Web
+CU00825,Central,Loyal,2024-06-10,App
+CU00826,West,Loyal,2023-04-10,Web
+CU00827,South,New,2023-05-06,Web
+CU00828,Central,New,2025-05-28,Web
+CU00829,South,New,2024-04-06,App
+CU00830,East,New,2025-01-24,Store
+CU00831,West,At-risk,2023-03-03,Web
+CU00832,East,New,2023-10-29,App
+CU00833,South,Loyal,2024-01-02,Store
+CU00834,Central,Returning,2023-10-24,Web
+CU00835,North,Loyal,2024-01-17,Store
+CU00836,North,Loyal,2023-07-15,Store
+CU00837,Central,New,2023-10-11,Store
+CU00838,East,New,2023-12-30,App
+CU00839,East,Returning,2024-12-19,App
+CU00840,South,New,2025-02-03,Web
+CU00841,North,At-risk,2023-09-29,App
+CU00842,East,At-risk,2023-02-22,App
+CU00843,East,Loyal,2024-08-01,App
+CU00844,North,Returning,2023-02-17,App
+CU00845,East,Returning,2025-05-02,Store
+CU00846,West,Returning,2025-05-17,Web
+CU00847,North,Returning,2024-12-19,App
+CU00848,West,Returning,2023-05-06,App
+CU00849,East,At-risk,2023-06-19,Web
+CU00850,North,New,2024-10-08,App
+CU00851,West,At-risk,2024-05-10,Web
+CU00852,East,Returning,2023-09-21,App
+CU00853,West,At-risk,2024-06-19,App
+CU00854,Central,At-risk,2024-09-26,App
+CU00855,Central,Returning,2024-08-16,App
+CU00856,East,New,2024-10-15,Web
+CU00857,Central,New,2023-07-01,Store
+CU00858,East,Loyal,2025-01-29,App
+CU00859,Central,Returning,2024-05-30,Web
+CU00860,West,Loyal,2023-11-30,Web
+CU00861,North,New,2023-05-18,Web
+CU00862,South,Loyal,2024-10-01,Web
+CU00863,Central,New,2025-02-20,App
+CU00864,North,Returning,2023-04-30,Web
+CU00865,Central,Returning,2023-06-14,App
+CU00866,West,Loyal,2025-05-15,Web
+CU00867,North,Returning,2024-01-20,Web
+CU00868,Central,New,2024-12-24,Web
+CU00869,North,New,2023-08-18,App
+CU00870,West,Returning,2023-06-03,App
+CU00871,East,New,2023-03-29,Web
+CU00872,Central,Returning,2023-10-12,Store
+CU00873,North,New,2024-04-20,Web
+CU00874,South,Loyal,2024-12-22,Web
+CU00875,Central,At-risk,2025-03-25,Web
+CU00876,South,Returning,2023-09-30,Web
+CU00877,South,Loyal,2024-01-04,Web
+CU00878,East,Loyal,2024-10-23,App
+CU00879,West,Returning,2023-11-07,Web
+CU00880,North,New,2023-01-07,Web
+CU00881,North,Returning,2023-09-13,Web
+CU00882,West,Loyal,2023-09-16,Store
+CU00883,North,New,2024-06-15,App
+CU00884,Central,At-risk,2024-07-24,Web
+CU00885,East,At-risk,2024-03-05,App
+CU00886,North,Loyal,2025-02-21,Web
+CU00887,East,Loyal,2025-06-13,Web
+CU00888,East,New,2024-05-23,Web
+CU00889,South,New,2025-05-14,App
+CU00890,South,Returning,2023-08-14,Web
+CU00891,East,Loyal,2024-09-08,App
+CU00892,East,New,2025-03-21,Web
+CU00893,Central,New,2025-01-09,App
+CU00894,West,New,2023-07-20,Store
+CU00895,West,New,2023-12-15,App
+CU00896,North,New,2024-02-10,Web
+CU00897,East,Returning,2023-03-25,Web
+CU00898,West,Returning,2024-02-11,App
+CU00899,East,Returning,2025-05-31,Web
+CU00900,North,Returning,2025-02-28,Web
+CU00901,Central,At-risk,2024-09-16,App
+CU00902,North,Loyal,2024-12-09,App
+CU00903,Central,New,2023-10-01,Web
+CU00904,Central,Loyal,2025-03-30,App
+CU00905,North,Loyal,2024-08-31,App
+CU00906,West,Loyal,2023-06-19,Web
+CU00907,South,Returning,2024-08-07,Web
+CU00908,South,Returning,2024-05-01,App
+CU00909,South,New,2025-05-06,Store
+CU00910,South,Loyal,2025-03-13,Store
+CU00911,South,Returning,2025-05-28,Web
+CU00912,West,Returning,2024-08-26,Web
+CU00913,West,Returning,2025-06-15,App
+CU00914,North,New,2024-08-24,App
+CU00915,North,At-risk,2024-11-26,Store
+CU00916,North,New,2025-04-30,Web
+CU00917,South,Returning,2024-04-22,Web
+CU00918,East,New,2025-05-13,Web
+CU00919,West,Loyal,2023-06-10,Web
+CU00920,Central,New,2023-07-25,Web
+CU00921,South,New,2025-01-12,App
+CU00922,North,Returning,2024-01-19,Web
+CU00923,South,Returning,2023-04-29,Web
+CU00924,East,Returning,2024-07-07,App
+CU00925,East,Loyal,2023-11-08,Web
+CU00926,East,New,2023-05-05,Store
+CU00927,East,New,2023-04-08,Store
+CU00928,North,Loyal,2025-06-05,Web
+CU00929,Central,At-risk,2025-01-31,Web
+CU00930,North,Loyal,2025-03-30,App
+CU00931,West,Returning,2023-11-05,Web
+CU00932,West,Returning,2023-01-27,Web
+CU00933,North,Loyal,2024-11-21,App
+CU00934,Central,Returning,2023-02-24,Web
+CU00935,West,New,2024-04-12,App
+CU00936,Central,At-risk,2023-08-20,App
+CU00937,East,Returning,2024-05-09,Web
+CU00938,East,At-risk,2023-06-22,Web
+CU00939,Central,At-risk,2023-09-30,App
+CU00940,West,New,2025-06-02,Web
+CU00941,Central,New,2023-10-21,Web
+CU00942,East,New,2024-03-20,Web
+CU00943,East,Loyal,2024-10-20,App
+CU00944,South,At-risk,2023-05-22,Web
+CU00945,Central,Returning,2023-03-15,Store
+CU00946,West,New,2023-08-01,Web
+CU00947,North,Returning,2024-02-24,Web
+CU00948,Central,Returning,2023-05-10,App
+CU00949,East,Returning,2023-11-23,Web
+CU00950,North,Returning,2023-07-16,Store
+CU00951,North,New,2024-05-18,Web
+CU00952,East,Returning,2023-08-19,Web
+CU00953,West,At-risk,2023-09-16,Web
+CU00954,Central,Loyal,2025-03-27,Web
+CU00955,East,New,2023-04-12,App
+CU00956,North,Returning,2023-09-07,Store
+CU00957,East,New,2023-04-06,App
+CU00958,North,Returning,2023-09-14,Store
+CU00959,West,Returning,2024-08-04,App
+CU00960,West,Loyal,2023-06-11,App
+CU00961,East,At-risk,2025-01-08,App
+CU00962,Central,Returning,2023-06-05,App
+CU00963,Central,Returning,2023-01-22,App
+CU00964,Central,New,2024-07-12,App
+CU00965,Central,Returning,2023-06-23,App
+CU00966,Central,New,2023-01-29,Store
+CU00967,Central,Loyal,2025-03-15,App
+CU00968,North,Returning,2023-11-02,Store
+CU00969,North,Returning,2025-03-13,Web
+CU00970,South,New,2023-04-12,Web
+CU00971,East,Loyal,2025-04-20,Store
+CU00972,East,Loyal,2025-06-09,App
+CU00973,North,New,2024-03-27,App
+CU00974,South,Loyal,2023-11-08,App
+CU00975,West,At-risk,2024-08-04,Store
+CU00976,Central,At-risk,2024-05-20,Web
+CU00977,North,New,2023-03-31,Web
+CU00978,Central,Returning,2024-09-28,Web
+CU00979,Central,Returning,2023-10-16,Web
+CU00980,North,Loyal,2023-09-30,Web
+CU00981,South,Returning,2024-05-14,App
+CU00982,West,New,2024-05-30,Store
+CU00983,West,Returning,2024-11-03,App
+CU00984,South,Loyal,2024-03-13,Store
+CU00985,North,At-risk,2023-03-25,Web
+CU00986,West,New,2025-05-21,App
+CU00987,South,Returning,2025-03-15,Web
+CU00988,South,Returning,2023-04-21,Web
+CU00989,Central,New,2023-05-04,Store
+CU00990,West,Returning,2023-02-11,App
+CU00991,Central,Returning,2025-04-23,Web
+CU00992,West,Returning,2024-10-16,App
+CU00993,South,At-risk,2023-01-01,Web
+CU00994,West,Returning,2024-12-19,Web
+CU00995,West,Returning,2025-04-14,App
+CU00996,North,Loyal,2023-08-17,Web
+CU00997,East,Loyal,2024-08-04,App
+CU00998,West,Returning,2025-03-19,Web
+CU00999,East,New,2023-06-14,App
+CU01000,Central,New,2023-10-12,App
+CU01001,West,Returning,2023-02-27,Web
+CU01002,South,New,2023-04-21,Web
+CU01003,West,Loyal,2023-12-07,Web
+CU01004,North,Returning,2025-01-25,Web
+CU01005,West,New,2023-09-11,Web
+CU01006,East,New,2024-04-15,App
+CU01007,West,Returning,2024-07-30,App
+CU01008,North,Returning,2024-04-10,App
+CU01009,Central,Returning,2025-06-14,Store
+CU01010,North,Loyal,2025-05-31,Store
+CU01011,South,Returning,2024-08-02,App
+CU01012,West,Returning,2025-02-09,Store
+CU01013,West,New,2024-05-15,Web
+CU01014,East,Loyal,2023-01-07,App
+CU01015,East,At-risk,2025-02-28,App
+CU01016,South,Returning,2024-08-14,Web
+CU01017,West,New,2025-02-21,Store
+CU01018,Central,Returning,2023-01-12,Web
+CU01019,Central,Returning,2024-07-03,App
+CU01020,North,New,2025-02-09,Web
+CU01021,West,Loyal,2024-03-19,Web
+CU01022,East,New,2025-04-04,Web
+CU01023,North,Returning,2023-06-24,Store
+CU01024,West,Returning,2025-01-06,Web
+CU01025,West,New,2024-06-03,App
+CU01026,North,Returning,2023-06-07,App
+CU01027,North,Returning,2024-12-12,App
+CU01028,Central,Returning,2024-09-05,App
+CU01029,Central,Returning,2025-03-09,Store
+CU01030,West,At-risk,2023-10-11,App
+CU01031,West,Loyal,2024-12-13,Web
+CU01032,South,Returning,2024-02-14,App
+CU01033,South,Returning,2024-09-28,App
+CU01034,West,At-risk,2024-04-12,App
+CU01035,East,Loyal,2024-12-01,App
+CU01036,Central,New,2024-03-23,Web
+CU01037,Central,At-risk,2025-05-02,App
+CU01038,North,At-risk,2024-03-29,App
+CU01039,North,Returning,2025-03-21,Web
+CU01040,East,Returning,2024-05-14,Web
+CU01041,East,Loyal,2024-10-26,App
+CU01042,East,New,2024-06-13,Store
+CU01043,South,New,2025-05-02,Web
+CU01044,Central,Returning,2024-10-09,Web
+CU01045,West,New,2024-10-13,Web
+CU01046,North,At-risk,2023-09-07,Web
+CU01047,Central,At-risk,2024-12-19,Store
+CU01048,Central,Loyal,2024-02-04,App
+CU01049,East,Returning,2023-08-14,App
+CU01050,Central,New,2023-04-04,App
+CU01051,West,Loyal,2024-06-25,App
+CU01052,South,Returning,2024-06-12,App
+CU01053,South,Returning,2024-11-17,Web
+CU01054,Central,Returning,2024-08-21,App
+CU01055,East,At-risk,2023-04-09,Web
+CU01056,East,New,2023-04-06,Web
+CU01057,West,Loyal,2023-08-15,Web
+CU01058,West,Returning,2023-05-12,Web
+CU01059,North,Returning,2025-01-17,Web
+CU01060,North,Loyal,2024-06-18,Web
+CU01061,North,At-risk,2024-09-10,Store
+CU01062,Central,At-risk,2024-05-17,Web
+CU01063,South,Returning,2024-03-25,Web
+CU01064,West,New,2025-04-02,Web
+CU01065,Central,Returning,2023-02-12,Web
+CU01066,West,Returning,2024-01-17,Web
+CU01067,West,Loyal,2024-04-13,App
+CU01068,Central,Loyal,2025-06-03,Web
+CU01069,Central,Returning,2023-02-21,Store
+CU01070,North,Loyal,2024-12-23,Web
+CU01071,South,Loyal,2024-08-16,Web
+CU01072,East,New,2023-08-27,App
+CU01073,South,Loyal,2023-10-25,Web
+CU01074,Central,New,2023-06-28,Web
+CU01075,East,Returning,2025-01-19,App
+CU01076,South,Loyal,2025-03-11,Web
+CU01077,South,Loyal,2023-08-20,Store
+CU01078,East,Loyal,2025-03-28,Web
+CU01079,East,Loyal,2024-11-07,Store
+CU01080,South,New,2023-10-22,Web
+CU01081,West,Loyal,2023-05-08,Web
+CU01082,South,Loyal,2025-03-16,Web
+CU01083,North,Returning,2024-08-06,App
+CU01084,North,Returning,2023-04-21,Web
+CU01085,East,Returning,2024-01-10,App
+CU01086,South,Returning,2023-01-07,Web
+CU01087,Central,New,2024-12-23,Web
+CU01088,East,At-risk,2023-06-24,App
+CU01089,West,Returning,2023-06-10,Web
+CU01090,East,Loyal,2025-01-11,Web
+CU01091,South,Loyal,2025-06-14,App
+CU01092,East,Loyal,2024-02-03,App
+CU01093,North,Loyal,2023-08-01,Web
+CU01094,South,Loyal,2023-09-01,Web
+CU01095,East,Loyal,2023-09-25,App
+CU01096,West,At-risk,2024-09-30,App
+CU01097,West,Returning,2023-04-09,Web
+CU01098,South,Loyal,2023-08-07,Store
+CU01099,West,Returning,2025-06-05,Web
+CU01100,West,Loyal,2024-10-19,App
+CU01101,West,Returning,2024-12-02,Web
+CU01102,West,Returning,2023-11-28,Web
+CU01103,North,At-risk,2023-05-29,App
+CU01104,Central,Loyal,2023-08-14,Web
+CU01105,East,New,2025-02-04,Web
+CU01106,West,Loyal,2025-06-14,App
+CU01107,South,At-risk,2024-01-07,App
+CU01108,East,Loyal,2023-06-11,App
+CU01109,West,Loyal,2023-06-13,Web
+CU01110,East,New,2025-05-23,Web
+CU01111,West,Returning,2024-04-18,App
+CU01112,West,At-risk,2023-08-14,Web
+CU01113,South,New,2023-03-27,App
+CU01114,South,New,2023-04-08,Web
+CU01115,West,New,2023-10-20,Store
+CU01116,East,New,2023-09-28,Web
+CU01117,Central,New,2024-02-03,Web
+CU01118,South,Returning,2024-03-29,Web
+CU01119,South,Loyal,2023-05-16,App
+CU01120,West,Loyal,2024-11-22,App
+CU01121,Central,New,2024-05-05,Web
+CU01122,North,Returning,2025-05-20,App
+CU01123,West,Returning,2023-10-21,Web
+CU01124,East,New,2023-09-18,App
+CU01125,North,Loyal,2024-06-07,App
+CU01126,West,At-risk,2025-05-10,Web
+CU01127,East,Returning,2024-06-30,App
+CU01128,West,Returning,2024-09-02,Web
+CU01129,East,Loyal,2023-07-26,Store
+CU01130,East,Returning,2023-09-11,App
+CU01131,South,Returning,2024-09-04,App
+CU01132,North,New,2024-05-08,App
+CU01133,Central,Returning,2025-03-25,Web
+CU01134,Central,Returning,2023-02-20,Web
+CU01135,North,Loyal,2024-04-10,App
+CU01136,Central,Loyal,2024-02-10,Web
+CU01137,South,New,2024-10-29,Web
+CU01138,East,Returning,2023-10-30,Store
+CU01139,North,Returning,2023-11-25,Web
+CU01140,North,At-risk,2024-09-07,App
+CU01141,South,Returning,2025-05-24,App
+CU01142,Central,Returning,2025-03-07,App
+CU01143,East,Returning,2023-04-07,App
+CU01144,South,New,2023-05-28,Store
+CU01145,East,Returning,2024-12-26,App
+CU01146,West,Returning,2025-01-30,App
+CU01147,East,At-risk,2023-10-08,Web
+CU01148,Central,Returning,2025-04-01,Web
+CU01149,West,New,2025-01-19,App
+CU01150,East,Loyal,2023-01-31,App
+CU01151,West,New,2024-01-23,App
+CU01152,West,Loyal,2023-05-28,Store
+CU01153,Central,Loyal,2023-02-02,App
+CU01154,South,Returning,2023-02-10,Store
+CU01155,East,Loyal,2024-12-12,App
+CU01156,North,At-risk,2025-04-12,App
+CU01157,Central,At-risk,2025-04-17,App
+CU01158,West,Returning,2023-01-08,App
+CU01159,North,New,2023-01-21,Web
+CU01160,North,At-risk,2024-10-22,Web
+CU01161,East,New,2023-10-16,Store
+CU01162,Central,At-risk,2024-04-04,Web
+CU01163,Central,Loyal,2023-12-03,App
+CU01164,South,Loyal,2024-04-08,Web
+CU01165,South,New,2024-02-18,App
+CU01166,South,New,2023-07-22,App
+CU01167,North,Loyal,2023-06-19,App
+CU01168,East,Loyal,2024-01-26,App
+CU01169,South,Returning,2023-09-14,Web
+CU01170,Central,Loyal,2024-08-23,Store
+CU01171,North,New,2023-11-26,Web
+CU01172,East,New,2025-02-28,Web
+CU01173,East,New,2024-05-28,Web
+CU01174,East,Loyal,2023-10-23,Web
+CU01175,East,Loyal,2024-10-12,App
+CU01176,West,Returning,2024-02-27,Store
+CU01177,West,New,2025-02-12,Web
+CU01178,West,New,2025-03-30,Store
+CU01179,East,New,2024-12-14,Store
+CU01180,South,New,2024-09-29,App
+CU01181,North,New,2023-04-21,Web
+CU01182,Central,Loyal,2023-04-01,Web
+CU01183,North,Returning,2024-01-31,App
+CU01184,South,At-risk,2023-09-09,App
+CU01185,South,Returning,2023-02-13,Web
+CU01186,Central,At-risk,2025-01-13,Web
+CU01187,Central,Loyal,2024-07-16,App
+CU01188,Central,New,2024-08-31,App
+CU01189,Central,Returning,2025-04-12,App
+CU01190,East,Returning,2024-07-07,Web
+CU01191,Central,New,2025-01-12,App
+CU01192,Central,Returning,2024-10-14,App
+CU01193,North,At-risk,2024-09-07,App
+CU01194,East,Returning,2024-07-06,Web
+CU01195,West,New,2025-01-23,Web
+CU01196,West,Loyal,2023-05-12,App
+CU01197,Central,Returning,2023-02-03,Web
+CU01198,South,New,2024-01-15,Web
+CU01199,West,New,2025-05-04,App
+CU01200,West,Returning,2023-03-28,App
+CU01201,North,Loyal,2024-11-13,Store
+CU01202,South,Loyal,2023-10-22,Web
+CU01203,South,Returning,2024-01-24,App
+CU01204,South,Returning,2024-02-06,Web
+CU01205,West,At-risk,2024-02-12,App
+CU01206,South,Loyal,2024-07-21,Web
+CU01207,South,At-risk,2023-10-31,Web
+CU01208,South,Returning,2023-11-26,App
+CU01209,North,Loyal,2024-04-22,App
+CU01210,North,New,2023-12-07,Web
+CU01211,South,Returning,2024-05-13,Web
+CU01212,East,At-risk,2023-11-23,App
+CU01213,Central,Loyal,2024-08-13,Web
+CU01214,Central,New,2024-07-31,Store
+CU01215,West,At-risk,2024-09-08,Web
+CU01216,North,Loyal,2024-12-10,Web
+CU01217,East,Returning,2023-06-06,App
+CU01218,East,Loyal,2023-04-19,Store
+CU01219,North,Returning,2024-09-07,Web
+CU01220,North,At-risk,2023-05-02,App
+CU01221,North,Returning,2023-04-14,Web
+CU01222,East,New,2024-10-20,Web
+CU01223,Central,Returning,2024-08-12,Web
+CU01224,East,New,2024-03-19,Web
+CU01225,West,At-risk,2025-02-17,App
+CU01226,Central,New,2024-03-25,Web
+CU01227,East,Returning,2025-04-02,App
+CU01228,North,Loyal,2023-06-22,App
+CU01229,East,Loyal,2024-06-03,App
+CU01230,East,New,2023-03-03,Web
+CU01231,Central,Returning,2024-06-04,Web
+CU01232,South,Returning,2024-12-19,Store
+CU01233,South,New,2023-04-03,Store
+CU01234,Central,Returning,2025-04-19,App
+CU01235,Central,New,2023-04-09,App
+CU01236,North,Returning,2024-01-26,App
+CU01237,East,New,2025-04-09,App
+CU01238,North,Returning,2023-01-11,App
+CU01239,West,Loyal,2025-02-26,Web
+CU01240,South,At-risk,2024-08-07,Web
+CU01241,South,At-risk,2024-01-02,Web
+CU01242,East,Returning,2024-01-30,Web
+CU01243,Central,Returning,2024-05-23,Store
+CU01244,North,Returning,2024-08-17,Web
+CU01245,West,New,2025-05-01,Web
+CU01246,South,Loyal,2024-12-03,Web
+CU01247,East,New,2025-05-30,Store
+CU01248,South,Loyal,2025-01-27,App
+CU01249,East,Loyal,2023-09-14,Web
+CU01250,Central,Loyal,2025-01-06,App
+CU01251,West,Returning,2024-06-21,Web
+CU01252,South,Returning,2023-08-29,Store
+CU01253,North,At-risk,2023-05-02,Web
+CU01254,East,New,2024-11-15,Web
+CU01255,North,Returning,2023-06-01,Web
+CU01256,South,New,2023-08-10,Store
+CU01257,East,Loyal,2024-01-27,App
+CU01258,West,Loyal,2024-06-17,App
+CU01259,South,Returning,2023-06-13,Store
+CU01260,West,At-risk,2024-08-17,App
+CU01261,West,New,2024-05-29,Store
+CU01262,North,Returning,2024-11-08,Web
+CU01263,North,At-risk,2024-10-26,Web
+CU01264,East,Loyal,2024-03-15,Web
+CU01265,Central,At-risk,2023-02-06,App
+CU01266,North,New,2023-03-06,App
+CU01267,East,At-risk,2024-02-24,App
+CU01268,South,At-risk,2025-03-08,Web
+CU01269,East,At-risk,2024-04-12,App
+CU01270,Central,New,2024-03-01,App
+CU01271,North,Loyal,2024-02-04,Web
+CU01272,North,Loyal,2023-06-07,Web
+CU01273,South,Loyal,2024-06-07,Web
+CU01274,West,Loyal,2024-02-21,App
+CU01275,South,Loyal,2024-08-11,Web
+CU01276,North,New,2024-03-05,App
+CU01277,South,Loyal,2024-01-07,App
+CU01278,Central,At-risk,2023-11-24,Web
+CU01279,Central,At-risk,2024-07-02,Web
+CU01280,Central,Returning,2025-01-11,App
+CU01281,East,New,2024-03-08,Store
+CU01282,Central,Returning,2023-08-03,Web
+CU01283,West,New,2023-04-19,Web
+CU01284,East,Returning,2025-02-11,Web
+CU01285,Central,At-risk,2023-01-11,Web
+CU01286,West,Loyal,2024-10-21,App
+CU01287,West,New,2025-06-08,App
+CU01288,North,Returning,2024-12-12,App
+CU01289,East,New,2024-04-27,Store
+CU01290,North,Returning,2024-11-19,Store
+CU01291,South,New,2025-01-20,App
+CU01292,West,Loyal,2023-12-12,Web
+CU01293,West,At-risk,2023-01-28,Web
+CU01294,North,Returning,2023-06-15,App
+CU01295,West,New,2023-07-24,Web
+CU01296,West,New,2023-08-25,Store
+CU01297,West,At-risk,2025-03-24,Store
+CU01298,West,New,2024-10-27,App
+CU01299,North,Returning,2025-03-27,App
+CU01300,East,New,2023-04-07,Web
+CU01301,South,At-risk,2023-03-31,Web
+CU01302,West,Loyal,2024-12-25,Store
+CU01303,East,At-risk,2023-03-06,Store
+CU01304,Central,New,2025-04-03,Store
+CU01305,West,New,2024-05-28,App
+CU01306,Central,Returning,2025-01-12,App
+CU01307,Central,At-risk,2024-01-20,Web
+CU01308,West,Loyal,2023-03-10,Web
+CU01309,North,Loyal,2023-04-03,Store
+CU01310,South,New,2024-02-05,Web
+CU01311,North,Loyal,2023-06-14,App
+CU01312,North,Returning,2024-03-06,Web
+CU01313,East,Returning,2024-10-15,App
+CU01314,North,Loyal,2025-05-23,App
+CU01315,Central,New,2024-12-16,App
+CU01316,South,Returning,2023-10-12,Web
+CU01317,East,Returning,2024-12-27,App
+CU01318,East,New,2024-08-04,Store
+CU01319,South,Loyal,2024-07-21,Web
+CU01320,East,At-risk,2023-12-03,App
+CU01321,East,New,2023-10-27,Web
+CU01322,North,At-risk,2024-03-03,Web
+CU01323,North,Returning,2023-10-27,App
+CU01324,North,New,2024-06-03,App
+CU01325,West,New,2024-12-29,App
+CU01326,West,Returning,2023-10-22,App
+CU01327,West,Returning,2024-11-05,Web
+CU01328,Central,Returning,2024-04-02,Web
+CU01329,Central,Returning,2023-02-01,App
+CU01330,South,Loyal,2024-03-07,Web
+CU01331,East,Returning,2023-07-05,Web
+CU01332,Central,Loyal,2023-10-27,App
+CU01333,North,New,2025-03-27,App
+CU01334,East,Returning,2023-12-04,Store
+CU01335,Central,Returning,2023-08-25,App
+CU01336,West,New,2023-12-03,Web
+CU01337,East,Loyal,2023-10-31,App
+CU01338,East,At-risk,2023-12-30,Web
+CU01339,West,At-risk,2024-02-19,Store
+CU01340,West,New,2023-05-17,Web
+CU01341,North,New,2024-02-16,App
+CU01342,South,Returning,2024-05-12,App
+CU01343,West,New,2024-10-14,App
+CU01344,South,Returning,2023-05-30,App
+CU01345,South,Loyal,2023-12-31,App
+CU01346,South,New,2024-03-21,Store
+CU01347,West,New,2023-06-24,Web
+CU01348,North,Returning,2023-07-16,App
+CU01349,West,Returning,2023-01-06,Web
+CU01350,Central,New,2023-03-09,App
+CU01351,South,At-risk,2023-06-25,Web
+CU01352,West,Loyal,2024-12-22,App
+CU01353,South,At-risk,2024-02-01,App
+CU01354,West,New,2024-04-24,Web
+CU01355,North,New,2023-06-23,App
+CU01356,Central,Returning,2024-09-28,Store
+CU01357,East,Returning,2023-01-21,Web
+CU01358,South,Loyal,2024-06-22,Web
+CU01359,East,New,2025-05-01,Store
+CU01360,East,New,2024-04-01,Store
+CU01361,North,Returning,2024-10-29,Web
+CU01362,South,Returning,2024-06-24,App
+CU01363,South,Returning,2023-08-15,Store
+CU01364,South,Returning,2023-01-16,App
+CU01365,Central,New,2023-08-30,Web
+CU01366,East,Returning,2023-08-22,Store
+CU01367,East,Returning,2025-05-20,Store
+CU01368,North,Loyal,2023-09-19,App
+CU01369,West,Returning,2025-05-08,Web
+CU01370,West,At-risk,2024-11-29,Web
+CU01371,West,New,2024-01-22,Web
+CU01372,West,At-risk,2024-01-02,Web
+CU01373,East,Loyal,2023-12-11,App
+CU01374,South,Loyal,2023-04-20,Web
+CU01375,North,Loyal,2024-08-15,App
+CU01376,North,Returning,2024-05-22,Web
+CU01377,North,Loyal,2023-12-08,Web
+CU01378,West,Loyal,2024-08-26,Store
+CU01379,West,Loyal,2023-08-29,App
+CU01380,East,Returning,2025-04-09,Web
+CU01381,West,Returning,2024-02-12,Web
+CU01382,North,Returning,2024-12-31,App
+CU01383,North,Returning,2024-02-03,Store
+CU01384,North,Loyal,2023-05-14,Web
+CU01385,North,At-risk,2025-02-10,App
+CU01386,West,Returning,2023-09-28,Store
+CU01387,South,At-risk,2024-10-11,Web
+CU01388,South,New,2024-03-06,Web
+CU01389,South,New,2023-04-06,Web
+CU01390,South,At-risk,2024-03-09,App
+CU01391,West,Returning,2023-02-22,App
+CU01392,East,New,2025-03-09,Web
+CU01393,South,Loyal,2023-03-31,Web
+CU01394,North,At-risk,2024-04-12,Web
+CU01395,West,New,2023-05-06,Web
+CU01396,East,Returning,2024-11-06,Web
+CU01397,East,Returning,2023-03-13,Web
+CU01398,East,Returning,2025-06-08,App
+CU01399,West,Loyal,2025-05-25,App
+CU01400,Central,Returning,2023-12-18,Store
+CU01401,East,Loyal,2025-01-24,App
+CU01402,Central,Returning,2023-11-13,Web
+CU01403,Central,Returning,2023-11-03,Web
+CU01404,South,Loyal,2023-02-15,Store
+CU01405,North,At-risk,2023-03-25,Web
+CU01406,West,Returning,2023-10-26,Web
+CU01407,West,Loyal,2023-06-04,App
+CU01408,Central,At-risk,2025-04-02,Web
+CU01409,Central,Loyal,2023-10-18,Web
+CU01410,East,Loyal,2024-08-02,Web
+CU01411,South,New,2023-11-20,Web
+CU01412,West,Returning,2023-06-24,Store
+CU01413,South,Returning,2023-01-26,Store
+CU01414,East,New,2024-07-31,Store
+CU01415,North,New,2023-05-15,Web
+CU01416,South,Returning,2023-08-20,Web
+CU01417,North,Returning,2023-07-05,Web
+CU01418,South,New,2025-03-05,Web
+CU01419,North,Returning,2024-06-08,Web
+CU01420,West,Returning,2023-01-28,Web
+CU01421,West,At-risk,2023-02-27,App
+CU01422,West,Loyal,2025-05-20,Web
+CU01423,East,Loyal,2024-06-26,Web
+CU01424,East,New,2023-11-13,Web
+CU01425,North,New,2025-03-01,App
+CU01426,West,New,2023-08-07,App
+CU01427,West,Returning,2023-01-06,Web
+CU01428,Central,At-risk,2024-06-09,Web
+CU01429,South,Returning,2023-08-31,Web
+CU01430,West,At-risk,2024-09-05,Web
+CU01431,Central,Loyal,2023-04-11,Web
+CU01432,North,Returning,2024-02-14,App
+CU01433,South,Loyal,2024-10-15,App
+CU01434,Central,Returning,2023-04-24,Store
+CU01435,North,Loyal,2024-01-24,Store
+CU01436,North,At-risk,2023-05-28,App
+CU01437,East,Loyal,2024-10-10,Web
+CU01438,North,At-risk,2023-04-17,Store
+CU01439,North,Loyal,2023-04-06,Web
+CU01440,South,Returning,2023-08-04,App
+CU01441,East,New,2024-06-04,App
+CU01442,Central,Loyal,2023-11-23,Store
+CU01443,South,Loyal,2024-11-03,Web
+CU01444,West,Returning,2024-03-17,App
+CU01445,East,Returning,2023-03-16,App
+CU01446,West,At-risk,2023-11-10,Web
+CU01447,Central,New,2024-08-05,Web
+CU01448,North,At-risk,2024-06-10,Web
+CU01449,North,Returning,2023-08-17,Web
+CU01450,South,Loyal,2024-09-30,Web
+CU01451,North,New,2023-08-26,Web
+CU01452,North,New,2023-04-10,Web
+CU01453,Central,Loyal,2024-10-19,Web
+CU01454,South,New,2024-03-30,App
+CU01455,West,New,2024-10-01,Web
+CU01456,Central,Returning,2024-09-16,App
+CU01457,West,Loyal,2023-10-06,Web
+CU01458,North,Loyal,2025-06-10,Web
+CU01459,West,Returning,2024-09-18,Web
+CU01460,West,Returning,2023-08-30,App
+CU01461,South,Loyal,2024-07-14,Web
+CU01462,East,Returning,2023-10-28,Web
+CU01463,East,At-risk,2023-07-04,Web
+CU01464,West,Returning,2024-01-02,Web
+CU01465,South,New,2024-01-14,Web
+CU01466,North,At-risk,2023-07-10,Web
+CU01467,East,Loyal,2023-02-10,App
+CU01468,West,Returning,2024-09-19,App
+CU01469,North,At-risk,2025-01-24,Web
+CU01470,South,At-risk,2024-06-03,Web
+CU01471,North,Returning,2025-01-27,App
+CU01472,West,New,2024-04-30,Web
+CU01473,East,Returning,2024-07-19,Web
+CU01474,North,Returning,2023-07-10,App
+CU01475,West,Loyal,2025-03-05,Store
+CU01476,Central,New,2023-05-31,App
+CU01477,East,At-risk,2025-06-03,Web
+CU01478,East,Returning,2023-06-30,Web
+CU01479,South,At-risk,2024-04-15,Web
+CU01480,North,New,2023-02-07,Web
+CU01481,North,New,2023-04-17,Web
+CU01482,East,Returning,2023-01-24,App
+CU01483,West,New,2023-08-19,App
+CU01484,Central,Loyal,2023-06-11,App
+CU01485,West,Returning,2023-07-05,App
+CU01486,East,Loyal,2023-11-11,App
+CU01487,West,Loyal,2025-03-06,App
+CU01488,South,Loyal,2023-04-20,Web
+CU01489,East,New,2023-06-06,App
+CU01490,South,Returning,2024-02-28,App
+CU01491,East,Loyal,2023-04-06,Store
+CU01492,South,Loyal,2024-10-09,Web
+CU01493,North,New,2025-02-05,Web
+CU01494,West,New,2024-02-18,App
+CU01495,South,Returning,2023-07-17,Web
+CU01496,North,Returning,2023-06-12,App
+CU01497,Central,New,2024-06-14,Web
+CU01498,Central,Returning,2025-05-13,Store
+CU01499,East,Returning,2023-06-26,App
+CU01500,South,Loyal,2024-10-02,Web
+CU01501,East,New,2024-09-24,Web
+CU01502,East,New,2024-08-01,Web
+CU01503,South,At-risk,2024-03-18,App
+CU01504,West,New,2024-04-18,App
+CU01505,West,At-risk,2025-02-16,App
+CU01506,East,At-risk,2024-09-06,App
+CU01507,North,Returning,2025-06-13,App
+CU01508,Central,Loyal,2024-10-07,Store
+CU01509,South,New,2024-03-14,Web
+CU01510,East,Returning,2024-02-21,Web
+CU01511,North,New,2023-08-09,Store
+CU01512,South,New,2024-07-18,App
+CU01513,North,Returning,2025-01-30,Web
+CU01514,East,New,2024-11-14,Web
+CU01515,West,Loyal,2025-04-22,Web
+CU01516,North,New,2023-05-06,Store
+CU01517,South,Loyal,2024-11-18,App
+CU01518,South,Loyal,2025-06-07,App
+CU01519,Central,Returning,2024-11-08,App
+CU01520,South,New,2025-05-03,App
+CU01521,South,Returning,2023-05-05,App
+CU01522,North,At-risk,2025-05-31,Web
+CU01523,West,At-risk,2024-12-25,App
+CU01524,South,Returning,2025-01-13,App
+CU01525,East,Loyal,2024-10-26,App
+CU01526,Central,Loyal,2024-12-17,Store
+CU01527,Central,Returning,2023-03-19,Store
+CU01528,East,At-risk,2023-05-27,Store
+CU01529,Central,Returning,2024-03-12,App
+CU01530,North,Returning,2025-04-10,Web
+CU01531,South,At-risk,2024-05-17,Web
+CU01532,South,New,2023-12-19,App
+CU01533,East,Loyal,2025-04-21,App
+CU01534,North,Returning,2023-08-20,Web
+CU01535,Central,New,2024-04-05,Web
+CU01536,South,New,2024-05-20,Store
+CU01537,South,At-risk,2024-06-05,Web
+CU01538,South,Loyal,2023-12-21,Web
+CU01539,South,At-risk,2023-02-06,Web
+CU01540,North,Returning,2023-07-24,Web
+CU01541,West,At-risk,2024-01-20,Store
+CU01542,West,Returning,2024-11-17,Store
+CU01543,North,At-risk,2024-12-15,App
+CU01544,North,New,2024-07-22,Store
+CU01545,North,Loyal,2023-12-22,Store
+CU01546,West,Returning,2023-06-27,Web
+CU01547,East,New,2023-05-14,Web
+CU01548,East,Returning,2023-08-08,Web
+CU01549,East,At-risk,2024-09-19,Web
+CU01550,Central,Returning,2024-02-05,Web
+CU01551,South,At-risk,2024-09-04,Store
+CU01552,North,Loyal,2025-04-08,Web
+CU01553,South,At-risk,2025-01-07,Web
+CU01554,Central,At-risk,2025-05-26,Web
+CU01555,West,New,2024-04-06,App
+CU01556,East,Loyal,2025-04-24,App
+CU01557,West,Loyal,2024-05-01,App
+CU01558,Central,Loyal,2024-01-06,Web
+CU01559,South,Loyal,2023-09-11,Web
+CU01560,Central,Returning,2024-02-15,Web
+CU01561,North,Loyal,2023-02-08,App
+CU01562,West,Returning,2023-07-07,App
+CU01563,West,At-risk,2023-03-03,App
+CU01564,West,New,2024-06-02,Web
+CU01565,East,Loyal,2024-06-03,App
+CU01566,Central,Loyal,2023-02-01,Web
+CU01567,South,Returning,2024-08-24,App
+CU01568,North,Returning,2023-05-02,App
+CU01569,Central,Loyal,2023-02-28,Web
+CU01570,South,Returning,2024-07-25,App
+CU01571,South,Loyal,2025-03-23,Web
+CU01572,South,New,2023-11-06,Web
+CU01573,West,Loyal,2023-02-17,App
+CU01574,North,New,2023-07-30,Web
+CU01575,West,Returning,2025-03-20,App
+CU01576,South,At-risk,2023-12-19,Store
+CU01577,South,New,2023-10-31,App
+CU01578,West,Returning,2023-08-05,App
+CU01579,North,New,2025-06-17,App
+CU01580,Central,New,2024-07-21,App
+CU01581,East,New,2024-05-24,Store
+CU01582,Central,Loyal,2025-05-19,Web
+CU01583,East,New,2024-05-12,App
+CU01584,South,New,2024-01-20,Web
+CU01585,South,Returning,2023-10-05,Web
+CU01586,North,Loyal,2025-02-14,Store
+CU01587,North,Returning,2023-08-23,App
+CU01588,West,New,2023-09-05,App
+CU01589,Central,New,2023-01-09,App
+CU01590,East,Loyal,2023-03-03,App
+CU01591,Central,New,2024-04-28,Web
+CU01592,South,Loyal,2025-02-24,App
+CU01593,East,Loyal,2024-02-24,Store
+CU01594,South,Loyal,2025-04-07,Web
+CU01595,East,At-risk,2025-02-11,Web
+CU01596,West,Returning,2025-05-22,Web
+CU01597,Central,At-risk,2024-12-06,Web
+CU01598,West,At-risk,2023-12-13,Web
+CU01599,West,New,2024-01-22,Web
+CU01600,South,Returning,2024-05-10,Web
+CU01601,North,New,2023-03-08,Store
+CU01602,West,At-risk,2024-04-07,App
+CU01603,Central,Returning,2024-05-29,App
+CU01604,North,New,2024-04-05,Store
+CU01605,South,Returning,2025-03-05,Web
+CU01606,North,Returning,2023-11-10,App
+CU01607,South,Returning,2024-11-22,Web
+CU01608,South,Returning,2024-07-22,Store
+CU01609,North,Returning,2024-03-05,Store
+CU01610,East,New,2024-11-01,Web
+CU01611,North,New,2023-08-11,Store
+CU01612,West,Returning,2024-02-16,Web
+CU01613,South,Loyal,2024-04-10,Store
+CU01614,North,New,2023-03-01,Web
+CU01615,West,New,2023-07-29,Web
+CU01616,Central,Returning,2024-11-21,Web
+CU01617,South,Returning,2024-07-18,Web
+CU01618,West,New,2024-01-05,Web
+CU01619,West,Loyal,2023-01-27,App
+CU01620,South,Loyal,2023-04-01,App
+CU01621,West,New,2024-03-20,Web
+CU01622,South,New,2023-01-25,Web
+CU01623,West,New,2025-04-06,Web
+CU01624,South,New,2025-05-12,Store
+CU01625,West,Returning,2023-11-29,Store
+CU01626,North,New,2024-10-14,Store
+CU01627,North,Loyal,2024-07-28,App
+CU01628,Central,New,2023-05-13,App
+CU01629,East,Returning,2024-01-17,Web
+CU01630,South,Loyal,2024-07-10,App
+CU01631,South,New,2024-04-08,App
+CU01632,West,Returning,2024-11-01,App
+CU01633,Central,Returning,2025-05-18,App
+CU01634,West,Loyal,2024-07-02,App
+CU01635,East,Loyal,2024-07-14,App
+CU01636,South,At-risk,2023-01-08,App
+CU01637,North,Loyal,2023-07-18,App
+CU01638,North,New,2024-10-18,Web
+CU01639,South,Loyal,2025-03-15,App
+CU01640,Central,Loyal,2024-07-05,Web
+CU01641,Central,Loyal,2025-03-11,App
+CU01642,South,New,2023-02-05,App
+CU01643,Central,New,2023-12-19,Web
+CU01644,West,Returning,2023-10-04,Web
+CU01645,South,Loyal,2024-02-16,App
+CU01646,Central,Loyal,2024-02-12,App
+CU01647,West,New,2023-06-07,App
+CU01648,North,Loyal,2023-06-13,Web
+CU01649,West,Returning,2023-03-10,Store
+CU01650,North,Returning,2024-03-27,Store
+CU01651,Central,New,2023-06-04,Web
+CU01652,North,Returning,2023-11-15,App
+CU01653,South,New,2024-07-18,App
+CU01654,South,At-risk,2025-01-22,App
+CU01655,North,Loyal,2024-10-22,App
+CU01656,South,New,2023-07-20,Web
+CU01657,East,Returning,2023-11-19,App
+CU01658,East,Loyal,2023-02-07,Web
+CU01659,West,Returning,2024-07-15,Store
+CU01660,Central,At-risk,2024-03-28,App
+CU01661,Central,New,2024-12-22,App
+CU01662,Central,Returning,2024-04-25,Web
+CU01663,North,Returning,2023-11-04,App
+CU01664,South,Returning,2023-03-19,Web
+CU01665,West,Returning,2023-04-22,App
+CU01666,South,New,2023-01-21,Web
+CU01667,Central,Loyal,2023-11-27,App
+CU01668,East,New,2024-10-11,Web
+CU01669,East,Loyal,2023-03-12,Web
+CU01670,South,At-risk,2024-12-25,Store
+CU01671,South,Loyal,2025-05-01,Store
+CU01672,North,Returning,2023-12-11,App
+CU01673,South,Loyal,2025-05-21,App
+CU01674,East,Returning,2023-09-15,Web
+CU01675,West,Returning,2024-12-26,Web
+CU01676,South,Returning,2024-05-07,Web
+CU01677,South,New,2023-11-29,Web
+CU01678,West,New,2025-04-04,Web
+CU01679,East,Returning,2023-01-09,Web
+CU01680,West,Loyal,2024-07-12,Web
+CU01681,South,At-risk,2023-06-04,Web
+CU01682,East,At-risk,2024-12-27,App
+CU01683,North,Loyal,2023-08-05,App
+CU01684,North,New,2023-04-21,Web
+CU01685,Central,Returning,2024-10-07,App
+CU01686,Central,New,2023-05-20,Web
+CU01687,North,Returning,2024-10-19,Web
+CU01688,West,Returning,2025-05-21,App
+CU01689,East,New,2023-03-03,Store
+CU01690,South,Returning,2025-04-15,Web
+CU01691,South,At-risk,2024-08-09,Web
+CU01692,West,Returning,2024-10-29,Web
+CU01693,East,Returning,2024-12-27,Web
+CU01694,Central,New,2023-01-08,Web
+CU01695,East,Returning,2024-08-03,App
+CU01696,East,Returning,2023-01-17,App
+CU01697,Central,Loyal,2023-01-04,Web
+CU01698,Central,New,2023-04-27,Web
+CU01699,North,Returning,2024-10-17,Web
+CU01700,Central,New,2024-01-18,App
+CU01701,East,Returning,2024-08-21,App
+CU01702,East,Returning,2023-07-24,Web
+CU01703,East,Returning,2025-06-10,App
+CU01704,Central,Loyal,2025-03-06,App
+CU01705,West,New,2024-01-07,App
+CU01706,North,New,2024-10-28,Store
+CU01707,East,Returning,2024-07-02,App
+CU01708,South,New,2023-08-11,App
+CU01709,East,Returning,2024-07-01,App
+CU01710,East,At-risk,2023-03-10,App
+CU01711,Central,At-risk,2024-12-29,App
+CU01712,Central,Returning,2023-12-11,Web
+CU01713,East,Returning,2024-08-01,App
+CU01714,West,Loyal,2023-09-28,App
+CU01715,South,Returning,2024-11-04,App
+CU01716,East,Loyal,2024-11-15,Web
+CU01717,West,Returning,2024-03-24,App
+CU01718,East,At-risk,2023-08-09,App
+CU01719,South,New,2023-11-08,Web
+CU01720,North,Returning,2023-03-13,Store
+CU01721,West,New,2024-01-04,App
+CU01722,North,Returning,2023-05-06,Web
+CU01723,West,Returning,2024-07-08,Web
+CU01724,South,Loyal,2024-09-15,Web
+CU01725,East,New,2023-06-09,Store
+CU01726,West,Returning,2024-11-08,Web
+CU01727,South,New,2024-02-12,Web
+CU01728,South,Loyal,2024-07-12,App
+CU01729,West,Returning,2023-02-27,Web
+CU01730,Central,Returning,2024-10-13,App
+CU01731,North,New,2025-03-20,App
+CU01732,Central,At-risk,2025-01-16,Web
+CU01733,East,Loyal,2023-11-21,Web
+CU01734,Central,At-risk,2024-08-09,Store
+CU01735,West,Returning,2024-08-12,App
+CU01736,North,Returning,2023-07-08,Store
+CU01737,Central,Returning,2025-05-20,Store
+CU01738,North,Loyal,2024-08-25,App
+CU01739,Central,Loyal,2023-05-02,App
+CU01740,West,Loyal,2024-03-30,Web
+CU01741,Central,Loyal,2024-12-22,Web
+CU01742,West,Loyal,2024-06-28,App
+CU01743,South,Returning,2024-05-03,App
+CU01744,Central,Returning,2025-04-07,Web
+CU01745,South,Loyal,2023-01-01,Web
+CU01746,West,Loyal,2023-07-31,Web
+CU01747,South,Returning,2023-06-18,App
+CU01748,Central,Loyal,2023-01-05,App
+CU01749,North,New,2025-02-21,Store
+CU01750,South,Returning,2024-01-27,Web
+CU01751,South,Loyal,2023-10-29,Web
+CU01752,South,Returning,2023-08-06,Web
+CU01753,Central,At-risk,2025-04-19,Store
+CU01754,Central,Returning,2025-05-14,Web
+CU01755,West,Loyal,2024-04-20,App
+CU01756,South,Loyal,2025-02-24,App
+CU01757,West,Loyal,2025-05-02,Web
+CU01758,Central,Returning,2023-04-05,App
+CU01759,North,At-risk,2023-04-16,App
+CU01760,Central,Loyal,2023-03-13,App
+CU01761,South,Loyal,2025-06-15,Web
+CU01762,West,Returning,2023-12-11,Store
+CU01763,North,New,2025-05-17,Store
+CU01764,South,Returning,2024-03-23,Web
+CU01765,North,At-risk,2023-12-08,App
+CU01766,East,New,2024-02-11,Web
+CU01767,North,New,2024-04-18,App
+CU01768,Central,At-risk,2024-08-25,Store
+CU01769,North,Returning,2025-05-29,App
+CU01770,Central,At-risk,2024-01-25,Web
+CU01771,South,New,2023-04-19,App
+CU01772,South,Returning,2023-08-03,App
+CU01773,South,Loyal,2023-03-26,Store
+CU01774,East,Returning,2024-08-19,App
+CU01775,West,New,2024-08-08,Web
+CU01776,North,New,2024-12-04,Web
+CU01777,North,New,2024-06-26,App
+CU01778,West,New,2023-10-17,Store
+CU01779,North,Loyal,2025-03-19,Web
+CU01780,Central,Returning,2024-04-11,App
+CU01781,North,Returning,2023-11-27,Web
+CU01782,East,New,2024-10-23,Store
+CU01783,East,Returning,2023-02-11,App
+CU01784,North,At-risk,2024-04-22,App
+CU01785,West,New,2024-10-21,App
+CU01786,North,New,2025-05-09,Store
+CU01787,North,Loyal,2025-01-07,Web
+CU01788,West,Returning,2023-08-06,Store
+CU01789,Central,Returning,2023-03-22,Web
+CU01790,North,New,2023-11-13,App
+CU01791,North,Returning,2025-01-16,App
+CU01792,East,Loyal,2023-04-11,Store
+CU01793,South,Returning,2023-11-12,App
+CU01794,East,At-risk,2024-02-13,Web
+CU01795,West,Loyal,2024-09-17,Store
+CU01796,West,At-risk,2023-04-23,Web
+CU01797,South,Returning,2023-11-05,App
+CU01798,West,Loyal,2025-06-01,Store
+CU01799,East,New,2023-08-31,Web
+CU01800,East,Returning,2025-06-09,App
+CU01801,East,Returning,2025-02-22,Store
+CU01802,East,New,2023-11-20,Web
+CU01803,Central,Returning,2023-08-10,Store
+CU01804,Central,Loyal,2024-05-19,Web
+CU01805,East,Returning,2023-12-29,App
+CU01806,North,At-risk,2024-07-17,App
+CU01807,West,Loyal,2024-11-20,App
+CU01808,Central,Returning,2024-08-14,App
+CU01809,South,At-risk,2024-07-31,Web
+CU01810,East,Returning,2025-03-21,Web
+CU01811,East,Returning,2024-11-16,App
+CU01812,South,New,2025-04-15,Web
+CU01813,Central,Returning,2025-06-11,Store
+CU01814,South,At-risk,2024-07-19,Web
+CU01815,North,Loyal,2024-10-27,Web
+CU01816,East,Returning,2023-07-02,App
+CU01817,East,Returning,2023-02-09,Store
+CU01818,Central,Loyal,2024-08-26,App
+CU01819,South,Loyal,2024-04-16,App
+CU01820,West,New,2025-02-15,Web
+CU01821,South,Returning,2024-02-13,Web
+CU01822,West,New,2023-11-16,Store
+CU01823,East,Loyal,2023-02-09,Web
+CU01824,North,Returning,2025-01-01,App
+CU01825,East,Returning,2024-09-10,Store
+CU01826,West,New,2024-06-16,Web
+CU01827,South,Returning,2023-06-05,Web
+CU01828,North,Loyal,2023-04-21,Store
+CU01829,East,At-risk,2023-11-06,App
+CU01830,Central,Returning,2024-11-28,Web
+CU01831,Central,New,2024-09-30,App
+CU01832,West,New,2024-12-05,Web
+CU01833,East,Returning,2024-11-15,App
+CU01834,West,At-risk,2023-05-18,Web
+CU01835,East,Loyal,2024-01-22,Web
+CU01836,South,Returning,2024-09-01,Web
+CU01837,Central,Returning,2024-10-12,Store
+CU01838,East,At-risk,2023-03-22,Web
+CU01839,North,At-risk,2024-09-06,App
+CU01840,East,New,2023-11-01,App
+CU01841,West,New,2023-03-24,Web
+CU01842,East,New,2024-07-22,App
+CU01843,East,Returning,2023-09-28,Web
+CU01844,East,At-risk,2025-05-04,App
+CU01845,Central,Returning,2024-03-31,Web
+CU01846,North,Returning,2024-05-27,App
+CU01847,West,Returning,2025-06-06,App
+CU01848,Central,Loyal,2025-02-19,Web
+CU01849,East,Returning,2025-02-24,Web
+CU01850,Central,Returning,2024-07-10,Web
+CU01851,West,Loyal,2024-03-23,Store
+CU01852,Central,Loyal,2025-01-22,Store
+CU01853,Central,Loyal,2025-03-26,Web
+CU01854,East,At-risk,2023-06-27,App
+CU01855,North,Returning,2025-04-10,Web
+CU01856,East,New,2024-01-07,App
+CU01857,North,New,2024-05-18,App
+CU01858,Central,Returning,2023-02-05,Web
+CU01859,South,New,2023-06-07,Store
+CU01860,North,New,2023-03-12,Store
+CU01861,North,Returning,2024-12-08,App
+CU01862,East,Returning,2024-02-02,Store
+CU01863,North,Returning,2023-06-26,App
+CU01864,Central,New,2024-03-08,App
+CU01865,East,Loyal,2023-03-14,Web
+CU01866,Central,Returning,2024-09-02,Web
+CU01867,Central,Returning,2024-09-08,Web
+CU01868,South,At-risk,2024-07-19,Web
+CU01869,North,Returning,2023-10-26,Store
+CU01870,Central,Loyal,2023-02-13,Web
+CU01871,West,Loyal,2024-02-18,Store
+CU01872,Central,New,2025-06-04,Web
+CU01873,Central,At-risk,2023-02-28,Web
+CU01874,Central,New,2023-09-15,Store
+CU01875,East,At-risk,2024-05-22,Web
+CU01876,South,Loyal,2024-10-27,Web
+CU01877,North,Loyal,2025-01-04,App
+CU01878,East,Returning,2025-03-07,Web
+CU01879,East,Loyal,2025-01-28,Store
+CU01880,East,Loyal,2024-09-01,App
+CU01881,North,New,2024-03-27,Web
+CU01882,North,Loyal,2024-01-01,Web
+CU01883,West,New,2024-12-20,Web
+CU01884,South,At-risk,2025-03-10,Store
+CU01885,East,Returning,2023-11-18,App
+CU01886,West,At-risk,2024-12-01,App
+CU01887,North,Returning,2024-06-18,App
+CU01888,North,At-risk,2023-09-05,App
+CU01889,Central,Loyal,2023-02-25,Web
+CU01890,West,New,2023-10-04,Web
+CU01891,West,New,2024-11-19,Store
+CU01892,South,New,2024-08-27,App
+CU01893,Central,Returning,2024-03-30,Web
+CU01894,West,Loyal,2024-12-19,Web
+CU01895,East,Returning,2023-02-27,App
+CU01896,North,Loyal,2024-07-31,App
+CU01897,East,Returning,2025-02-07,Web
+CU01898,South,Returning,2024-09-20,Web
+CU01899,South,Returning,2024-07-18,Web
+CU01900,Central,Returning,2025-06-12,Web
+CU01901,Central,Loyal,2023-11-16,App
+CU01902,West,New,2024-12-05,App
+CU01903,North,Loyal,2023-01-02,App
+CU01904,East,New,2024-04-18,Web
+CU01905,East,Returning,2023-11-12,Web
+CU01906,Central,New,2024-03-29,App
+CU01907,North,Loyal,2023-06-24,App
+CU01908,West,Loyal,2024-08-14,Web
+CU01909,South,Returning,2025-01-05,Web
+CU01910,South,Returning,2024-06-23,Web
+CU01911,West,Returning,2023-05-28,Store
+CU01912,North,At-risk,2023-06-08,App
+CU01913,South,New,2023-06-02,App
+CU01914,Central,At-risk,2024-04-30,App
+CU01915,East,At-risk,2024-10-18,Web
+CU01916,Central,New,2023-05-18,Web
+CU01917,West,At-risk,2024-11-03,Web
+CU01918,Central,New,2024-03-24,App
+CU01919,Central,Loyal,2023-03-30,Web
+CU01920,North,New,2023-10-15,Web
+CU01921,East,New,2023-04-22,App
+CU01922,South,Loyal,2024-08-17,App
+CU01923,East,Loyal,2024-04-04,Web
+CU01924,South,Loyal,2025-04-05,Web
+CU01925,West,Returning,2025-03-13,Web
+CU01926,East,New,2024-12-01,App
+CU01927,South,New,2024-09-16,App
+CU01928,North,Loyal,2024-09-10,Store
+CU01929,North,Returning,2024-07-16,App
+CU01930,Central,Loyal,2023-12-27,App
+CU01931,South,Returning,2025-02-24,App
+CU01932,West,Returning,2023-04-03,App
+CU01933,North,Loyal,2024-01-21,Web
+CU01934,Central,Loyal,2023-12-14,Store
+CU01935,East,At-risk,2024-11-22,App
+CU01936,South,Loyal,2023-10-26,App
+CU01937,Central,New,2023-10-11,Store
+CU01938,East,Returning,2024-02-19,Web
+CU01939,Central,Loyal,2024-04-08,App
+CU01940,West,New,2024-01-16,Store
+CU01941,East,Loyal,2024-02-23,App
+CU01942,North,Returning,2023-02-26,Web
+CU01943,North,Returning,2023-07-13,App
+CU01944,Central,At-risk,2025-05-22,App
+CU01945,South,Loyal,2025-03-21,App
+CU01946,West,Returning,2025-02-10,App
+CU01947,East,New,2023-05-11,Web
+CU01948,Central,Loyal,2024-01-06,Store
+CU01949,North,New,2023-03-07,Web
+CU01950,East,Returning,2024-08-30,App
+CU01951,South,Loyal,2023-03-20,App
+CU01952,South,At-risk,2024-12-01,App
+CU01953,North,Returning,2025-01-06,Store
+CU01954,East,Loyal,2023-03-06,Web
+CU01955,South,At-risk,2023-10-09,Web
+CU01956,West,Loyal,2023-02-12,App
+CU01957,East,At-risk,2023-02-08,App
+CU01958,North,Returning,2024-10-05,App
+CU01959,East,New,2024-12-22,Web
+CU01960,Central,Returning,2023-12-07,Web
+CU01961,West,Loyal,2025-02-24,App
+CU01962,East,At-risk,2023-08-29,Web
+CU01963,West,Loyal,2024-04-10,App
+CU01964,East,New,2024-07-13,Web
+CU01965,South,Loyal,2024-06-04,Web
+CU01966,South,At-risk,2024-07-27,App
+CU01967,East,Loyal,2024-11-16,App
+CU01968,West,Returning,2023-07-22,Web
+CU01969,West,Loyal,2023-03-30,Web
+CU01970,East,Loyal,2025-04-12,Web
+CU01971,West,New,2023-08-15,Store
+CU01972,North,Loyal,2023-02-20,Web
+CU01973,Central,Returning,2024-03-15,Web
+CU01974,Central,Returning,2024-02-25,Store
+CU01975,North,At-risk,2024-11-29,Web
+CU01976,South,New,2023-03-15,App
+CU01977,South,At-risk,2024-05-02,Web
+CU01978,East,New,2025-05-01,Web
+CU01979,North,Returning,2024-04-10,App
+CU01980,West,At-risk,2023-09-28,App
+CU01981,South,Returning,2023-01-20,Store
+CU01982,East,Returning,2025-02-25,Web
+CU01983,Central,Returning,2023-09-25,Web
+CU01984,South,At-risk,2023-01-24,Web
+CU01985,South,New,2024-01-15,Web
+CU01986,North,New,2024-06-11,Web
+CU01987,North,Returning,2025-02-02,App
+CU01988,South,Loyal,2024-11-01,Store
+CU01989,Central,Returning,2025-03-08,Web
+CU01990,West,New,2024-03-07,App
+CU01991,South,Returning,2023-10-21,Web
+CU01992,North,Returning,2024-09-14,App
+CU01993,North,New,2024-11-13,Web
+CU01994,West,Loyal,2023-09-05,Store
+CU01995,East,At-risk,2024-01-07,App
+CU01996,West,Loyal,2023-12-25,App
+CU01997,East,New,2023-12-03,App
+CU01998,West,Returning,2024-12-17,App
+CU01999,North,At-risk,2023-02-07,App
+CU02000,West,New,2023-11-17,Web
+CU02001,South,Returning,2024-02-29,App
+CU02002,Central,Returning,2023-06-14,App
+CU02003,East,New,2023-06-02,Web
+CU02004,West,New,2025-03-30,Web
+CU02005,North,Returning,2024-05-21,App
+CU02006,Central,New,2025-04-12,Web
+CU02007,North,At-risk,2024-12-26,Web
+CU02008,South,At-risk,2023-04-19,Web
+CU02009,West,New,2023-11-22,App
+CU02010,East,Returning,2024-05-30,App
+CU02011,West,New,2024-12-17,Web
+CU02012,South,Returning,2025-06-15,Store
+CU02013,South,Loyal,2023-05-25,Web
+CU02014,North,Loyal,2023-02-16,App
+CU02015,East,Returning,2025-05-19,Web
+CU02016,Central,Loyal,2023-11-05,Web
+CU02017,West,At-risk,2023-07-14,Store
+CU02018,South,New,2023-09-01,Web
+CU02019,Central,Returning,2023-04-21,App
+CU02020,North,New,2024-09-06,App
+CU02021,East,Returning,2023-12-29,Web
+CU02022,North,Loyal,2025-01-18,Web
+CU02023,West,Loyal,2024-12-15,App
+CU02024,West,Returning,2025-01-26,Web
+CU02025,West,New,2025-02-09,Web
+CU02026,West,Loyal,2024-07-18,App
+CU02027,Central,At-risk,2023-09-26,Web
+CU02028,East,Loyal,2025-01-02,App
+CU02029,South,New,2023-08-15,Store
+CU02030,East,Returning,2024-07-16,Web
+CU02031,North,Loyal,2023-09-21,Web
+CU02032,West,New,2023-05-29,Web
+CU02033,East,Loyal,2024-08-28,Store
+CU02034,West,Returning,2024-11-05,Web
+CU02035,Central,New,2023-04-30,Web
+CU02036,North,Returning,2023-05-01,App
+CU02037,North,At-risk,2024-04-18,App
+CU02038,North,New,2025-04-28,App
+CU02039,West,Returning,2024-06-08,Store
+CU02040,West,Returning,2025-01-25,Web
+CU02041,East,Loyal,2024-11-17,App
+CU02042,South,Returning,2023-02-11,Web
+CU02043,West,At-risk,2024-07-14,App
+CU02044,Central,Returning,2024-03-30,Web
+CU02045,West,Loyal,2025-02-13,Web
+CU02046,South,Returning,2025-03-07,App
+CU02047,East,Returning,2025-01-07,Web
+CU02048,East,New,2025-03-21,App
+CU02049,South,Loyal,2024-02-25,App
+CU02050,West,Returning,2024-01-23,Web
+CU02051,Central,New,2025-01-06,Web
+CU02052,South,New,2025-06-08,Web
+CU02053,Central,Returning,2023-03-27,Store
+CU02054,East,Returning,2023-11-29,Web
+CU02055,East,Loyal,2023-08-09,App
+CU02056,South,Returning,2024-07-22,Store
+CU02057,South,Returning,2024-08-07,App
+CU02058,East,Loyal,2024-08-23,App
+CU02059,South,Loyal,2024-05-03,Web
+CU02060,East,Loyal,2024-03-06,App
+CU02061,West,Loyal,2024-03-26,Web
+CU02062,Central,New,2023-12-15,App
+CU02063,South,New,2023-10-29,Store
+CU02064,East,Loyal,2024-11-26,Web
+CU02065,South,Loyal,2025-01-31,App
+CU02066,South,Returning,2025-01-28,Web
+CU02067,West,Loyal,2024-10-03,Web
+CU02068,North,New,2025-02-07,Store
+CU02069,West,At-risk,2023-01-23,App
+CU02070,West,Returning,2025-04-25,App
+CU02071,West,At-risk,2023-09-06,Store
+CU02072,West,New,2024-07-29,App
+CU02073,West,Returning,2023-07-10,App
+CU02074,West,At-risk,2024-04-06,App
+CU02075,West,At-risk,2024-11-14,Store
+CU02076,South,Returning,2023-04-18,Web
+CU02077,North,At-risk,2024-05-04,App
+CU02078,West,Loyal,2023-10-06,Web
+CU02079,Central,Loyal,2025-03-26,Web
+CU02080,East,At-risk,2024-01-15,App
+CU02081,Central,Returning,2025-03-21,Store
+CU02082,East,At-risk,2025-04-04,App
+CU02083,West,Loyal,2024-04-11,App
+CU02084,West,New,2024-04-03,Web
+CU02085,East,At-risk,2024-10-31,Web
+CU02086,Central,New,2023-05-11,App
+CU02087,North,Loyal,2024-05-17,Web
+CU02088,East,At-risk,2025-05-22,App
+CU02089,West,Returning,2023-10-17,App
+CU02090,South,At-risk,2023-09-20,Web
+CU02091,Central,At-risk,2024-09-09,Store
+CU02092,North,New,2023-09-09,Web
+CU02093,East,At-risk,2024-08-25,App
+CU02094,South,Returning,2024-01-20,Web
+CU02095,Central,Returning,2024-04-18,App
+CU02096,West,Returning,2024-06-10,App
+CU02097,West,New,2024-08-20,Store
+CU02098,North,New,2024-05-28,App
+CU02099,South,Returning,2023-01-26,App
+CU02100,Central,Loyal,2023-02-03,Web
+CU02101,East,New,2024-05-10,Web
+CU02102,West,New,2023-10-18,App
+CU02103,West,Returning,2023-06-14,Web
+CU02104,West,Loyal,2024-02-23,Store
+CU02105,North,At-risk,2024-12-17,Web
+CU02106,North,Loyal,2023-11-02,Web
+CU02107,Central,New,2024-07-06,App
+CU02108,South,Loyal,2023-09-30,App
+CU02109,Central,Loyal,2023-10-17,Web
+CU02110,West,Loyal,2024-07-05,App
+CU02111,North,At-risk,2023-05-30,App
+CU02112,East,New,2023-04-28,App
+CU02113,South,Returning,2023-02-28,App
+CU02114,Central,Returning,2023-12-23,App
+CU02115,West,Loyal,2024-01-19,App
+CU02116,South,At-risk,2024-03-04,App
+CU02117,West,At-risk,2023-01-01,App
+CU02118,East,Returning,2024-01-20,App
+CU02119,South,Loyal,2024-03-30,Web
+CU02120,East,Returning,2023-07-18,App
+CU02121,North,Returning,2024-06-18,App
+CU02122,South,Returning,2023-07-31,Web
+CU02123,East,New,2023-01-01,App
+CU02124,Central,New,2025-04-15,Web
+CU02125,West,At-risk,2024-08-01,App
+CU02126,North,New,2024-04-19,Web
+CU02127,East,Returning,2025-02-09,Web
+CU02128,West,Loyal,2025-02-14,App
+CU02129,North,Returning,2024-11-27,Web
+CU02130,West,New,2023-11-17,App
+CU02131,Central,New,2023-06-20,App
+CU02132,East,Returning,2024-01-12,Web
+CU02133,Central,At-risk,2024-02-09,App
+CU02134,West,Loyal,2023-10-27,App
+CU02135,South,New,2024-06-20,App
+CU02136,Central,At-risk,2023-05-08,App
+CU02137,South,New,2023-06-28,Web
+CU02138,East,Loyal,2023-12-13,Store
+CU02139,West,Loyal,2023-12-19,App
+CU02140,South,New,2024-12-06,Web
+CU02141,South,New,2023-05-29,Web
+CU02142,South,At-risk,2024-02-12,Web
+CU02143,South,Loyal,2024-08-25,Web
+CU02144,East,Loyal,2024-07-05,Web
+CU02145,East,Returning,2023-08-28,Web
+CU02146,North,Returning,2023-03-08,Store
+CU02147,West,New,2023-02-05,App
+CU02148,North,Loyal,2023-09-27,App
+CU02149,Central,Loyal,2023-12-20,App
+CU02150,North,New,2024-08-24,App
+CU02151,South,Loyal,2023-06-11,App
+CU02152,West,New,2025-01-27,App
+CU02153,East,Loyal,2023-04-29,App
+CU02154,East,New,2024-04-25,App
+CU02155,North,Loyal,2024-12-28,Web
+CU02156,South,Loyal,2024-08-11,Web
+CU02157,East,At-risk,2024-06-06,App
+CU02158,South,Returning,2023-05-08,App
+CU02159,Central,New,2023-07-31,Web
+CU02160,South,At-risk,2024-01-17,Web
+CU02161,Central,Loyal,2024-06-03,App
+CU02162,West,Returning,2023-07-01,App
+CU02163,East,New,2025-04-19,Web
+CU02164,East,Returning,2024-08-04,App
+CU02165,East,New,2024-09-02,Web
+CU02166,East,Loyal,2023-06-14,Store
+CU02167,West,At-risk,2025-04-27,Web
+CU02168,South,Returning,2024-11-06,Web
+CU02169,West,Returning,2023-08-15,App
+CU02170,East,New,2023-09-08,Web
+CU02171,South,Returning,2024-06-04,App
+CU02172,South,Returning,2025-06-09,Store
+CU02173,South,Loyal,2024-07-29,Store
+CU02174,East,Loyal,2024-12-08,Store
+CU02175,North,New,2023-12-03,Web
+CU02176,East,Returning,2024-08-24,App
+CU02177,Central,Returning,2023-09-11,App
+CU02178,East,Returning,2023-03-05,Web
+CU02179,East,Returning,2024-04-05,Web
+CU02180,West,Loyal,2024-09-23,Web
+CU02181,East,New,2024-06-28,Web
+CU02182,North,New,2023-05-19,App
+CU02183,Central,Returning,2024-11-22,App
+CU02184,North,Loyal,2025-03-03,Web
+CU02185,South,Loyal,2023-03-29,Store
+CU02186,South,Returning,2024-08-21,App
+CU02187,North,At-risk,2024-05-27,Web
+CU02188,Central,Loyal,2024-04-29,App
+CU02189,Central,At-risk,2024-02-01,Web
+CU02190,West,At-risk,2023-12-29,App
+CU02191,West,Loyal,2024-04-12,Web
+CU02192,North,Returning,2024-01-19,Store
+CU02193,West,Loyal,2025-04-05,Store
+CU02194,Central,Loyal,2024-05-21,Web
+CU02195,North,New,2023-07-21,Web
+CU02196,West,New,2024-01-15,Store
+CU02197,West,At-risk,2023-12-04,Web
+CU02198,West,Loyal,2024-06-10,Web
+CU02199,South,Returning,2023-04-27,App
+CU02200,North,New,2023-06-01,Store
+CU02201,West,At-risk,2023-02-07,App
+CU02202,East,Returning,2023-11-12,App
+CU02203,East,Loyal,2025-03-25,Web
+CU02204,East,New,2024-12-06,App
+CU02205,North,Loyal,2025-01-25,Web
+CU02206,Central,Loyal,2024-11-21,Web
+CU02207,South,Loyal,2023-11-29,App
+CU02208,North,Loyal,2024-02-16,Store
+CU02209,East,Returning,2023-12-07,App
+CU02210,East,Returning,2023-06-18,Web
+CU02211,Central,Returning,2023-12-30,Web
+CU02212,West,At-risk,2024-01-23,App
+CU02213,West,Loyal,2024-05-07,Web
+CU02214,Central,At-risk,2025-06-04,Web
+CU02215,North,At-risk,2024-05-07,App
+CU02216,East,Returning,2024-03-05,Web
+CU02217,North,Returning,2023-02-11,Web
+CU02218,North,Loyal,2024-05-27,Web
+CU02219,North,Returning,2023-09-21,App
+CU02220,Central,Returning,2023-12-02,App
+CU02221,North,Returning,2024-05-28,Web
+CU02222,North,Loyal,2024-01-13,Web
+CU02223,West,New,2024-01-15,Web
+CU02224,West,Returning,2023-08-09,App
+CU02225,North,Returning,2024-04-06,Web
+CU02226,Central,Returning,2023-09-02,Web
+CU02227,Central,At-risk,2024-01-25,Web
+CU02228,East,Loyal,2023-10-04,Web
+CU02229,West,Loyal,2023-04-24,Web
+CU02230,South,Returning,2023-05-24,App
+CU02231,South,At-risk,2025-02-15,Web
+CU02232,East,New,2024-08-10,Web
+CU02233,West,New,2023-12-07,App
+CU02234,South,Loyal,2024-11-27,Store
+CU02235,West,At-risk,2024-01-03,App
+CU02236,South,At-risk,2025-06-01,Store
+CU02237,Central,Returning,2023-01-02,App
+CU02238,West,New,2023-01-24,App
+CU02239,East,Loyal,2023-07-20,App
+CU02240,Central,Returning,2024-07-16,Web
+CU02241,East,Returning,2025-04-05,Web
+CU02242,South,Returning,2025-04-30,App
+CU02243,North,Loyal,2023-02-20,App
+CU02244,Central,New,2024-12-12,App
+CU02245,Central,Loyal,2023-12-08,Web
+CU02246,North,Loyal,2025-04-14,Web
+CU02247,North,Returning,2024-09-08,App
+CU02248,North,Returning,2025-03-02,App
+CU02249,North,Returning,2024-09-20,Web
+CU02250,South,Loyal,2025-01-13,Store
+CU02251,South,New,2025-02-13,Web
+CU02252,West,New,2023-09-21,Web
+CU02253,North,New,2024-09-14,App
+CU02254,North,At-risk,2023-08-20,App
+CU02255,East,Returning,2023-09-24,Web
+CU02256,West,Loyal,2023-03-19,Web
+CU02257,North,Returning,2024-02-07,App
+CU02258,East,At-risk,2024-05-20,Web
+CU02259,South,New,2023-02-20,Web
+CU02260,North,Loyal,2023-06-02,App
+CU02261,South,New,2023-06-04,App
+CU02262,North,Loyal,2024-08-23,App
+CU02263,South,New,2025-05-13,Web
+CU02264,East,New,2025-02-17,Store
+CU02265,Central,Loyal,2024-07-26,Store
+CU02266,East,Loyal,2023-03-08,App
+CU02267,North,New,2023-07-04,Web
+CU02268,South,New,2024-03-21,Web
+CU02269,North,Returning,2024-05-22,App
+CU02270,South,Returning,2024-06-12,Web
+CU02271,West,Returning,2024-05-18,App
+CU02272,East,Returning,2024-10-16,App
+CU02273,South,Loyal,2023-07-26,Web
+CU02274,North,Loyal,2023-12-22,Web
+CU02275,East,New,2023-07-22,App
+CU02276,North,New,2023-04-16,App
+CU02277,North,Returning,2025-01-21,Web
+CU02278,East,Loyal,2024-03-23,Web
+CU02279,North,At-risk,2024-06-11,Web
+CU02280,South,Loyal,2024-01-05,Store
+CU02281,Central,Returning,2025-03-06,Store
+CU02282,East,Loyal,2024-10-04,Web
+CU02283,South,New,2024-12-30,Web
+CU02284,North,Returning,2023-01-26,Web
+CU02285,West,Returning,2023-08-14,Web
+CU02286,South,Loyal,2023-05-23,Web
+CU02287,Central,Loyal,2024-12-22,App
+CU02288,North,Returning,2024-06-15,Web
+CU02289,Central,Loyal,2025-05-24,App
+CU02290,West,Returning,2025-03-28,App
+CU02291,West,New,2024-02-13,App
+CU02292,East,At-risk,2023-08-25,App
+CU02293,South,At-risk,2024-10-17,Web
+CU02294,West,Returning,2025-04-02,Store
+CU02295,East,Returning,2023-04-06,App
+CU02296,West,New,2024-04-11,App
+CU02297,West,At-risk,2024-10-29,App
+CU02298,West,Loyal,2023-04-24,App
+CU02299,West,At-risk,2024-09-22,Web
+CU02300,Central,Returning,2023-02-10,Web
+CU02301,West,Loyal,2024-06-05,Web
+CU02302,East,Returning,2023-09-14,App
+CU02303,East,At-risk,2023-02-12,Web
+CU02304,South,Returning,2023-01-18,App
+CU02305,North,Loyal,2023-09-25,App
+CU02306,East,Returning,2025-02-14,Web
+CU02307,South,Returning,2023-03-24,App
+CU02308,West,Loyal,2023-05-06,Web
+CU02309,South,Returning,2023-03-26,App
+CU02310,South,Loyal,2023-02-12,Web
+CU02311,Central,Loyal,2025-05-07,App
+CU02312,East,Loyal,2024-06-18,Store
+CU02313,West,Returning,2025-01-24,Web
+CU02314,South,Returning,2023-01-30,Web
+CU02315,South,New,2024-10-04,Web
+CU02316,Central,Returning,2024-08-24,Web
+CU02317,North,Loyal,2025-06-03,Web
+CU02318,North,New,2024-01-04,Web
+CU02319,East,New,2023-10-08,App
+CU02320,West,Returning,2023-02-07,Web
+CU02321,West,New,2025-05-05,App
+CU02322,West,At-risk,2025-01-21,App
+CU02323,East,Returning,2023-11-11,App
+CU02324,North,At-risk,2025-02-20,App
+CU02325,West,New,2024-11-17,App
+CU02326,East,Loyal,2023-05-11,Store
+CU02327,East,At-risk,2024-12-18,App
+CU02328,Central,Returning,2024-11-11,Web
+CU02329,West,At-risk,2025-03-14,App
+CU02330,East,At-risk,2024-10-27,Web
+CU02331,North,Returning,2024-03-23,Store
+CU02332,West,At-risk,2025-05-05,Store
+CU02333,Central,Loyal,2023-10-17,App
+CU02334,South,New,2024-08-31,Web
+CU02335,Central,New,2024-11-09,App
+CU02336,Central,Returning,2025-01-10,Web
+CU02337,South,New,2024-12-13,App
+CU02338,East,Returning,2023-03-23,Web
+CU02339,North,Returning,2024-07-23,Store
+CU02340,West,New,2023-05-01,App
+CU02341,West,Returning,2025-04-11,Web
+CU02342,North,Returning,2025-03-06,Web
+CU02343,South,New,2023-09-14,Store
+CU02344,North,Returning,2024-12-23,App
+CU02345,South,Loyal,2023-12-24,App
+CU02346,North,New,2024-01-02,Store
+CU02347,East,Returning,2025-06-17,Store
+CU02348,Central,New,2025-05-18,App
+CU02349,North,Loyal,2023-09-26,Web
+CU02350,East,At-risk,2023-01-03,App
+CU02351,West,Returning,2023-11-04,Web
+CU02352,Central,At-risk,2024-01-18,App
+CU02353,South,Returning,2023-11-16,Store
+CU02354,South,At-risk,2025-06-05,App
+CU02355,Central,Loyal,2024-06-13,Web
+CU02356,Central,Loyal,2023-08-28,App
+CU02357,South,Loyal,2024-07-16,Store
+CU02358,South,New,2023-12-21,Web
+CU02359,Central,New,2023-03-24,Web
+CU02360,North,Loyal,2024-03-08,App
+CU02361,South,Returning,2024-11-20,Store
+CU02362,West,At-risk,2023-12-03,Store
+CU02363,East,New,2024-07-29,Store
+CU02364,East,Returning,2023-12-13,App
+CU02365,East,Loyal,2024-07-11,App
+CU02366,North,New,2024-05-19,Web
+CU02367,East,At-risk,2024-01-14,Web
+CU02368,North,Loyal,2023-09-10,Web
+CU02369,Central,New,2023-01-22,Web
+CU02370,North,New,2024-06-29,App
+CU02371,North,Returning,2024-03-15,Store
+CU02372,South,Returning,2024-06-13,Web
+CU02373,North,Loyal,2024-08-04,Web
+CU02374,South,Loyal,2023-12-15,Web
+CU02375,South,Loyal,2025-04-23,App
+CU02376,North,Loyal,2025-01-02,Store
+CU02377,East,At-risk,2024-08-10,Store
+CU02378,South,At-risk,2023-06-15,Web
+CU02379,East,Returning,2024-04-23,Web
+CU02380,West,At-risk,2024-01-24,Web
+CU02381,East,Loyal,2025-01-04,Web
+CU02382,Central,Loyal,2024-07-22,App
+CU02383,East,Loyal,2024-03-13,App
+CU02384,West,Loyal,2024-04-23,App
+CU02385,Central,At-risk,2024-07-11,App
+CU02386,West,New,2025-01-02,Web
+CU02387,Central,Returning,2024-11-15,App
+CU02388,North,New,2025-01-10,App
+CU02389,South,Loyal,2024-02-22,Store
+CU02390,West,Returning,2024-05-09,Web
+CU02391,North,Loyal,2024-10-06,App
+CU02392,South,Returning,2023-07-18,Store
+CU02393,North,Returning,2023-06-10,Store
+CU02394,East,Loyal,2024-07-31,Store
+CU02395,East,New,2023-02-13,Web
+CU02396,South,Returning,2024-04-16,Web
+CU02397,North,New,2025-03-14,App
+CU02398,West,Returning,2025-01-15,App
+CU02399,East,Loyal,2023-11-26,App
+CU02400,South,New,2024-05-12,Store
+CU02401,East,Returning,2023-05-05,Store
+CU02402,Central,New,2025-04-27,Store
+CU02403,North,Returning,2023-01-07,Web
+CU02404,East,New,2023-06-09,App
+CU02405,South,At-risk,2023-07-13,Web
+CU02406,East,New,2023-03-29,Web
+CU02407,North,New,2024-08-25,App
+CU02408,East,Returning,2024-05-05,App
+CU02409,South,Returning,2024-03-24,App
+CU02410,Central,Returning,2023-09-17,App
+CU02411,East,Returning,2025-03-20,Store
+CU02412,East,New,2024-07-12,Web
+CU02413,North,New,2024-07-31,Store
+CU02414,Central,New,2024-03-19,App
+CU02415,North,At-risk,2023-09-14,Web
+CU02416,West,Loyal,2023-03-18,Web
+CU02417,West,Returning,2023-04-15,Web
+CU02418,North,At-risk,2024-08-07,Web
+CU02419,West,Returning,2024-06-28,App
+CU02420,West,Returning,2024-03-21,Web
+CU02421,North,At-risk,2023-09-18,Web
+CU02422,Central,New,2024-10-05,Store
+CU02423,West,Returning,2024-04-07,App
+CU02424,East,Returning,2024-10-14,Store
+CU02425,South,At-risk,2024-09-17,Web
+CU02426,Central,Returning,2025-04-27,App
+CU02427,South,Returning,2023-06-30,App
+CU02428,North,Returning,2024-01-07,App
+CU02429,West,At-risk,2025-05-02,Web
+CU02430,West,Loyal,2024-07-04,Web
+CU02431,South,Loyal,2024-04-22,Web
+CU02432,East,Returning,2024-12-26,Web
+CU02433,North,At-risk,2024-06-14,App
+CU02434,West,New,2025-06-07,App
+CU02435,North,Loyal,2023-08-04,Web
+CU02436,West,Returning,2024-01-02,Web
+CU02437,North,At-risk,2025-01-04,Web
+CU02438,West,New,2023-05-29,Store
+CU02439,West,Loyal,2023-03-02,App
+CU02440,North,Returning,2024-06-04,App
+CU02441,West,Returning,2024-03-24,App
+CU02442,Central,Returning,2025-05-30,App
+CU02443,West,Returning,2023-02-10,Web
+CU02444,East,Loyal,2024-01-12,Web
+CU02445,South,At-risk,2024-04-01,Web
+CU02446,Central,At-risk,2023-07-12,Web
+CU02447,East,Returning,2024-11-19,App
+CU02448,Central,New,2023-08-28,Web
+CU02449,West,Returning,2023-07-30,Web
+CU02450,South,New,2025-04-14,App
+CU02451,West,Loyal,2024-09-20,Store
+CU02452,North,Loyal,2025-03-13,App
+CU02453,South,Returning,2024-02-17,Web
+CU02454,Central,New,2024-06-03,App
+CU02455,South,New,2023-09-30,Web
+CU02456,North,Returning,2024-07-11,Web
+CU02457,East,Loyal,2023-11-25,App
+CU02458,West,New,2023-05-27,App
+CU02459,East,Returning,2024-02-19,Web
+CU02460,North,New,2023-05-23,Web
+CU02461,North,Returning,2025-03-20,Store
+CU02462,East,New,2024-09-11,Web
+CU02463,Central,At-risk,2024-01-23,Store
+CU02464,West,Loyal,2023-12-22,App
+CU02465,Central,Returning,2024-01-25,Web
+CU02466,North,Returning,2023-10-08,App
+CU02467,West,Returning,2024-08-02,Web
+CU02468,Central,Returning,2023-06-12,App
+CU02469,South,New,2023-09-28,App
+CU02470,Central,New,2025-02-10,App
+CU02471,North,New,2023-05-11,Store
+CU02472,East,Loyal,2025-04-12,App
+CU02473,East,Loyal,2023-02-01,Web
+CU02474,North,New,2023-11-13,Web
+CU02475,Central,Loyal,2024-04-30,App
+CU02476,South,Loyal,2023-09-29,Web
+CU02477,Central,New,2023-06-03,App
+CU02478,West,Loyal,2023-09-18,Web
+CU02479,North,Returning,2024-12-14,App
+CU02480,East,Loyal,2023-10-12,Store
+CU02481,South,New,2023-10-03,Web
+CU02482,East,Loyal,2025-03-06,App
+CU02483,Central,Returning,2023-09-27,Store
+CU02484,South,Returning,2023-04-24,Web
+CU02485,West,Loyal,2023-08-28,Web
+CU02486,Central,Returning,2023-01-20,App
+CU02487,Central,New,2023-09-19,Store
+CU02488,North,At-risk,2024-03-16,Web
+CU02489,Central,Returning,2023-09-01,Web
+CU02490,Central,New,2024-01-04,Web
+CU02491,Central,New,2023-12-19,App
+CU02492,East,At-risk,2024-07-14,App
+CU02493,North,Returning,2023-03-26,Web
+CU02494,Central,Returning,2024-02-16,Web
+CU02495,North,Loyal,2025-01-21,App
+CU02496,Central,At-risk,2023-07-08,Web
+CU02497,Central,Returning,2024-11-12,Web
+CU02498,East,Returning,2025-05-02,Web
+CU02499,West,At-risk,2024-08-27,App
+CU02500,Central,Loyal,2024-06-07,Store
+CU02501,Central,At-risk,2025-06-09,Store
+CU02502,West,At-risk,2023-08-17,App
+CU02503,West,New,2023-07-14,App
+CU02504,East,Loyal,2024-08-29,Web
+CU02505,North,At-risk,2025-03-26,Web
+CU02506,South,Returning,2024-04-19,Web
+CU02507,Central,Returning,2023-08-19,App
+CU02508,West,Returning,2023-10-07,Store
+CU02509,Central,New,2024-11-02,Web
+CU02510,Central,Loyal,2023-10-11,Web
+CU02511,South,Returning,2023-12-03,Web
+CU02512,North,At-risk,2025-03-12,Store
+CU02513,East,Returning,2025-05-30,App
+CU02514,West,Loyal,2023-02-19,App
+CU02515,North,At-risk,2025-04-10,Web
+CU02516,South,Loyal,2023-08-07,App
+CU02517,West,Loyal,2024-12-22,Web
+CU02518,West,Returning,2024-05-24,Store
+CU02519,South,At-risk,2024-11-17,Store
+CU02520,South,Returning,2024-02-14,App
+CU02521,East,Loyal,2024-06-28,App
+CU02522,Central,Returning,2023-04-04,App
+CU02523,West,Returning,2025-02-01,Web
+CU02524,Central,Returning,2024-11-20,Store
+CU02525,East,Loyal,2023-12-06,Web
+CU02526,East,Returning,2024-11-19,App
+CU02527,East,Returning,2024-09-14,Web
+CU02528,West,Loyal,2023-02-18,App
+CU02529,West,New,2024-12-27,Web
+CU02530,East,At-risk,2023-06-19,App
+CU02531,North,Loyal,2024-04-15,App
+CU02532,East,Loyal,2024-02-19,App
+CU02533,West,Returning,2023-02-15,Web
+CU02534,Central,Returning,2023-11-08,App
+CU02535,North,Loyal,2023-10-25,Web
+CU02536,West,At-risk,2024-11-23,App
+CU02537,West,Returning,2023-12-31,App
+CU02538,East,New,2023-09-30,Web
+CU02539,West,Returning,2024-08-02,Web
+CU02540,South,New,2024-03-25,App
+CU02541,Central,Loyal,2024-07-15,App
+CU02542,Central,Returning,2024-06-10,App
+CU02543,Central,Loyal,2024-02-19,App
+CU02544,Central,New,2024-04-17,Web
+CU02545,East,Returning,2025-05-02,App
+CU02546,West,Loyal,2023-01-14,App
+CU02547,West,Loyal,2024-08-27,App
+CU02548,East,Returning,2024-04-07,Web
+CU02549,West,Loyal,2025-05-01,Web
+CU02550,Central,Loyal,2023-08-22,Web
+CU02551,East,Returning,2023-10-11,Web
+CU02552,South,Returning,2025-01-08,Web
+CU02553,North,New,2024-09-11,Web
+CU02554,North,Loyal,2025-03-17,Web
+CU02555,North,At-risk,2024-03-08,App
+CU02556,East,New,2023-02-03,Store
+CU02557,North,Returning,2023-03-08,Web
+CU02558,North,Returning,2025-02-26,Web
+CU02559,Central,New,2023-10-05,App
+CU02560,West,New,2023-04-06,App
+CU02561,West,Loyal,2024-01-20,App
+CU02562,East,Loyal,2024-03-19,Store
+CU02563,West,At-risk,2023-07-02,Store
+CU02564,North,Returning,2023-02-11,Web
+CU02565,East,Returning,2023-04-18,App
+CU02566,North,At-risk,2024-05-28,Web
+CU02567,West,New,2023-02-03,App
+CU02568,Central,Returning,2025-04-01,Web
+CU02569,North,New,2023-01-02,Web
+CU02570,South,Returning,2024-04-26,App
+CU02571,North,Loyal,2023-09-19,Web
+CU02572,West,Returning,2023-07-22,Web
+CU02573,West,Loyal,2024-07-16,App
+CU02574,Central,Returning,2023-10-21,Store
+CU02575,North,Returning,2023-06-21,App
+CU02576,South,At-risk,2024-11-03,App
+CU02577,North,Returning,2024-12-21,Web
+CU02578,North,Loyal,2023-09-26,Web
+CU02579,East,Returning,2023-08-27,Web
+CU02580,Central,Loyal,2025-06-18,Web
+CU02581,East,Returning,2023-11-19,Web
+CU02582,Central,Returning,2023-09-27,Web
+CU02583,West,New,2024-04-13,App
+CU02584,Central,Returning,2023-11-20,Store
+CU02585,West,New,2023-02-07,Web
+CU02586,East,Loyal,2025-05-06,Web
+CU02587,North,New,2023-03-23,App
+CU02588,North,New,2025-05-05,Store
+CU02589,North,Returning,2024-02-27,App
+CU02590,Central,Loyal,2023-09-20,Web
+CU02591,Central,Returning,2023-02-17,Web
+CU02592,North,Returning,2023-02-21,Web
+CU02593,South,Loyal,2023-09-23,App
+CU02594,South,Returning,2024-10-31,Web
+CU02595,West,Returning,2024-11-30,Web
+CU02596,South,Loyal,2024-07-01,Store
+CU02597,North,At-risk,2024-12-24,Web
+CU02598,South,Loyal,2023-08-28,App
+CU02599,North,Returning,2023-05-14,App
+CU02600,West,Loyal,2023-10-19,App
+CU02601,South,Loyal,2023-04-25,Store
+CU02602,South,At-risk,2023-10-18,Web
+CU02603,North,Returning,2024-03-28,Store
+CU02604,Central,Loyal,2023-11-21,App
+CU02605,Central,Returning,2024-07-07,Web
+CU02606,North,Returning,2024-11-28,App
+CU02607,East,Returning,2024-09-04,Web
+CU02608,East,New,2023-09-21,Web
+CU02609,Central,Returning,2024-05-06,Web
+CU02610,North,Returning,2023-05-27,App
+CU02611,West,Returning,2024-11-26,App
+CU02612,Central,New,2023-03-14,App
+CU02613,South,Returning,2024-07-09,Web
+CU02614,North,Returning,2024-10-26,Web
+CU02615,South,Loyal,2023-09-01,App
+CU02616,West,At-risk,2023-02-28,App
+CU02617,Central,New,2023-02-02,App
+CU02618,West,Returning,2025-05-29,App
+CU02619,West,At-risk,2024-08-17,Web
+CU02620,West,New,2025-06-06,Store
+CU02621,East,New,2023-07-19,Web
+CU02622,North,Returning,2025-02-14,Store
+CU02623,West,Returning,2025-06-12,App
+CU02624,East,Returning,2025-05-08,Web
+CU02625,North,Loyal,2024-11-06,Web
+CU02626,West,Returning,2025-03-25,Web
+CU02627,South,New,2023-12-31,Web
+CU02628,South,At-risk,2025-04-29,App
+CU02629,West,New,2023-03-19,Store
+CU02630,North,Returning,2024-01-13,App
+CU02631,South,Loyal,2023-04-07,Web
+CU02632,East,New,2025-05-09,Store
+CU02633,South,Returning,2023-01-07,App
+CU02634,North,Returning,2023-05-05,Web
+CU02635,West,At-risk,2023-02-17,Store
+CU02636,North,At-risk,2023-12-05,Web
+CU02637,Central,At-risk,2025-05-24,App
+CU02638,West,New,2023-10-04,App
+CU02639,South,New,2023-02-12,Web
+CU02640,South,At-risk,2023-02-14,Web
+CU02641,North,New,2025-04-22,Web
+CU02642,East,At-risk,2024-12-13,App
+CU02643,Central,Returning,2023-11-25,Store
+CU02644,South,New,2023-08-18,Web
+CU02645,West,Loyal,2024-08-30,Web
+CU02646,South,Returning,2024-04-05,App
+CU02647,Central,New,2024-03-26,Store
+CU02648,East,New,2023-11-16,Web
+CU02649,Central,Loyal,2023-08-19,Web
+CU02650,Central,New,2024-06-14,Web
+CU02651,West,Returning,2023-03-21,Web
+CU02652,Central,New,2024-08-28,Web
+CU02653,West,At-risk,2024-01-20,Web
+CU02654,North,New,2023-01-12,Web
+CU02655,South,At-risk,2023-09-06,Store
+CU02656,North,New,2025-05-25,Web
+CU02657,North,Returning,2023-05-30,Web
+CU02658,South,At-risk,2024-10-14,App
+CU02659,East,New,2025-01-05,Web
+CU02660,Central,Returning,2024-12-05,App
+CU02661,East,At-risk,2024-03-26,Web
+CU02662,West,New,2023-12-03,Web
+CU02663,South,New,2023-01-20,Web
+CU02664,Central,Loyal,2023-01-02,Web
+CU02665,North,Loyal,2023-11-24,Web
+CU02666,North,New,2023-11-14,App
+CU02667,West,New,2025-01-20,Web
+CU02668,North,Loyal,2023-07-02,Web
+CU02669,North,Returning,2024-04-07,Web
+CU02670,North,At-risk,2023-06-25,App
+CU02671,East,Returning,2023-01-16,Web
+CU02672,South,New,2024-01-10,App
+CU02673,West,New,2023-12-17,Web
+CU02674,North,New,2025-01-07,Web
+CU02675,West,New,2023-04-21,App
+CU02676,South,Returning,2024-08-20,Web
+CU02677,North,At-risk,2023-01-13,Web
+CU02678,West,New,2024-05-15,Web
+CU02679,South,At-risk,2024-11-10,Web
+CU02680,North,Returning,2023-05-23,Web
+CU02681,North,Returning,2025-04-07,App
+CU02682,North,Returning,2023-05-17,Web
+CU02683,North,At-risk,2023-12-15,Store
+CU02684,West,Returning,2024-06-07,App
+CU02685,Central,New,2024-05-25,Web
+CU02686,West,Returning,2024-02-19,App
+CU02687,West,New,2023-09-12,Web
+CU02688,West,Returning,2023-12-22,Web
+CU02689,Central,Returning,2023-06-29,Web
+CU02690,Central,Returning,2024-05-17,Web
+CU02691,East,At-risk,2023-08-04,Store
+CU02692,Central,New,2024-01-22,Web
+CU02693,Central,At-risk,2024-11-03,Web
+CU02694,Central,Loyal,2025-01-12,Store
+CU02695,South,Returning,2024-07-06,App
+CU02696,Central,New,2024-04-28,App
+CU02697,East,Returning,2024-03-16,App
+CU02698,East,Loyal,2023-11-18,App
+CU02699,South,Returning,2024-01-11,Web
+CU02700,North,At-risk,2024-03-31,Web
+CU02701,South,At-risk,2023-03-08,App
+CU02702,East,New,2024-07-01,App
+CU02703,North,Returning,2025-05-09,App
+CU02704,East,Loyal,2023-05-29,App
+CU02705,South,Returning,2024-05-09,Web
+CU02706,Central,Returning,2024-07-22,Web
+CU02707,Central,New,2023-12-04,Web
+CU02708,West,New,2023-09-17,Web
+CU02709,North,New,2025-01-09,App
+CU02710,Central,Loyal,2023-09-11,App
+CU02711,Central,Loyal,2024-11-10,App
+CU02712,West,At-risk,2023-07-06,Web
+CU02713,South,New,2025-05-04,Web
+CU02714,North,At-risk,2024-06-26,Web
+CU02715,South,New,2024-08-10,Web
+CU02716,West,Returning,2024-07-17,App
+CU02717,North,Loyal,2025-05-06,App
+CU02718,Central,Loyal,2023-08-04,Web
+CU02719,East,Loyal,2024-01-02,App
+CU02720,North,Loyal,2024-04-06,App
+CU02721,South,New,2023-01-28,Web
+CU02722,North,At-risk,2023-02-04,Web
+CU02723,Central,New,2024-05-02,App
+CU02724,West,Returning,2023-12-23,Web
+CU02725,East,Returning,2023-07-22,Web
+CU02726,West,New,2024-12-18,App
+CU02727,Central,New,2025-03-31,Web
+CU02728,West,At-risk,2023-06-11,Web
+CU02729,East,Returning,2025-06-16,Web
+CU02730,South,Returning,2024-07-03,Web
+CU02731,East,At-risk,2024-07-12,Web
+CU02732,East,Returning,2023-01-11,Web
+CU02733,East,New,2024-05-03,App
+CU02734,South,Loyal,2023-03-03,Web
+CU02735,West,Returning,2023-04-10,Web
+CU02736,North,Loyal,2023-07-24,App
+CU02737,East,New,2023-03-24,Store
+CU02738,East,Returning,2023-11-03,App
+CU02739,East,At-risk,2025-06-17,App
+CU02740,East,Returning,2024-02-02,Web
+CU02741,North,New,2024-01-30,App
+CU02742,East,Loyal,2025-05-13,App
+CU02743,East,New,2025-05-04,Web
+CU02744,East,Returning,2023-08-02,App
+CU02745,North,Returning,2023-11-30,App
+CU02746,North,New,2023-12-31,Web
+CU02747,Central,Loyal,2023-04-19,App
+CU02748,Central,At-risk,2024-11-15,Web
+CU02749,South,New,2023-09-06,Web
+CU02750,South,At-risk,2023-09-27,Store
+CU02751,East,Loyal,2023-12-25,App
+CU02752,East,Returning,2024-10-19,App
+CU02753,East,Loyal,2024-05-21,Web
+CU02754,Central,New,2025-03-08,Web
+CU02755,West,Returning,2023-04-11,App
+CU02756,South,New,2023-07-27,App
+CU02757,South,Loyal,2024-06-13,Web
+CU02758,Central,Returning,2023-07-28,Web
+CU02759,North,Loyal,2024-03-11,App
+CU02760,South,Loyal,2025-03-30,Web
+CU02761,South,Loyal,2024-04-30,Web
+CU02762,West,New,2023-07-19,App
+CU02763,South,Returning,2024-03-07,Web
+CU02764,East,New,2024-12-11,Web
+CU02765,Central,At-risk,2024-12-25,Web
+CU02766,North,New,2024-11-28,App
+CU02767,North,New,2023-11-03,Web
+CU02768,South,Returning,2024-01-31,Store
+CU02769,South,Returning,2024-11-30,App
+CU02770,West,Loyal,2024-07-26,Web
+CU02771,South,New,2023-09-18,Web
+CU02772,West,New,2023-07-02,Store
+CU02773,East,Loyal,2025-04-02,Web
+CU02774,West,New,2025-05-28,App
+CU02775,Central,Returning,2023-07-10,Web
+CU02776,North,Returning,2023-02-24,Web
+CU02777,East,Returning,2023-10-05,App
+CU02778,South,Loyal,2023-10-30,Web
+CU02779,South,Returning,2024-02-23,Store
+CU02780,South,New,2024-12-29,Web
+CU02781,East,Loyal,2023-02-07,App
+CU02782,West,At-risk,2025-05-27,Web
+CU02783,Central,Loyal,2024-11-16,App
+CU02784,West,New,2025-06-03,Web
+CU02785,North,Returning,2024-05-01,Web
+CU02786,South,At-risk,2024-01-14,App
+CU02787,East,Returning,2023-10-31,Web
+CU02788,West,Loyal,2025-03-05,Store
+CU02789,North,At-risk,2025-01-04,Web
+CU02790,South,At-risk,2024-07-11,App
+CU02791,North,New,2023-03-10,Web
+CU02792,South,Returning,2025-02-06,Web
+CU02793,North,New,2024-03-27,Web
+CU02794,North,Loyal,2024-06-17,Web
+CU02795,North,Loyal,2023-02-14,App
+CU02796,East,Returning,2024-08-20,Store
+CU02797,North,Returning,2023-01-28,App
+CU02798,North,Loyal,2025-06-06,Web
+CU02799,South,Returning,2024-12-30,Web
+CU02800,West,New,2024-12-31,Web
+CU02801,South,Returning,2023-11-02,App
+CU02802,South,New,2023-01-19,App
+CU02803,North,Loyal,2024-02-11,App
+CU02804,Central,New,2024-09-04,App
+CU02805,West,Loyal,2025-05-17,App
+CU02806,West,At-risk,2024-11-02,Store
+CU02807,West,Loyal,2023-11-25,Web
+CU02808,West,Returning,2024-01-27,Store
+CU02809,West,New,2023-06-16,Web
+CU02810,East,At-risk,2025-06-02,Web
+CU02811,Central,Loyal,2024-07-29,App
+CU02812,East,New,2023-07-31,Web
+CU02813,Central,At-risk,2025-04-15,App
+CU02814,West,Returning,2023-05-15,Store
+CU02815,East,Loyal,2023-12-11,App
+CU02816,West,New,2024-11-02,App
+CU02817,West,Returning,2024-05-10,Web
+CU02818,East,At-risk,2023-05-18,App
+CU02819,South,Returning,2024-09-02,Web
+CU02820,North,At-risk,2023-11-24,Web
+CU02821,West,Loyal,2024-05-22,Web
+CU02822,South,New,2024-06-25,Web
+CU02823,North,Returning,2024-05-15,Store
+CU02824,West,New,2023-10-24,Web
+CU02825,Central,Returning,2024-05-12,Web
+CU02826,Central,Loyal,2023-04-02,Web
+CU02827,East,Returning,2025-05-23,Web
+CU02828,Central,New,2024-03-14,Web
+CU02829,Central,New,2024-02-02,Store
+CU02830,Central,Returning,2024-06-26,Web
+CU02831,East,At-risk,2023-12-10,App
+CU02832,North,Loyal,2024-03-27,Web
+CU02833,South,New,2024-02-22,Web
+CU02834,East,Returning,2025-01-08,Store
+CU02835,East,New,2023-05-20,App
+CU02836,West,Returning,2024-05-04,App
+CU02837,Central,Returning,2025-01-23,App
+CU02838,Central,New,2024-06-16,App
+CU02839,Central,At-risk,2024-05-24,Web
+CU02840,East,At-risk,2024-02-04,Web
+CU02841,North,Returning,2024-05-04,App
+CU02842,North,Returning,2023-09-30,App
+CU02843,West,At-risk,2025-01-14,Web
+CU02844,West,Loyal,2024-12-25,Web
+CU02845,East,New,2025-04-22,Web
+CU02846,South,Returning,2024-08-12,App
+CU02847,South,Returning,2025-01-18,Web
+CU02848,Central,Returning,2024-10-23,Store
+CU02849,South,Returning,2024-08-06,App
+CU02850,East,Returning,2024-07-27,App
+CU02851,West,New,2024-07-02,Store
+CU02852,South,Returning,2024-12-23,App
+CU02853,West,At-risk,2025-05-23,Store
+CU02854,South,Returning,2023-03-20,App
+CU02855,South,New,2023-08-16,Web
+CU02856,Central,Loyal,2024-08-12,Web
+CU02857,North,Loyal,2024-10-17,Web
+CU02858,Central,Returning,2024-03-01,App
+CU02859,Central,At-risk,2025-06-07,App
+CU02860,Central,Returning,2024-03-23,Web
+CU02861,South,Returning,2025-06-14,App
+CU02862,North,New,2024-01-21,Web
+CU02863,Central,Returning,2024-07-05,App
+CU02864,East,At-risk,2023-08-10,App
+CU02865,North,Returning,2023-03-08,Web
+CU02866,East,Loyal,2024-10-09,Web
+CU02867,South,New,2024-10-05,App
+CU02868,East,New,2023-02-16,App
+CU02869,East,New,2024-02-27,Web
+CU02870,South,Loyal,2023-02-10,App
+CU02871,Central,New,2024-10-16,Web
+CU02872,East,Returning,2023-03-20,Store
+CU02873,South,New,2024-10-12,App
+CU02874,North,New,2024-09-02,Store
+CU02875,North,At-risk,2025-04-08,Store
+CU02876,South,Returning,2024-02-19,Web
+CU02877,Central,Returning,2023-02-09,App
+CU02878,North,Returning,2023-02-07,Web
+CU02879,West,Returning,2023-11-26,App
+CU02880,Central,Loyal,2025-05-07,Web
+CU02881,East,Returning,2024-06-27,Web
+CU02882,South,New,2024-12-10,App
+CU02883,East,New,2024-12-17,App
+CU02884,North,Returning,2025-01-14,Web
+CU02885,West,Returning,2025-03-28,Web
+CU02886,Central,Loyal,2024-10-22,Store
+CU02887,South,Returning,2025-06-13,App
+CU02888,East,Returning,2024-07-21,Web
+CU02889,Central,Returning,2023-01-18,Web
+CU02890,North,Returning,2023-11-25,Web
+CU02891,Central,At-risk,2023-03-14,App
+CU02892,North,New,2023-06-25,App
+CU02893,South,Returning,2024-04-27,App
+CU02894,West,At-risk,2023-08-05,App
+CU02895,North,Loyal,2025-05-22,App
+CU02896,West,At-risk,2025-04-24,App
+CU02897,South,New,2025-05-19,App
+CU02898,East,Loyal,2025-02-16,Store
+CU02899,Central,Returning,2023-09-11,Web
+CU02900,East,At-risk,2023-01-15,Web
+CU02901,South,Loyal,2025-02-25,Web
+CU02902,North,Loyal,2024-07-06,Store
+CU02903,East,Returning,2023-02-02,App
+CU02904,West,At-risk,2024-06-05,App
+CU02905,North,New,2025-03-15,Store
+CU02906,West,New,2023-02-08,Web
+CU02907,East,At-risk,2024-09-09,App
+CU02908,Central,Returning,2023-07-06,App
+CU02909,East,Returning,2024-01-08,Store
+CU02910,South,New,2023-08-17,App
+CU02911,South,Returning,2025-05-26,App
+CU02912,East,New,2025-02-24,Web
+CU02913,East,New,2024-12-28,Web
+CU02914,South,Loyal,2023-10-12,App
+CU02915,North,Returning,2024-07-29,App
+CU02916,East,Returning,2024-10-10,App
+CU02917,West,Loyal,2025-04-23,Web
+CU02918,Central,New,2023-01-03,Web
+CU02919,West,At-risk,2023-10-10,Web
+CU02920,North,New,2023-11-11,Web
+CU02921,North,At-risk,2023-03-02,Web
+CU02922,North,New,2023-03-10,Web
+CU02923,North,New,2023-09-07,App
+CU02924,East,Loyal,2024-08-12,Web
+CU02925,Central,New,2024-01-04,App
+CU02926,Central,Returning,2023-06-03,App
+CU02927,South,Returning,2024-03-12,Web
+CU02928,West,Returning,2024-12-26,Web
+CU02929,South,Returning,2024-12-20,App
+CU02930,South,Returning,2023-06-02,App
+CU02931,West,Loyal,2024-04-12,App
+CU02932,East,At-risk,2024-03-12,Store
+CU02933,East,New,2024-05-27,Store
+CU02934,South,Loyal,2023-08-11,Web
+CU02935,North,Loyal,2025-01-07,Store
+CU02936,West,New,2024-10-27,App
+CU02937,Central,Loyal,2023-11-30,App
+CU02938,North,At-risk,2024-03-08,Web
+CU02939,Central,Loyal,2025-04-14,Store
+CU02940,West,New,2023-06-05,Web
+CU02941,West,Returning,2023-03-22,App
+CU02942,North,Loyal,2024-01-03,Web
+CU02943,West,Returning,2024-03-03,App
+CU02944,North,Returning,2025-04-30,Store
+CU02945,North,New,2023-10-07,Web
+CU02946,West,New,2023-01-22,App
+CU02947,Central,Returning,2025-04-30,Web
+CU02948,East,Returning,2023-05-19,Web
+CU02949,North,New,2023-06-29,Web
+CU02950,South,Loyal,2024-11-05,App
+CU02951,East,Returning,2024-09-15,Web
+CU02952,East,Returning,2023-03-12,App
+CU02953,West,Loyal,2024-05-18,App
+CU02954,Central,Returning,2025-05-27,Web
+CU02955,North,At-risk,2024-07-03,Web
+CU02956,North,At-risk,2023-04-27,Web
+CU02957,North,Loyal,2023-11-20,Web
+CU02958,West,New,2024-04-20,Web
+CU02959,South,New,2024-04-17,Web
+CU02960,North,New,2023-02-13,App
+CU02961,North,At-risk,2024-04-14,Web
+CU02962,West,At-risk,2023-01-26,Web
+CU02963,South,Returning,2024-12-15,Web
+CU02964,South,Returning,2023-12-25,Web
+CU02965,Central,Returning,2023-02-26,Store
+CU02966,Central,Returning,2024-01-04,App
+CU02967,East,Loyal,2024-02-24,App
+CU02968,Central,Loyal,2024-01-08,Web
+CU02969,North,Loyal,2023-11-23,App
+CU02970,West,Loyal,2024-11-13,App
+CU02971,East,Returning,2023-04-15,App
+CU02972,North,New,2023-12-07,Store
+CU02973,North,New,2023-10-15,App
+CU02974,East,New,2024-10-30,Store
+CU02975,West,New,2023-01-25,App
+CU02976,Central,Returning,2024-07-15,App
+CU02977,Central,Returning,2023-07-31,App
+CU02978,West,Returning,2024-08-12,App
+CU02979,North,Returning,2024-10-13,App
+CU02980,South,At-risk,2023-04-07,Store
+CU02981,North,New,2023-11-18,Web
+CU02982,West,Loyal,2024-09-18,App
+CU02983,North,Returning,2023-12-10,Web
+CU02984,North,Loyal,2023-07-21,App
+CU02985,North,New,2023-05-30,Store
+CU02986,South,At-risk,2024-04-21,Store
+CU02987,North,Loyal,2023-04-10,Web
+CU02988,Central,Returning,2024-07-18,App
+CU02989,Central,At-risk,2024-05-19,Web
+CU02990,South,Returning,2025-04-14,Web
+CU02991,West,New,2023-11-11,Web
+CU02992,West,Returning,2023-11-21,App
+CU02993,North,New,2023-02-21,Web
+CU02994,West,Loyal,2024-08-08,App
+CU02995,North,Returning,2023-02-05,App
+CU02996,East,New,2024-01-21,Web
+CU02997,North,Loyal,2024-03-25,Web
+CU02998,West,Loyal,2023-04-17,Web
+CU02999,West,Returning,2024-01-13,App
+CU03000,Central,New,2024-08-01,Web

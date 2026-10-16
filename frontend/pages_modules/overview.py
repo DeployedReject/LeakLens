@@ -21,7 +21,8 @@ def render_overview_page():
     products = api_client.fetch_products_risk()
     categories = api_client.fetch_categories()
 
-    high_risk_count = sum(1 for p in products if p.get("risk_level") == "High")
+    high_priority_count = sum(1 for p in products if p.get("priority_level", p.get("risk_level")) == "High")
+    anomaly_count = sum(1 for p in products if p.get("is_anomaly") is True)
 
     st.markdown('<div class="section-heading">Operational & Financial Baseline</div>', unsafe_allow_html=True)
     st.markdown(
@@ -34,36 +35,36 @@ def render_overview_page():
     with c1:
         render_kpi_card(
             title="Total Transaction Value",
-            value=format_inr(overview.get("total_transaction_value", 9390803.10), in_lakhs=True),
+            value=format_inr(overview.get("total_transaction_value", 0), in_lakhs=True),
             subtext="Catalog Gross Order Value",
             risk_style="neutral"
         )
     with c2:
         render_kpi_card(
             title="Cancelled + Returned Exposure",
-            value=format_inr(overview.get("combined_exposure", 1622171.91), in_lakhs=True),
+            value=format_inr(overview.get("combined_exposure", 0), in_lakhs=True),
             subtext="Friction Exposure (NOT Loss)",
             risk_style="high"
         )
     with c3:
         render_kpi_card(
             title="Exposure Rate",
-            value=format_pct(overview.get("exposure_pct", 18.18)),
+            value=format_pct(overview.get("exposure_pct", 0)),
             subtext="Of Gross Transaction Value",
             risk_style="warning"
         )
     with c4:
         render_kpi_card(
             title="Apparent Negative Margins",
-            value=format_pct(overview.get("negative_margin_rate", 37.94)),
+            value=format_pct(overview.get("negative_margin_rate", 0)),
             subtext="Transactions Below Cost",
             risk_style="high"
         )
     with c5:
         render_kpi_card(
-            title="High-Risk Products Flagged",
-            value=f"{high_risk_count} SKUs",
-            subtext="Prioritized by Isolation Forest",
+            title="High-Priority Products",
+            value=f"{high_priority_count} SKUs",
+            subtext=f"Business priority | {anomaly_count} ML anomalies",
             risk_style="high"
         )
 
@@ -87,7 +88,7 @@ def render_overview_page():
             "rank": 1,
             "title": "Pricing & Margin Anomalies",
             "severity": "High",
-            "evidence": f"{overview.get('negative_margin_rate', 37.94)}% of transactions show an apparent negative estimated margin under supplied cost fields.",
+            "evidence": f"{overview.get('negative_margin_rate', 0)}% of transactions show an apparent negative estimated margin under supplied cost fields.",
             "action": "Review price/cost assumptions, minimum price floors, and promo stacking rules.",
             "caveat": "Supplied dataset documentation states costs and prices were independently generated; treat as an anomaly requiring verification.",
             "page": "Product Risk"
@@ -96,7 +97,7 @@ def render_overview_page():
             "rank": 2,
             "title": "Campaign Funnel Data-Quality Anomaly",
             "severity": "Medium/High",
-            "evidence": f"{overview.get('invalid_campaign_rows', 171)} campaign rows contain impossible funnel telemetry (84 clicks > impressions; 88 conversions > clicks).",
+            "evidence": f"{overview.get('invalid_campaign_rows', 0)} campaign rows contain impossible funnel telemetry ({overview.get('invalid_click_rows', 0)} clicks > impressions; {overview.get('invalid_conversion_rows', 0)} conversions > clicks).",
             "action": "Validate marketing-source ETL and ad network attribution webhooks before trusting CTR/CVR.",
             "caveat": "Attribution metrics in affected rows are fundamentally untrusted; exclude these rows from budget decisions.",
             "page": "Campaigns"
@@ -105,18 +106,18 @@ def render_overview_page():
             "rank": 3,
             "title": "Inventory Telemetry Consistency Anomaly",
             "severity": "Medium/High",
-            "evidence": f"{overview.get('stockout_above_threshold', 648)} stockout records occur despite stock_on_hand above reorder threshold; {overview.get('zero_stock_not_flagged', 10)} records show zero stock without a flag.",
+            "evidence": f"{overview.get('stockout_above_threshold', 0)} stockout records occur despite stock_on_hand above reorder threshold; {overview.get('zero_stock_not_flagged', 0)} records show zero stock without a flag.",
             "action": "Verify the true semantic meaning and trigger source of stockout_flag before automating replenishment.",
             "caveat": "Reflects database logging contradictions rather than confirmed warehouse physical stockouts.",
             "page": "Inventory"
         },
         {
             "rank": 4,
-            "title": "Highest-Risk Product Clustering",
+            "title": "Highest-Priority Product Queue",
             "severity": "High",
-            "evidence": f"{high_risk_count} SKUs isolated by Isolation Forest with risk scores >= 70.0, exhibiting multi-dimensional margin compression and delivery latency.",
-            "action": "Audit top 10 prioritized product cards in Product Risk for SKU-level renegotiation.",
-            "caveat": "The model identifies products whose combined behaviour is unusually different; it does not predict future failure.",
+            "evidence": f"{high_priority_count} SKUs currently have business priority >= 70, while {anomaly_count} products are separately flagged by Isolation Forest as statistical anomalies.",
+            "action": "Audit the top priority products first; use the separate ML anomaly score and business-impact evidence to guide investigation.",
+            "caveat": "ML anomaly and business priority are intentionally separate. Neither is a probability of loss or proof of causality.",
             "page": "Product Risk"
         }
     ]
@@ -148,12 +149,14 @@ def render_overview_page():
 
     # 3. Category Comparison Visual (Signal: Beauty has highest apparent negative margin rate)
     st.markdown('<div class="section-heading">󰄨 Category Risk Breakdown (GET /categories)</div>', unsafe_allow_html=True)
-    st.markdown(
-        '<div class="section-subheading">Observed signal: Beauty exhibits the highest apparent negative-margin rate (~55.2%), while failure rates are comparatively similar across departments (~16.8%).</div>',
-        unsafe_allow_html=True
-    )
-
     if categories:
+        top_margin_cat = max(categories, key=lambda c: c.get("negative_margin_rate", 0))
+        fail_values = [c.get("failure_rate", 0) for c in categories]
+        fail_spread = (max(fail_values) - min(fail_values)) if fail_values else 0
+        st.markdown(
+            f'<div class="section-subheading">Current dataset signal: {top_margin_cat.get("category")} has the highest apparent negative-margin rate at {top_margin_cat.get("negative_margin_rate", 0):.1f}%. Category failure-rate spread is {fail_spread:.1f} percentage points.</div>',
+            unsafe_allow_html=True
+        )
         cat_names = [c["category"] for c in categories]
         neg_rates = [c["negative_margin_rate"] for c in categories]
         fail_rates = [c["failure_rate"] for c in categories]
