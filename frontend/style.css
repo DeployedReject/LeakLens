@@ -1,7 +1,3 @@
-/* LeakLens Design System - Cloudflare-style Dark Theme
-   Near-black canvas with a dotted grid, neon-orange accent, thin neutral
-   borders and flat surfaces. No gradients, no floating-card shadows. */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -20,7 +16,6 @@
     --ll-radius: 6px;
 }
 
-/* Global Reset & Typography */
 html, body, [class*="css"] {
     --nf-font-stack: 'JetBrainsMono Nerd Font', 'JetBrainsMono NF', 'CaskaydiaCove Nerd Font',
         'FiraCode Nerd Font', 'Hack Nerd Font', 'MesloLGS NF',
@@ -29,9 +24,6 @@ html, body, [class*="css"] {
     color: var(--ll-text);
 }
 
-/* Icon Glyph Fallback - Nerd Font icon codepoints are not part of Inter, so
-   append the Nerd Font families to the stacks used by rendered markdown,
-   widget labels, and inputs. Normal text still renders with Inter. */
 .stApp button,
 .stApp input,
 .stApp textarea,
@@ -42,7 +34,6 @@ html, body, [class*="css"] {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif, var(--nf-font-stack);
 }
 
-/* Near-black canvas with a dotted grid, Cloudflare-style */
 .stApp,
 [data-testid="stAppViewContainer"] {
     background-color: var(--ll-bg);
@@ -51,7 +42,6 @@ html, body, [class*="css"] {
     background-position: 0 0;
 }
 
-/* Let the dotted canvas show through the top chrome and content column */
 [data-testid="stHeader"],
 [data-testid="stToolbar"],
 [data-testid="stMain"],
@@ -65,7 +55,6 @@ section.main,
     border-bottom: 1px solid var(--ll-border);
 }
 
-/* App Header Styling */
 .leaklens-header-container {
     background: var(--ll-surface-1);
     border: 1px solid var(--ll-border);
@@ -130,7 +119,6 @@ section.main,
     color: #FCD34D;
 }
 
-/* KPI Card Styling */
 .kpi-card {
     background: var(--ll-surface-1);
     border: 1px solid var(--ll-border);
@@ -187,7 +175,6 @@ section.main,
     box-shadow: inset 3px 0 14px -6px var(--ll-orange-glow);
 }
 
-/* Issue Card Styling */
 .issue-card {
     background: var(--ll-surface-1);
     border: 1px solid var(--ll-border);
@@ -245,7 +232,6 @@ section.main,
     color: #FDE68A;
 }
 
-/* Callout Warning Banner */
 .quality-warning-banner {
     background: rgba(239, 68, 68, 0.1);
     border: 1px solid #EF4444;
@@ -267,7 +253,6 @@ section.main,
     letter-spacing: 0.03em;
 }
 
-/* Section Header styling */
 .section-heading {
     font-size: 1.35rem;
     font-weight: 600;
@@ -287,7 +272,6 @@ section.main,
     margin-bottom: 20px;
 }
 
-/* Explanation Box for ML */
 .ml-explain-card {
     background: var(--ll-surface-1);
     border: 1px solid var(--ll-border);
@@ -296,7 +280,6 @@ section.main,
     margin: 20px 0;
 }
 
-/* Streamlit Button Overrides */
 div.stButton > button {
     border-radius: 4px;
     font-weight: 600;
@@ -317,7 +300,6 @@ div.stButton > button[kind="primary"]:hover {
     box-shadow: 0 0 18px -2px var(--ll-orange-glow);
 }
 
-/* Sidebar Custom Styling */
 [data-testid="stSidebar"] {
     background-color: #0D0D0D;
     border-right: 1px solid var(--ll-border);
@@ -328,7 +310,6 @@ div.stButton > button[kind="primary"]:hover {
     color: #D4D4D4;
 }
 
-/* Metric component override */
 [data-testid="stMetricValue"] {
     font-size: 1.75rem !important;
     font-weight: 600 !important;
