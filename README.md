@@ -1,5 +1,13 @@
 # LeakLens
 
+![](./assets/Screenshot_20261016_151852.png)
+![](./assets/Screenshot_20261016_152159.png)
+![](./assets/Screenshot_20261016_152209.png)
+![](./assets/Screenshot_20261016_152224.png)
+![](./assets/Screenshot_20261016_152248.png)
+![](./assets/Screenshot_20261016_152313.png)
+![](./assets/Screenshot_20261016_152323.png)
+
 **Explainable Revenue and Operational Risk Monitoring for Retail Data**
 
 LeakLens is a decision-support platform developed for the **DATATHON 2026 Business Track: “The Money Leak.”**
