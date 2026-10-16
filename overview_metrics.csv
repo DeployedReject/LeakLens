@@ -1,0 +1,10 @@
+metric,value
+total_transaction_value,9390803.0955
+cancelled_value,861849.6055000001
+returned_value,760322.3045000001
+combined_exposure,1622171.9100000001
+exposure_pct,18.177896821638416
+negative_margin_rate,37.93888888888889
+invalid_campaign_rows,171.0
+stockout_above_threshold,648.0
+zero_stock_not_flagged,10.0
