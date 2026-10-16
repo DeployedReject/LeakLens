@@ -1070,7 +1070,7 @@ The endpoint validates the incoming data, rebuilds the product profiles, retrain
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/DeployedReject/LeakLens
 cd leaklens
 ```
 
